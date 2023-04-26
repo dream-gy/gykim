@@ -1,0 +1,2131 @@
+[   
+    {
+        "id": "SCN15",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "피부질환제",
+        "itemName": {
+            "itemTitle" : "스카논겔",
+            "engName" : "Scarnon gel"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162622805697511822.png"
+        },
+        "itemIngredient": "실리콘겔+비타민E(토코페릴아세테이트)함유",
+        "itemProperties": "",
+        "itemEffect": "일반적 수술, 외상, 화상 등으로 생긴 오래되거나 새로운 흉터와 켈로이드 흉터와 아문 상처 관리",
+        "itemUse" : "[사용방법]<br>가. 사용 전 준비사항<br>1) 상처가 아물고 피부표면에 손상이 없는지 확인한다. <br>2) 흉터 부위를 깨긋이 씻고 건조 시킨다. <br> <br> 나. 사용방법<br>1) 아침저녁으로 1일 2회 흉터 부위에 얇게 펴 바른다. <br>2) 너무 많은 양을 바른 경우 과량을 티슈로 부드럽게 제거하여 옷에 얼룩이 생기지 않도록 한다. <br>3) 건조된 후에 자외선 차단 크림 등 화장품을 사용할 수 있다. <br>4) 본 제품은 어린이에도 사용할 수 있다. <br><br>[사용시 주의사항]<br>가. 경고<br>1) 개방된 창상에 사용해서는 안 된다.<br>2) 점막이나 눈에 가까운 부위에 사용해서는 안 된다.<br>3) 다른 피부치료제와 함께 사용 시, 의사나 약사의 지시를 따른다.<br>4) 사용기간이 지난 제품은 사용해서는 안 된다.<br><br>나. 일반적 주의사항<br>1) 사용 전에 제품 손상여부를 확인한다. 제품 손상이 확인되었다면 사용해서는 안 된다.<br>2) 깨끗하고 건조한 피부에만 사용해야 한다.<br>3) 어린이의 손이 닿지 않는 곳에 보관한다.<br>4) 열을 피하여 실온에 보관한다.",
+        "itemStorage" : "사용 후에는 뚜껑을 잘 닫아 실온에서 보관한다.",
+        "itemPackaging" : "15g"
+    },
+    {
+        "id":"ILOCB14",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "혼합음료(식품)",
+        "itemName": {
+            "itemTitle" : "아일로 타입1콜라겐 비오틴 앰플 14일분"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166252913988563886.png"
+        },
+        "itemIngredient": "정제수, 오렌지농축액(이스라엘산), 생선콜라겐(생선젤라틴:중국산), 프락토올리고당, 생선콜라겐펩타이드(생선비늘:중국산), 이소말토올리고당, 비타민C, 레몬농충액(이스라엘산), 구연산, 엘라스틴가수분해물, 오렌지향혼합제제[향료(주정, 트리아세틴, 오렌지향1, 오렌지향2, 자당지방산에스테르)], 구연산삼나트륨, 효소처리스테비아, 잔탄검, 황금혼합추출물, 아미노산혼합제제[뷰미노콤플렉스(글리신, L-라이신염산염, L-프롤린, L-알라닌, L-아르지닌)], 비오틴(프랑스산), 히알루론산, 우유단백질",
+        "itemProperties": "고유의 향미가 있고 이미, 이취가 없는 진한 노란 주황색의 액상",
+        "itemEffect": "",
+        "itemUse" : "1일 1회, 1회 1병(25ml)을 흔들어서 섭취하십시오.",
+        "itemStorage" : "직사광선을 피하고, 실온에 보관 유통하십시오.",
+        "itemPackaging" : "25ml x 14병 (350ml)"
+    },
+    {
+        "id": "TPNN",
+        "itemNew": "",
+        "itemCategory": "의약외품",
+        "itemClassify": "탐폰",
+        "itemName": {
+            "itemTitle" : "템포레귤러, 슈퍼"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/159306963511316958.png"
+        },
+        "itemIngredient": "흡수체(탈지면), 외피(부직포), 제거용실(혼방봉사)",
+        "itemProperties": "백색 또는 거의 백색의 원주상으로서 제거용실이 달려있고 어플리케이터에 결합되어 있는 생리처리용 탐폰",
+        "itemEffect": "여성 생리 처리용",
+        "itemUse" : "최저 1일 2회이고 양이 많을 때는 횟수를 늘립니다. 삽입 시에는 어플리케이터를 이용하여 질내에 삽입하고, 사용이 끝난 후에는 제거용 실을 이용하여 흡수체를 몸 안에서 제거하여 주세요.템포 슈퍼는 양이 많은 날, 템포 레귤러는 양이 보통인 날 사용하는 것을 권장합니다.",
+        "itemStorage" : "사용 후 남은 템포는 개별 포장을 뜯지 마시고 습기나 온도가 높은 장소를 피하여 보관하여 주세요. 밀폐용기, 실온보관",
+        "itemPackaging" : "3개입, 8개입, 10개입, 20개입"
+    },
+    {
+        "id": "TPNP",
+        "itemNew": "",
+        "itemCategory": "의약외품",
+        "itemClassify": "생리대",
+        "itemName": {
+            "itemTitle" : "템포내추럴순면패드중형, 대형"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/159307043119978136.png"
+        },
+        "itemIngredient": "표지(순면부직포, 부직포), 흡수체(부직포, 흡수지, 면상펄프), 방수층(통기성방수용합성수지필름), 접착제(열 용융형 접착제(구조용), 열 용융형 접착제(고정용))",
+        "itemProperties": "흰색면의 날개형 생리대",
+        "itemEffect": "생리혈의 위생처리",
+        "itemUse" : "1회 1매씩 사용",
+        "itemStorage" : "밀폐용기, 실온(1~30ºC)보관",
+        "itemPackaging" : "중형 16개/팩 (30팩/BOX) 대형 14개/팩 (30팩/BOX)"
+    },
+    {
+        "id":  "DOL600",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "순환기계",
+        "itemName": {
+            "itemTitle" : "디오라인정600밀리그램(디오스민)"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/167322737213125213.png"
+        },
+        "itemIngredient": "디오스민 600mg",
+        "itemProperties": "분홍 또는 연분홍의 원형 필름코팅정제",
+        "itemEffect": "1. 정맥부전과 관련된 증상의 개선 : 다리 중압감, 통증 <br><br>  2. 모세혈관 취약증에 의한 장애의 보조치료<br> <br> 3. 치질과 관련된 징후의 치료",
+        "itemUse" : "정맥 부전 : 디오스민으로서 1회 600mg 1일 1회 식사 시 복용한다. <br><br>치질 : 디오스민으로서 1회 600mg 1일 2~3회(1,200~1,800mg) 식사 시 복용한다.",
+        "itemStorage" : "밀폐용기, 실온보관(1~30℃)"
+    },
+    {
+        "id": "DOM600",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "순환기계",
+        "itemName": {
+            "itemTitle" : "디오맥스정600밀리그램(디오스민)"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/160004945350099309.png"
+        },
+        "itemIngredient": "주성분: 디오스민 600mg<br> <br>첨가제 : 미결정셀룰로오스, 콜로이드성이산화규소, 오파드라이EZ클리어(253U190007), 오파드라이분홍색(03B640092), 탤크, 스테아르산",
+        "itemProperties": "분홍 또는 연분홍의 원형 필름코팅정제",
+        "itemEffect": "1. 정맥부전과 관련된 증상의 개선 : 다리 중압감, 통증<br> <br> 2. 모세혈관 취약증에 의한 장애의 보조치료<br> <br> 3. 치질과 관련된 징후의 치료<br> ",
+        "itemUse" : "정맥 부전 : 디오스민으로서 1회 600mg 1일 1회 식사시 복용한다.<br> <br>치질 : 디오스민으로서 1회 600mg 1일 2 ~ 3회(1,200~1,800mg) 식사 시 복용한다.",
+        "itemStorage" : "밀폐용기, 실온보관(1~30℃)",
+        "itemPackaging" : "60정/상자(30정/병X2), 60정/상자(10정/PTP*6), 30정/병<br> <br>제조원: 풍림무약(주)"
+    },
+    {
+        "id":  "RFHCM",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "화장품",
+        "itemName": {
+            "itemTitle" : "파티온 리얼 핏 어성초 카밍 마스크",
+            "engName" : "FATION REAL FIT HEARTLEAF CALMING MASK"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166208464174277040.png"
+        },
+        "itemIngredient": "약모밀추출물",
+        "itemProperties": "",
+        "itemEffect": "피부의 미백에 도움을 준다.",
+        "itemUse" : "",
+        "itemStorage" : "본품을 피부에 붙이고 10~20분 후 지지체를 제거한 다음 남은 제품을 골고루 펴 바른다.",
+        "itemPackaging" : ""
+    },
+    {
+        "id": "RFCPM",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "화장품",
+        "itemName": {
+            "itemTitle" : "파티온 리얼 핏 콜라겐 퍼밍 마스크",
+            "engName" : "FATION REAL FIT COLLAGEN FIRMING MASK"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166208438999461552.png"
+        },
+        "itemIngredient": "콜라겐추출물, 흰목이버섯추출물, 아데노신",
+        "itemProperties": "",
+        "itemEffect": "피부의 주름개선에 도움을 준다.",
+        "itemUse" : "",
+        "itemStorage" : "본품을 피부에 붙이고 10~20분 후 지지체를 제거한 다음 남은 제품을 골고루 펴 바른다.",
+        "itemPackaging" : ""
+    },
+    {
+        "id": "LVMP",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "간장질환용제",
+        "itemName": {
+            "itemTitle" : "리버만프리미엄연질캡슐(밀크시슬열매건조엑스)"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/16261501837871877.png"
+        },
+        "itemIngredient": "이 약 1캡슐 중 밀크시슬열매건조엑스 350mg(실리마린으로서 196mg)",
+        "itemProperties": "황갈색의 유상 내용물을 함유한 암적색의 장방형 연질캡슐",
+        "itemEffect": "다음 질환의 보조치료 : 독성간질환, 만성간염, 간경변 ",
+        "itemUse" : "1일 1회, 1회 1캡슐",
+        "itemStorage" : "기밀용기, 실온(1~30℃) 보관",
+        "itemPackaging" : "60캡슐(10캡슐/PTP X 6), 120캡슐((10캡슐/PTP X 6) X 2)"
+    },
+    {
+        "id":"MGR120",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "기타의 비타민제",
+        "itemName": {
+            "itemTitle" : "마그랑비 연질캡슐",
+            "engName" : "Magrang B Soft Cap."
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166746455029055431.png"
+        },
+        "itemIngredient": "벤포티아민50mg<br>(티아민염산염(으)로서 36.15mg)<br>시아노코발라민0.5mg<br> (시아노코발라민(으)로서 500μg)<br>산화마그네슘350mg<br>(마그네슘(으)로서 211.09mg)<br> 피리독신염산염50mg<br> 리보플라빈25mg<br>셀레늄함유건조효모38.462mg<br>(셀레늄(으)로서 50μg)<br>토코페롤아세테이트450mg<br>(비타민E(으)로서 450IU)<br>산화아연10mg<br>(아연(으)로서 8.03mg)<br>γ-오리자놀5mg",
+        "itemProperties": "황색의 내용물을 함유한 암갈색의 장방형 연질캡슐",
+        "itemEffect": "○ 다음 경우의 비타민 E, B1, B2, B6의 보급<br> - 육체피로<br>- 임신·수유기<br>- 병중·병후(병을 앓는 동안이나 회복 후)의 체력저하 시<br>- 노년기<br>- 이 약에 함유된 비타민 등의 효능·효과는 다음과 같다.<br><br> ○ 비타민E(“토코페롤아세테이트”):<br>말초혈행장애 및 갱년기시 다음 증상의 완화 : 어깨·목결림, 수족저림·수족냉증(손발이 차가움)<br><br>○ 비타민B1(“벤포티아민”):<br> · 다음 증상의 완화 : 신경통, 근육통, 관절통(요통, 어깨결림 등)<br>· 각기 · 눈의 피로<br><br> ○ 비타민B2(“리보플라빈”), 비타민B6(“피리독신염산염”):<br> · 다음 증상의 완화 : 구각염(입꼬리염), 구순염(입술염, 구내염(입안염), 설염(혀염), 습진, 피부염<br> <br>○ 아연의 보급<br> <br>○ 마그네슘결핍으로 인한 근육경련",
+        "itemUse" : "만 12세 이상 및 성인 : 1일 2회, 1회 1캡슐 복용",
+        "itemStorage" : "기밀용기, 실온보관(1~30℃)",
+        "itemPackaging" : "10캡슐/PTP,60캡슐/상자[(10캡슐/PTP X 6)]"
+    },
+    {
+        "id":  "DMYV",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "피임제",
+        "itemName": {
+            "itemTitle" : "마이보라정",
+            "engName" : "Myvlar Tab."
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162622532444141263.png"
+        },
+        "itemIngredient": "1정 중<br><br> 게스토덴(EP) 0.075mg<br><br>에티닐에스트라디올(EP) 0.03mg",
+        "itemProperties": "흰색의 원형 당의정",
+        "itemEffect": "피임",
+        "itemUse" : "1일 1정씩 21일간 표시된 순서에 따라 복용하고, 7일간 휴약한다.  복용시간은 가능하면 매일 같은 시간에 복용하는 것이 바람직하다. 7일의 휴약기간 동안 월경이 나타나며 대개 정제의 마지막 복용 후 2~3일 안에 시작된다.새로운 포장을 시작하기 전에 월경이 끝나지 않을 수도 있다.이 약을 계속 복용할 경우에는 7일간 휴약 후 새 포장의 정제로 복용을 시작한다.<br><br> *자세한 사항은 제품설명서 참조",
+        "itemStorage" : "기밀용기, 실온보관(1~30℃)",
+        "itemPackaging" : "21정/갑(10갑X45/BOX)"
+    },
+    {
+        "id":"MXL",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "기타 소화기관용약",
+        "itemName": {
+            "itemTitle" : "멕시롱액(돔페리돈)",
+            "engName" : "MEXILON liq."
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/mxl.png"
+        },
+        "itemIngredient": "이 약 1병(75ml) 중 <br>돔페리돈 10mg<br>첨가제(보존제): 벤조산나트륨 45mg",
+        "itemProperties": "연갈색~갈색의 액제",
+        "itemEffect": "오심,구토 증상의 완화",
+        "itemUse" : "성인 및 청소년(12세 이상, 35kg이상) : 돔페리돈으로서 1회 10mg(레보도파 투여시 5mg)을 1일 3회 식전에 경구 투여한다. 1일 최대 복용량은 30mg이다. 일반적으로 1주일을 초과 사용하지 않도록 한다.",
+        "itemStorage" : "기밀차광용기,실온보관",
+        "itemPackaging" : "75ml/병(10병/BOX)"
+    },
+    {
+        "id": "MLN",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "기타의 외피용약",
+        "itemName": {
+            "itemTitle" : "멜라노사크림(히드로퀴논)",
+            "engName" : "Melanosa Cream"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162615641241725116.png"
+        },
+        "itemIngredient": "이 약 1g 중<br>히드로퀴논(USP) 40mg<br>첨가제(보존제): <br> 파라옥시벤조산메틸(KP) 1.6mg<br>첨가제(보존제): <br> 파라옥시벤조산프로필(KP) 0.4mg",
+        "itemProperties": "유백색의 크림제",
+        "itemEffect": "다음과 같은 과도한 색소 침착 피부의 점차적인 표백, 간반, 흑피증(기미), 주근깨, 노인성 검은반점,기타 불필요한 부위의 과도한 멜라닌 색소 침착",
+        "itemUse" : "히드로퀴논으로서 4%로 1일 1~2회(아침, 취침 전) 환부에 바른다.",
+        "itemStorage" : "차광기밀용기, 30'C 이하 건냉암소에 보관",
+        "itemPackaging" : "30 g/튜브"
+    },
+    {
+        "id": "MLT30",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "기타의 외피용약",
+        "itemName": {
+            "itemTitle" : "멜라토닝크림(히드로퀴논)",
+            "engName" : "Melanosa Cream"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/163549238027540902.png"
+        },
+        "itemIngredient": "이 약 1g 중 히드로퀴논 20mg",
+        "itemProperties": "유백색 불투명 크림제",
+        "itemEffect": "다음과 같은 과도한 색소 침착 피부의 점차적인 표백 : 불필요한 부위의 과도한 멜라닌 색소 침착, 주근깨, 흑피증(기미), 간반, 노인성 검은반점",
+        "itemUse" : "히드로퀴논으로서 2%로 1일 1~2회(아침, 취침 전)환부에 바른다. ※외부 활동 시 자외선 차단제 사용을 권장한다.",
+        "itemStorage" : "차광기밀용기, 30℃ 이하 건냉암소에 보관",
+        "itemPackaging" : "30g / 튜브 (10갑 * 18BOX)"
+    },
+    {
+        "id": "DMLN",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "피임제",
+        "itemName": {
+            "itemTitle" : "멜리안정"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162622508254775844.png"
+        },
+        "itemIngredient": "1정 중 <br> <br> 게스토덴(EP) 0.075 mg<br><br> 에티닐에스트라디올(EP) 0.02mg",
+        "itemProperties": "흰색의 원형 당의정",
+        "itemEffect": "피임",
+        "itemUse" : "1일 1정씩 21일간 표시된 순서에 따라 복용하고, 7일간 휴약한다. <br>복용시간은 가능하면 매일 같은 시간에 복용하는 것이 바람직하다.<br>7일의 휴약기간 동안 월경이 나타나며 대개 정제의 마지막 복용 후 2~3일 내에 시작된다. <br>새로운 포장을 시작하기 전에 월경이 끝나지 않을 수도 있다. <br>이 약을 계속 복용할 경우에는 7일간 휴약 후 새 포장의 정제로 복용을 시작한다.<br><br>*자세한 사항은 제품설명서 참조",
+        "itemStorage" : "기밀용기, 실온보관(1~30℃)",
+        "itemPackaging" : "21정/PTP"
+    },
+    {
+        "id": "DMIN",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "피임제",
+        "itemName": {
+            "itemTitle" : "미니보라30"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162622542822777731.png"
+        },
+        "itemIngredient": "1정 중 <br> <br> 레보노르게스트렐(EP) 0.15 mg <br> <br>에티닐에스트라디올(EP) 0.03mg",
+        "itemProperties": "담황색의 광택있는 당의정",
+        "itemEffect": "피임",
+        "itemUse" : "1일 1정씩 21일간 표시된 순서에 따라 복용하고, 7일간 휴약한다. <br>복용시간은 가능하면 매일 같은 시간에 복용하는 것이 바람직하다.<br>7일의 휴약기간 동안 월경이 나타나며 대개 정제의 마지막 복용 후 2~3일 내에 시작된다. <br>새로운 포장을 시작하기 전에 월경이 끝나지 않을 수도 있다. <br>이 약을 계속 복용할 경우에는 7일간 휴약 후 새 포장의 정제로 복용을 시작한다.<br><br>*자세한 사항은 제품설명서 참조",
+        "itemStorage" : "기밀용기, 실온보관(1~30℃)",
+        "itemPackaging" : "21정/PTP"
+    },
+    {
+        "id": "BNT",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "건위소화제",
+        "itemName": {
+            "itemTitle" : "베나치오액",
+            "engName" : "Benachio Soln."
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/167176971216435090.png"
+        },
+        "itemIngredient": "1병(20mL) 中 회향 150mg, 현호색 167mg, <br>창출 40mg, 육계 150mg, 건강 100mg, <br>진피 230mg, 감초 167mg, L-멘톨 8mg<br>첨가제(보존제): 벤조산나트륨 12mg",
+        "itemProperties": "갈색 유리병에 든 특이한 방향을 가진 미황색~황갈색의 액제",
+        "itemEffect": "식욕감퇴(식욕부진), 위부팽만감, 소화불량, 과식, 체함, 구역, 구토",
+        "itemUse" : "1일 3회 식후에 복용한다. 복용간격은 4시간 이상으로 한다.<br>15세 이상: 1회 1병 (20mL)<br>어린이: 1회 만 11세이상 ~ 만 15세미만 : 2/3병<br>만 8세 이상 ~ 만 11세 미만 : 1/2병<br>만 5세 이상 ~ 만 8세 미만 : 1/3병<br>만 3세 이상 ~ 만 5세 미만 : 1/4병<br>만 1세 이상 ~ 만 3세 미만 : 1/5병",
+        "itemStorage" : "기밀용기, 실온(1~30℃)보관",
+        "itemPackaging" : "20mL/병(X3), 20mL/병(X5)"
+    },
+    {
+        "id":"BNTF",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "건위소화제",
+        "itemName": {
+            "itemTitle" : "베나치오에프액",
+            "engName" : "Benachio-F Soln."
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/167176979166451228.png"
+        },
+        "itemIngredient": "1병 중 회향(KP)189.75mg, 현호색(KP)240mg, 창출(KP)50.6mg, 육계(KP)189.75mg, 건강(KP)126.5mg,진피290.95(KP)mg, 감초(KP)330mg <br> <br>첨가제(보존제):벤조산나트륨 45mg",
+        "itemProperties": "갈색 유리병에 든 특이한 방향을 가진 미황색 ~ 황갈색의 액제",
+        "itemEffect": "식욕감퇴(식욕부진), 위부팽만감, 소화불량, 과식, 체함, 구역, 구토",
+        "itemUse" : "1일 3회 식후에 복용한다. 복용간격은 4시간 이상으로 한다.<br>15세 이상: 1회 1병 (20mL)<br>어린이: 1회 만 11세이상 ~ 만 15세미만 : 2/3병<br>만 8세 이상 ~ 만 11세 미만 : 1/2병<br>만 5세 이상 ~ 만 8세 미만 : 1/3병<br>만 3세 이상 ~ 만 5세 미만 : 1/4병<br>만 1세 이상 ~ 만 3세 미만 : 1/5병",
+        "itemStorage" : "기밀용기, 실온(1~30℃)보관",
+        "itemPackaging" : "75mL/병 X 10병 X 10 Case (100병 / Out Box)"
+    },
+    {
+        "id": "SIC",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "소화성궤양용제",
+        "itemName": {
+            "itemTitle" : "속이쿨정",
+            "engName" : "Sokycool Tab."
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/165881221961713288.png"
+        },
+        "itemIngredient": "트리메부틴말레산염 50mg, 메타규산알루민산마그네슘 40mg, 스코폴리아엑스 5mg, 침강탄산칼슘 100mg, 탄산수소나트륨 50mg, 디아스타제·프로테아제·셀룰라제 20mg, 리파제 7.5mg, 감초가루 25mg",
+        "itemProperties": "녹색의 원형 필름코팅정제",
+        "itemEffect": "위산과다, 속쓰림, 위부불쾌감, 위부팽만감, 식체(위체), 구역, 구토, 위통, 신트림, 소화불량, 식욕감퇴(식욕부진), 과식, 소화촉진, 소화불량으로 인한 위부팽만감",
+        "itemUse" : "성인 1회 2정, 1일 3회 매 식후 복용",
+        "itemStorage" : "차광기밀용기, 실온(1~30℃) 보관",
+        "itemPackaging" : "12정(2정/포X6), 480정(2정/포X240)"
+    },
+    {
+        "id": "SCP",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "진통/소염제",
+        "itemName": {
+            "itemTitle" : "스카풀라정",
+            "engName" : "Scapula Tab."
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162623795945598936.png"
+        },
+        "itemIngredient": "1정 중<br><br>클로르족사존(KP)-150mg<br><br>에텐자미드(KP)-150mg<br><br>카페인수화물(KP)-25.0mg(카페인으로서 22.87mg)",
+        "itemProperties": "흰색의 원형 필름코팅정",
+        "itemEffect": "신경통, 요(허리)통, 어깨 결림",
+        "itemUse" : "성인 1회 1~2정 1일 2회 동통(통증) 또는 발작 시에 복용합니다.",
+        "itemStorage" : "밀폐용기, 실온(1~30℃)보관",
+        "itemPackaging" : "10정/PTP"
+    },
+    {
+        "id": "CNQP",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "혼합비타민제",
+        "itemName": { 
+            "itemTitle" : "씨엔큐 플러스 연질캡슐",
+            "engName" : "CNQ Plus Soft Cap."
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/11.png"
+        },
+        "itemIngredient": "이 약 1캡슐 중 코엔자임 Q10(*유비데카레논) 10mg, β-카로틴현탁액30% 26.7mg, 아스코르브산 400mg, 토코페롤아세테이트 100mg, 셀레늄함유건조효모 38.5mg, 산화아연 37.5mg, 황산망간수화물 3.1mg, 티아민질산염 10mg, 리보플라빈 10mg<br><br>*유비데카레논: 코엔자임Q10의 의약품 표준 명칭입니다.<br>",
+        "itemProperties": "적색의 점조성 내용물을 함유한 암적색의 연질캡슐제",
+        "itemEffect": "다음 경우의 비타민 A, E, B1, B2, C의 보급<br>- 육체피로, 임신ㆍ수유기, 병중ㆍ병후(병을 앓는 동안이나 회복 후)의 체력저하시, 노년기<br>- 이 약에 함유된 비타민 등의 효능ㆍ효과는 다음과 같습니다<br>․ 비타민 A(β-카로틴현탁액30%)<br>* 눈의 건조감의 완화<br> * 야맹증(밤에 잘 못보는 증상)<br>․ 비타민 E(토코페롤)<br> * 말초혈행장해 및 갱년기시 다음 증상의 완화 : 어깨ㆍ목결림, 수족저림ㆍ수족냉증<br>아연의 보급<br> ",
+        "itemUse" : "성인 1일 1회, 1회 1캡슐씩 복용하십시오.",
+        "itemStorage" : "기밀용기, 실온보관(1~30℃)",
+        "itemPackaging" : "50캡슐(10캡슐/PTP포장 X 5), 100캡슐(10캡슐/PTP포장 X 5 X 2)"
+    },
+    {
+        "id":  "IEB",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "안과용제",
+        "itemName": {
+            "itemTitle" : "아이봉(C,W)세안액",
+            "engName" : "CNQ Plus Soft Cap."
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/158373880261255493.png"
+        },
+        "itemIngredient": "이 약 1mL 중<br>[아이봉씨세안액]<br>아미노카프로산 2mg  글리시리진산이칼륨 0.1mg 클로르페니라민말레산염 0.03mg 콘드로이틴설페이트나트륨 0.4mg 피리독신염산염 0.1mg 토코페롤아세테이트 0.05mg<br> <br>[아이봉더블유세안액]<br>글리시리진산이칼륨 0.25mg  클로르페니라민말레산염 0.03mg 시아노코발라민 0.01mg 피리독신염산염 0.1mg  타우린 1mg 콘드로이틴설페이트나트륨 0.1mg",
+        "itemProperties": "[아이봉씨세안액] 무색투명한 액이 무색투명한 플라스틱 용기에 든 액제 <br><br>[아이봉더블유세안액] 분홍색의 맑고투명한 액이 무색투명한 플라스틱 용기에 든 액제",
+        "itemEffect": "눈의 세정, 수영 후 눈의 불쾌감 또는 먼지나 땀이 눈에 들어갔을 때",
+        "itemUse" : "1일 3~6회, 1회 5ml를 이용하여 세안한다",
+        "itemStorage" : "기밀용기, 실온(1~30℃)보관",
+        "itemPackaging" : "[아이봉씨세안액] 480mL/병<br>[아이봉더블유세안액] 90mL/병, 480mL/병"
+    },
+    {
+        "id": "ACN13",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "기타의 외피용약",
+        "itemName": {
+            "itemTitle" : "애크논크림",
+            "engName" : "ACNON"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/161697362994837505.png"
+        },
+        "itemIngredient": "이 약 1g 중 이부프로펜피코놀(JP) 30mg, 이소프로필메틸페놀(별규) 10mg<br><br>첨가제(보존제): 파라옥시벤조산메틸 1.6mg, 파라옥시벤조산프로필 0.4mg",
+        "itemProperties": "흰색 내지 연한 노란색의 크림제",
+        "itemEffect": "여드름, 뾰루지",
+        "itemUse" : "비누 등으로 세안 후 적당량을 1일 수회 환부(질환 부위)에 도포한다.",
+        "itemStorage" : "기밀용기, 차광실온(1~30℃)보관",
+        "itemPackaging" : "13g<br><br>[제조의뢰자] 지엘파마㈜, [제조자] ㈜제뉴원사이언스 [판매자]동아제약㈜"
+    },
+    {
+        "id": "ONVT",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "혼합비타민제",
+        "itemName": {
+            "itemTitle" : "오늘비타고정"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/165422209678591133.png"
+        },
+        "itemIngredient": "이 약 1정 중 니코틴산아미드 50mg, 리보플라빈 50mg, 산화마그네슘 25mg, 산화아연 18.7mg, 시아노코발라민1000배산 25mg, 아스코르브산97%과립 51.55mg, 폴산 500μg, 이노시톨 50mg, 판토텐산칼슘 50mg, 피리독신염산염 50mg, 콜레칼시페롤농축물(분말형) 10mg, 벤포티아민 130mg",
+        "itemProperties": "황색의 타원형 필름코팅정제",
+        "itemEffect": "○ 다음 경우의 비타민 D, B1, B2, B6, C의 보급 :<br>- 육체피로, 임신 · 수유기, 병중 · 병후(병을 앓는 동안이나 회복 후)의 체력저하시, 발육기, 노년기<br>- 이 약에 함유된 비타민 등의 효능·효과는 다음과 같다.<br>· 뼈, 이의 발육불량 · 구루병의 예방 · 각기 · 눈의피로<br>· 다음 증상의 완화 : 신경통, 근육통, 관절통(요통, 어깨결림 등), 구각염(입꼬리염), 구순염(입술염), 구내염<br>(입안염), 설염(혀염), 습진, 피부염<br><br>○ 아연의 보급",
+        "itemUse" : "만 8세 이상의 어린이 및 성인: 1일 1회 1정 식후 복용하십시오.",
+        "itemStorage" : "기밀용기, 실온(1~30℃)보관",
+        "itemPackaging" : ""
+    },
+    {
+        "id":"ONV",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "혼합비타민제",
+        "itemName": {
+            "itemTitle" : "오늘비타더블골드정"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/165422197003140050.png"
+        },
+        "itemIngredient": "이 약 1정 중 푸르설티아민 100mg, 리보플라빈부티레이트 5mg, 피리독살포스페이트수화물 5mg,히드록소코발라민아세트산염 10.44μg, 우르소데옥시콜산(UDCA) 30mg",
+        "itemProperties": "주황색의 타원형 필름코팅 정제",
+        "itemEffect": "-다음 경우의 비타민 B1, B2, B6의 보급: <br> 육체피로, 임신ㆍ수유기, 병중·병후(병을 앓는 동안이나 회복 후)의 체력저하시<br>-다음 증상의 완화: 신경통, 근육통, 관절통(요통, 어깨결림 등)<br>-각기<br>-눈의 피로<br>",
+        "itemUse" : "만 8세 이상의 어린이 및 성인: 1일 1회 1정 식후 복용하십시오.",
+        "itemStorage" : "기밀용기, 실온(1~30℃)보관",
+        "itemPackaging" : "60정/병"
+    },
+    {
+        "id": "KICN60",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "피부연화제",
+        "itemName": {
+            "itemTitle" : "이치논크림",
+            "engName" : "itchnon"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/158372924731686584.png"
+        },
+        "itemIngredient": "이 약 1g 중 <br>헤파리노이드(별규) 3mg, 디펜히드라민(KP) 10mg, 토코페롤아세테이트(KP) 5mg, 알란토인(USP) 2mg<br> 첨가제(보존제): 파라옥시벤조산메틸(KP) 2.0mg, 파라옥시벤조산프로필(KP) 0.8mg",
+        "itemProperties": "유백색의 크림제",
+        "itemEffect": "건조성 피부(성인, 노인의 건피증(피부건조증), 소아의 건조성 피부)에 수반하는 가려움",
+        "itemUse" : "1일 1회~수회(여러 차례), 적당량을 환부(질환 부위)에 도포하십시오(바르십시오)",
+        "itemStorage" : "기밀용기, 실온(1~30℃)보관",
+        "itemPackaging" : "60g/튜브"
+    },
+    {
+        "id": "CPN",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "이비과용제",
+        "itemName": {
+            "itemTitle" : "챔프노즈시럽",
+            "engName" : "Champ Nose Syrup"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/158338321395874104.png"
+        },
+        "itemIngredient": "이 약 100mL 중 클로르페니라민말레산염(KP) 0.02g, 슈도에페드린염산염(USP) 0.3g",
+        "itemProperties": "복숭아향이 있는 연한 황색의 투명한 시럽제",
+        "itemEffect": "다음 증상의 일시적 완화 : 눈의 가려움, 눈물, 콧물, 코 또는 인후(목구멍)의 가려움, 재채기, 코막힘 및 부비동 울혈",
+        "itemUse" : "4~6시간 마다 다음 용량을 복용하고, 24시간 동안 4회를 넘지 않습니다. <br> ▶ 2~6세(11~21kg) 1회 투여량 5mL(1포)<br>▶ 6~12세(22~43kg) 1회 투여량 10mL(2포)<br>▶ 12세~성인(44kg 이상) 1회 투여량 20mL(4포)<br><br>※ 만 2세 미만에게 투여하지 않습니다. 다만, 꼭 필요한 경우 의사의 진료를 받으십시오.",
+        "itemStorage" : "차광기밀용기, 25℃ 이하 보관",
+        "itemPackaging" : "5mL/포x10"
+    },
+    {
+        "id":"CP",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "해열/진통제",
+        "itemName": {
+            "itemTitle" : "챔프시럽(아세트아미노펜)",
+            "engName" : "Champ Syrup"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/158338318169732465.png"
+        },
+        "itemIngredient": "이 약 100mL 중 아세트아미노펜(KP) 3.2g",
+        "itemProperties": "백색 내지 미백색의 체리향 현탁액",
+        "itemEffect": "1. 주효능·효과 <br> 감기로 인한 발열 및 동통(통증), 두통, 신경통, 근육통, 월경통, 염좌통(삔통증)<br><br>2. 다음 질환에도 사용할 수 있습니다.<br> 치통, 관절통, 류마티양 동통(통증)",
+        "itemUse" : "만 12세 이하의 소아 :<br><br> 다음 1회 권장용량을 4~6시간 마다 필요시 복용한다.<br>이 약은 가능한 최단기간동안 최소 유효용량으로 복용하며, 1일 5회 (75mg/kg)를 초과하여 복용하지 않는다.<br> 몸무게를 아는 경우 몸무게에 따른 용량(10~15mg/kg)으로 복용하는 것이 더 적절하다.<br><br>만12세 (43kg이상) : 아세트아미노펜으로서 1회 권장 용량 640mg, 이 약 1회 권장 용량 20mL<br>만11세 (38~42.9kg) : 아세트아미노펜으로서 1회 권장 용량 480mg, 이 약 1회 권장 용량 15mL<br>만9~10세 (30~37.9kg) : 아세트아미노펜으로서 1회 권장 용량 400mg, 이 약 1회 권장 용량 12.5mL<br>만7~8세 (23~29.9kg) : 아세트아미노펜으로서 1회 권장 용량 320mg, 이 약 1회 권장 용량 10mL<br>만4~6세 (16~22.9kg) : 아세트아미노펜으로서 1회 권장 용량 240mg, 이 약 1회 권장 용량 7.5mL<br>만2~3세 (12~15.9kg) : 아세트아미노펜으로서 1회 권장 용량 160mg, 이 약 1회 권장 용량 5mL<br>7개월~23개월 (8~11.9kg) 아세트아미노펜으로서 1회 권장 용량 120mg, 이 약 1회 권장 용량 3.5mL<br>4개월~6개월 (7~7.9kg) 아세트아미노펜으로서 1회 권장 용량 80mg, 이 약 1회 권장 용량 2.5mL<br>",
+        "itemStorage" : "기밀용기, 실온(1~30℃) 보관",
+        "itemPackaging" : "5mL/포x10"
+    },
+    {
+        "id": "CPIBU",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "진통/소염제",
+        "itemName": {
+            "itemTitle" : "챔프이부펜시럽(이부프로펜)",
+            "engName" : "Champibufen Syrup(Ibuprofen)"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/158338320071845862.png"
+        },
+        "itemIngredient": "이 약 100mL 중 이부프로펜(KP) 2.0g",
+        "itemProperties": "백색 내지 미황색(연노랑)의 체리향 현탁성 시럽제",
+        "itemEffect": "-주 효능 효과<br>류마티양 관절염, 연소성(어리거나 젊은나이에 나타나는) 류마티양 관절염, 골관절염(퇴행성 관절질환), 감기로 인한 발열 및 동통(통증), 요(허리)통, 월경곤란증, 수술후 동통(통증)<br><br>-다음 질환에도 사용할 수 있다.<br> 강직성 척추염, 두통, 치통, 근육통, 신경통, 급성통풍, 건선성관절염, <br>연조직손상(염좌(삠), 좌상(타박상/멍)), 비관절 류마티스질환(건염(힘줄염), <br>건초염(힘줄윤활막염), 활액낭염)",
+        "itemUse" : "-류마티양 관절염, 골관절염, 강직성 척추염, 연조직손상, 비관절 류마티스질환, 급성통풍, 건선성 관절염: 성인 이부프로펜으로서 1회 200-600mg 1일 3-4회 경구투여한다(먹는다, 복용한다). 1일 최고 3200mg까지 투여할 수 있다.<br><br>-연소성(어리거나 젊은나이에 나타나는) 류마티양 관절염 : 1일 체중 kg당 30-40mg을 3-4회 분할 경구투여한다(먹는다, 복용한다).<br><br>-경증 및 중등도의 동통(통증), 감기: 성인 1회 200-400mg 1일 3-4회 경구투여한다(먹는다, 복용한다). 연령, 증상에 따라 적절히 증감한다.<br><br>-어린이는 다음 1회 용량을 1일 3-4회 경구투여한다(먹는다, 복용한다).<br>체중이 30kg미만인 어린이는 1일량이 500mg(25ml)을 초과해서는 안되며 공복(빈 속)시 투여는 피하는 것이 바람직하다.<br> <br>어린이 1회 용량<br> 11-14세: 200~250mg (10~13ml)<br>7-10세: 150~200mg (8~10ml)<br> 3-6세: 100~150mg (5~8ml)<br>1-2세: 50~100mg (3~5ml)",
+        "itemStorage" : "차광기밀용기, 실온(1~30℃) 보관",
+        "itemPackaging" : "5mL/포x10"
+    },
+    {
+        "id": "CPC",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "진해거담제",
+        "itemName": {
+            "itemTitle" : "챔프코프액",
+            "engName" : "Champ Cough Soln."
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/158338322613336623.png"
+        },
+        "itemIngredient": "이 약 100mL 중<br> 티페피딘시트르산염 50mg<br> dl-메틸에페드린염산염 62.5mg<br>구아이페네신 250mg",
+        "itemProperties": "포도향이 있는 연한 노란색의 투명한 액제",
+        "itemEffect": "기침, 가래, 천식",
+        "itemUse" : "다음의 1회 용량을 1일 5-6회 복용한다. 약 4시간 간격을 두고 복용한다.<br> 만 15세 이상 1회 20 mL<br>만 11세 이상 - 만 15세 미만 1회 13 mL<br> 만 8세 이상 - 만 11세 미만 1회 10 mL<br>만 5세 이상 - 만 8세 미만 1회 6.5 mL<br>만 3세 이상 - 만 5세 미만 1회 5 mL<br> 만 2세 이상 - 만 3세 미만 1회 4 mL<br> 만2세 미만에게 투여하지 않는다. 다만, 꼭 필요한 경우 의사의 진료를 받는다.",
+        "itemStorage" : "기밀용기, 실온(1~ 30℃)보관",
+        "itemPackaging" : "5mL/포x10"
+    },
+    {
+        "id": "TBGD30",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "기생성 피부질환용제",
+        "itemName": {
+            "itemTitle" : "터비뉴더블액션겔",
+            "engName" : "Terbinew Double-Action gel"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/160007194415422867.png"
+        },
+        "itemIngredient": "이 약 1g 중<br> 디펜히드라민염산염 10mg<br>에녹솔론 1mg<br>이소프로필메틸페놀 10mg<br>리도카인 20mg<br>테르비나핀염산염 10mg",
+        "itemProperties": "무색~미황색의 반투명한 겔제",
+        "itemEffect": "무좀, 완선(사타구니백선), 백선",
+        "itemUse" : "1일 1회 적량을 환부(질환 부위)에 도포한다.",
+        "itemStorage" : "기밀용기, 실온보관(1~30℃)",
+        "itemPackaging" : "30그램/튜브"
+    },
+    {
+        "id": "HAN",
+        "itemNew": "",
+        "itemCategory": "일반의약품",
+        "itemClassify": "비타민E제",
+        "itemName": {
+            "itemTitle" : "하노백연질캡슐 1000아이유(비타민이)"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/han-1.png"
+        },
+        "itemIngredient": "이 약 1캡슐 중 비타민E 1000 I.U",
+        "itemProperties": "미황색 유상 내용물이 들어있는 투명한 장방형 연질캡슐",
+        "itemEffect": "1. 비타민 E 결핍증<br>2. 말초순환기능장애 및 갱년기 시 다음 증상의 완화<br>- 어깨․ 목 결림, 수족저림․ 수족냉증, 간헐성 파행증, 동상 등",
+        "itemUse" : "비타민 E로서 1일 50～1,000 IU를 경구투여 한다.",
+        "itemStorage" : "차광하여 기밀용기에 건소보관",
+        "itemPackaging" : "60캡슐/병"
+    },
+    {
+        "id":  "BD",
+        "itemNew": "",
+        "itemCategory": "의약외품",
+        "itemClassify": "자양강장변질제",
+        "itemName": {
+            "itemTitle" : "박카스디액",
+            "engName" : "BACCHUS-D"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/bacchus-2.png"
+        },
+        "itemIngredient": "이 제품 1병(100mL) 중<br>타우린 2,000mg, 이노시톨 50mg, 니코틴산아미드 20mg, 티아민질산염 5mg, <br>리보플라빈포스페이트나트륨 5mg, 피리독신염산염 5mg, 카페인무수물 30mg",
+        "itemProperties": "특이한 향이 있는 투명한 황색 액체",
+        "itemEffect": "육체피로, 병후의 체력저하, 식욕부진, 영양장애, 발열성, 소모성 질환 등의 경우 영양보급, 자양강장, 허약체질",
+        "itemUse" : "15세 이상 성인 : 1일 1회 1병을 복용한다. 15세 미만은 복용하지 않는다.",
+        "itemStorage" : "기밀용기에 직사광선을 피해 실온의 건조한 곳에 보관한다.",
+        "itemPackaging" : "10병/CASE(10CASE/BOX)"
+    },
+    {
+        "id": "BCA120C",
+        "itemNew": "",
+        "itemCategory": "의약외품",
+        "itemClassify": "자양강장변질제",
+        "itemName": {
+            "itemTitle" : "박카스디카페액"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/163658687427867093.png"
+        },
+        "itemIngredient": "이 제품 1병(120mL) 중 타우린 1,000㎎, 티아민질산염 10㎎, 리보플라빈포스페이트나트륨 10㎎, 피리독신염산염 10㎎, 니코틴산아미드 20㎎, 이노시톨 50㎎, L-아르기닌염산염 10㎎",
+        "itemProperties": "유리병에 든 특이한 향이 있는 투명한 황색 액체",
+        "itemEffect": "자양강장, 허약체질, 육체피로, 병중병후, 발열성 소모성질환의 영양보급",
+        "itemUse" : "성인 1일 1회 1병을 복용한다. 만 14세 이하는 복용하지 않는다",
+        "itemStorage" : "기밀용기에 직사광선을 피해 실온의 건조한 곳에 보관한다.",
+        "itemPackaging" : "1병(120mL)<br> 1케이스(120mL X 10EA)<br>1박스(1케이스 X 5EA)"
+    },
+    {
+        "id":  "BF",
+        "itemNew": "",
+        "itemCategory": "의약외품",
+        "itemClassify": "자양강장변질제",
+        "itemName": {
+            "itemTitle" : "박카스에프액",
+            "engName" : "BACCHUS-F"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/158892363991971741.png"
+        },
+        "itemIngredient": "이 제품 1병(120mL) 중<br>타우린 1000mg, 이노시톨 50mg, 니코틴산아미드 20mg, 티아민질산염 5mg, 리보플라빈포스페이트나트륨 5mg, 피리독신염산염 5mg, DL-카르니틴염산염 100mg, 카페인무수물 30mg</td>",
+        "itemProperties": "특이한 향이 있는 투명한 황색 액체",
+        "itemEffect": "자양강장, 허약체질, 육체피로, 병후의 체력저하, 식욕부진, 영양장애",
+        "itemUse" : "15세 이상 성인 : 1일 1회 1병을 복용합니다. 15세 미만은 복용하지 않는다.",
+        "itemStorage" : "기밀용기, 실온보관(1~30ºC)",
+        "itemPackaging" : "10병/CASE(10CASE/BOX)"
+    },
+    {
+        "id": "WNKCDPS10P",
+        "itemNew": "",
+        "itemCategory": "의약외품",
+        "itemClassify": "기타",
+        "itemName": {
+            "itemTitle" : "윙크 퍼펙트 슬림 001"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166207587267428513.png"
+        },
+        "itemIngredient": "",
+        "itemProperties": "",
+        "itemEffect": "",
+        "itemUse" : "",
+        "itemStorage" : "",
+        "itemPackaging" : ""
+    },
+    {
+        "id": "WNKCDSS10P",
+        "itemNew": "",
+        "itemCategory": "의약외품",
+        "itemClassify": "기타",
+        "itemName": {
+            "itemTitle" : "윙크 스키니 슬림 002"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166207591593555865.png"
+        },
+        "itemIngredient": "",
+        "itemProperties": "",
+        "itemEffect": "",
+        "itemUse" : "",
+        "itemStorage" : "",
+        "itemPackaging" : ""
+    },
+    {
+        "id":  "WNKCDMP10P",
+        "itemNew": "",
+        "itemCategory": "의약외품",
+        "itemClassify": "기타",
+        "itemName": {
+            "itemTitle" : "윙크 맥스플레져 003"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166207595778979665.png"
+        },
+        "itemIngredient": "",
+        "itemProperties": "",
+        "itemEffect": "",
+        "itemUse" : "",
+        "itemStorage" : "",
+        "itemPackaging" : ""
+    },
+    {
+        "id": "WNKCDRF10P",
+        "itemNew": "",
+        "itemCategory": "의약외품",
+        "itemClassify": "기타",
+        "itemName": {
+            "itemTitle" : "윙크 리얼핏 004"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166207599649465749.png"
+        },
+        "itemIngredient": "",
+        "itemProperties": "",
+        "itemEffect": "",
+        "itemUse" : "",
+        "itemStorage" : "",
+        "itemPackaging" : ""
+    },
+    {
+        "id": "CLD",
+        "itemNew": "",
+        "itemCategory": "의약외품",
+        "itemClassify": "의치세정제",
+        "itemName": {
+            "itemTitle" : "클리덴트정",
+            "engName" : "Cleadent"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/Cledent180608.png"
+        },
+        "itemIngredient": "이 약 1정 중<br> 과붕산나트륨일수화물, 옥손(과황산화합물), 에버라제6ㆍ0티",
+        "itemProperties": "흰색의 원형 발포정",
+        "itemEffect": "의치의 세정 및 살균. 의치에 침착되어 있는 얼룩, 플라그, 구취의 제거",
+        "itemUse" : "용량: 1일 1회 1정<br>용법: 전체틀니, 부분틀니(금속 및 아크릴)에 사용<br><br>1)틀니세정컵에 미온수150~200ml를 붓고 틀니와 제품 1정을 넣고 5분간 담구어 놓습니다.<br>2)흐르는 물에 가볍게 칫솔질하고 틀니를 헹구어 줍니다.",
+        "itemStorage" : "기밀용기, 실온(1~30℃)보관",
+        "itemPackaging" : "2.7g x 48정"
+    },
+    {
+        "id": "TPNPOS8",
+        "itemNew": "",
+        "itemCategory": "의약외품",
+        "itemClassify": "생리대",
+        "itemName": {
+            "itemTitle" : "템포내추럴순면오버나이트슈퍼롱"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162578910901350621.png"
+        },
+        "itemIngredient": "표지(순면부직포, 부직포), 흡수체(부직포, 흡수지, 면상펄프, 부직포), 방수층(폴리에틸렌필름), 접착제(CHM-1836AZP), 접착제(CHM-1895AZP)",
+        "itemProperties": "흰색의 생리대",
+        "itemEffect": "생리혈의 위생처리",
+        "itemUse" : "1회 1매씩 사용",
+        "itemStorage" : "밀폐용기, 실온(1~30ºC)보관",
+        "itemPackaging" : "오버나이트 8개/팩 (32팩/BOX)"
+    },
+    
+    {
+        "id":"TPNL",
+        "itemNew": "",
+        "itemCategory": "의약외품",
+        "itemClassify": "생리대",
+        "itemName": {
+            "itemTitle" : "템포내추럴순면라이너롱"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/15736325918874140.png"
+        },
+        "itemIngredient": "표지(순면부직포, 부직포), 흡수체(부직포, 흡수지, 면상펄프), 방수층(통기성방수용합성수지필름), 접착제(열 용융형 접착제(구조용), 열 용융형 접착제(고정용))",
+        "itemProperties": "사용면에 압형이 있는 흰색의 팬티라이너",
+        "itemEffect": "생리직전, 끝날 무렵의 생리혈의 위생처리 및 분비물의 위생적 처리",
+        "itemUse" : "1회 1매씩 사용",
+        "itemStorage" : "밀폐용기, 실온(1~30ºC)보관",
+        "itemPackaging" : "18개입 / 40개입"
+    },
+    {
+        "id": "TPNNN",
+        "itemNew": "",
+        "itemCategory": "의약외품",
+        "itemClassify": "탐폰",
+        "itemName": { 
+            "itemTitle" : "템포내추럴레귤러, 슈퍼"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/159306928032545984.png"
+        },
+        "itemIngredient": "흡수체(탈지면), 외피(부직포), 제거용실(혼방봉사)",
+        "itemProperties": "백색 또는 거의 백색의 원주상으로서 제거용실이 달려있고 어플리케이터에 결합되어 있는 생리처리용 탐폰",
+        "itemEffect": "여성 생리 처리용",
+        "itemUse" : "최저 1일 2회이고 양이 많을 때는 횟수를 늘립니다. 삽입 시에는 어플리케이터를 이용하여 질내에 삽입하고, 사용이 끝난 후에는 제거용 실을 이용하여 흡수체를 몸 안에서 제거하여 주세요.템포 슈퍼는 양이 많은 날, 템포 레귤러는 양이 보통인 날 사용하는 것을 권장합니다.",
+        "itemStorage" : "밀폐용기, 실온(1~30℃)보관",
+        "itemPackaging" : "10개/갑 (30갑/BOX), 16개/갑 (18갑/BOX)"
+    },
+    {
+        "id": "HDG500",
+        "itemNew": "",
+        "itemCategory": "의약외품",
+        "itemClassify": "외용소독제",
+        "itemName": {
+            "itemTitle" : "동아핸디가드손소독겔(에탄올)"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162605519338862120.png"
+        },
+        "itemIngredient": "에탄올",
+        "itemProperties": "무색의 투명한 겔제",
+        "itemEffect": "감염방지 목적으로 손세척, 손의 살균소독",
+        "itemUse" : "엄지 손톱양만큼 손바닥에 떨어뜨린 후 손 전체를 문질러 마를때까지 비빈다.",
+        "itemStorage" : "기밀용기, 실온(1~30ºC)보관",
+        "itemPackaging" : "1EA"
+    },
+    {
+        "id": "MMJVM60",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "미니막스 정글 멀티비타민미네랄"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162510144594216486.png",
+            "thumb2" : "./image/item/159045378379697075.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량(2구미당) : <br>비타민A 360 ㎍RAE(80 %), 비타민D 2.5 ㎍[100 IU](50 %), 비타민E 3.7 mg α-TE(53 %), 비타민C 35 mg(70 %), 비타민B6 0.9 mg(100 %), 나이아신 2.7 mgNE(30 %), 판토텐산 3 mg(100 %), 비오틴 15 ㎍(100 %), 아연 3 mg(60 %), 셀렌 30 ㎍(86 %)<br>※ ( ) 안의 비율은 6~8세 어린이의 한국인 영양섭취기준(2020)에 따른 1일 영양성분기준치에 대한 비율임.",
+        "itemProperties": "이미, 이취가 없고, 고유의 향미가 있는 밝은 빨간색의 젤리",
+        "itemEffect": "[비타민A] 어두운 곳에서 시각 적응을 위해 필요, 피부와 점막을 형성하고 기능을 유지하는데 필요, 상피세포의 성장과 발달에 필요<br>[비타민D] 칼슘과 인이 흡수되고 이용되는데 필요, 뼈의 형성과 유지에 필요<br>[비타민E] 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[비타민C] 결합조직 형성과 기능유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[나이아신] 체내 에너지 생성에 필요<br>[비타민B6] 단백질 및 아미노산 이용에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요<br>[판토텐산, 비오틴] 지방, 탄수화물, 단백질 대사와 에너지 생성에 필요<br>[아연] 정상적인 면역기능에 필요, 정상적인 세포분열에 필요<br>[셀렌] 유해산소로부터 세포를 보호하는데 필요",
+        "itemUse" : "1일 1회, 1회 2개씩 씹어서 섭취하십시오. (6~8세 기준)",
+        "itemStorage" : "제품이 고온에 약하니 직사광선을 피하여 30℃ 이하의 온도가 낮은 곳에 보관하여 주십시오. (자동차 안이나 열기구 근처에는 보관을 삼가 주십시오.)",
+        "itemPackaging" : "240 g (4 g×60구미)"
+    },
+    {
+        "id":"MMJVC60",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "미니막스 정글 비타민C"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162510138263285544.png",
+            "thumb2" : "./image/item/159045544465520953.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량(2구미당) : <br>비타민C 20 mg(40 %)<br>※ ( ) 안의 비율은 6~8세 어린이의 한국인 영양섭취기준(2020)에 따른 1일 영양성분기준치에 대한 비율임.",
+        "itemProperties": "이미, 이취가 없고, 고유의 향미가 있는 노란 주황~밝은 갈색의 젤리",
+        "itemEffect": "[비타민C] 결합조직 형성과 기능유지에 필요, 철의 흡수에 필요<br>항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요",
+        "itemUse" : "1일 1회, 1회 2개씩 씹어서 섭취하십시오. (6~8세 기준)",
+        "itemStorage" : "제품이 고온에 약하니 직사광선을 피하여 30℃ 이하의 온도가 낮은 곳에 보관하여 주십시오. (자동차 안이나 열기구 근처에는 보관을 삼가 주십시오.)",
+        "itemPackaging" : "240 g (4 g×60구미)"
+    },
+    {
+        "id": "MMJVD60",
+        "topSearched": true,
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "미니막스 정글 비타민D"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/159045561971956553.png",
+            "thumb2" : "./image/item/159045561972538254.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량(2구미당) : <br>비타민D 5 ㎍[200 IU] (100 %)<br><br>※ ( ) 안의 비율은 3~11세 어린이의 한국인 영양섭취기준(2020)에 따른 1일 영양성분기준치에 대한 비율임.",
+        "itemProperties": "이미 이취가 없고 고유의 향미가 있는 진한 노란 주황의 젤리",
+        "itemEffect": "[비타민D]뼈의 형성과 유지에 필요, 칼슘과 인이 흡수되고 이용되는데 필요",
+        "itemUse" : "1일 1회, 1회 2개씩 씹어서 섭취하십시오. (6~8세 기준)",
+        "itemStorage" : "제품이 고온에 약하니 직사광선을 피하여 30℃ 이하의 온도가 낮은 곳에 보관하여 주십시오. (자동차 안이나 열기구 근처에는 보관을 삼가 주십시오.)",
+        "itemPackaging" : "240 g (4 g×60구미)"
+    },
+    {
+        "id": "MMJOM96",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "미니막스 정글 오메가-3 DHA EPA"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/159911101634177868.png",
+            "thumb2" : "./image/item/159911101639939194.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량(4캡슐당) : <br>EPA와 DHA의 합 600 mg{DHA 500 mg, EPA 100 mg}, 베타카로틴 0.5 mg, 비타민E 3.3 mg α-TE(30 %)[47 %]<br> ※ ( )안의 수치는 1일 영양성분 기준치에 대한 비율. <br> ※ [ ]안의 수치는 6~8세 어린이의 한국인 영양섭취기준(2020)에 따른 1일 영양성분기준치에 대한 비율",
+        "itemProperties": "이미 이취가 없고 고유의 향미가 있는 황갈색의 점조성 내용물을 함유한 미황색 츄어블 연질캡슐",
+        "itemEffect": "[EPA 및 DHA 함유유지]혈중 중성지질개선 · 혈행개선 · 건조한 눈을 개선하여 눈 건강에 도움을 줄 수 있음<br>[베타카로틴] 어두운 곳에서 시각 적응을 위해 필요, 피부와 점막을 형성하고 기능을 유지하는데 필요, 상피세포의 성장과 발달에 필요<br>[비타민E] 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요",
+        "itemUse" : "1일 1회, 1회 4캡슐을 씹어서 섭취하십시오. (내용물만 드셔도 됩니다.)",
+        "itemStorage" : "제품이 고온에 약하니 직사광선을 피하여 30℃ 이하의 온도가 낮은 곳에 보관하여 주십시오. (자동차 안이나 열기구 근처에는 보관을 삼가 주십시오.)",
+        "itemPackaging" : "67.2 g(700 mg×96캡슐)"
+    },
+    {
+        "id": "MMJCD60",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": { 
+            "itemTitle" : "미니막스 정글 칼슘비타민D"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/159045471773588976.png",
+            "thumb2" : "./image/item/159045471774189183.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량(2구미당) : <br>칼슘 260 mg(37 %), 비타민D 2.5 ㎍[100 IU] (50 %)<br><br>※( ) 안의 비율은 6~8세 어린이의 한국인 영양섭취기준(2020년)에 따른 1일 영양성분기준치에 대한 비율임.",
+        "itemProperties": "이미, 이취가 없고, 고유의 향미가 있는 탁한 자주색의 젤리",
+        "itemEffect": "[칼슘] 뼈와 치아 형성에 필요, 신경과 근육 기능 유지에 필요, 정상적인 혈액응고에 필요<br>[비타민D] 칼슘과 인이 흡수되고 이용되는데 필요, 뼈의 형성과 유지에 필요",
+        "itemUse" : "1일 1회, 1회 2개씩 씹어서 섭취하십시오.",
+        "itemStorage" : "제품이 고온에 약하니 직사광선을 피하여 30℃ 이하의 온도가 낮은 곳에 보관하여 주십시오. (자동차 안이나 열기구 근처에는 보관을 삼가 주십시오.)",
+        "itemPackaging" : "240 g (4 g×60구미)"
+    },
+    {
+        "id": "MMJPZ40",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "미니막스 정글 프로바이오틱스아연"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162510155994383914.png",
+            "thumb2" : "./image/item/159045517869916038.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량(1포당) : <br>프로바이오틱스 수 1,000,000,000 CFU, 아연 3 mg(60 %)<br>※ ( ) 안의 비율은 6~8세 어린이의 한국인 영양섭취기준(2020)에 따른 1일 영양성분기준치에 대한 비율임.",
+        "itemProperties": "이미, 이취가 없고 고유의 향미가 있는 분홍~탁한 분홍의 분말",
+        "itemEffect": "[프로바이오틱스] 유산균 증식 및 유해균 억제·배변활동 원활·장 건강에 도움을 줄 수 있음 <br>[아연] 정상적인 면역기능에 필요, 정상적인 세포분열에 필요",
+        "itemUse" : "1일 1회, 1회 1포씩 그대로 섭취하십시오.",
+        "itemStorage" : "생균수 유지를 위해 직사광선 및 고온다습한 곳을 피해 서늘하고 건조한 곳에 보관하십시오.",
+        "itemPackaging" : "80 g (2 g×40포)"
+    },
+    {
+        "id": "MMJPP25",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "미니막스 정글 프로폴리스"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/159045601853531554.png",
+            "thumb2" : "./image/item/159045601853979075.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량(6회 분사) : 총 플라보노이드 0.7 mg",
+        "itemProperties": "이미, 이취가 없고 고유의 향미가 있는 어두운 적갈색의 액상",
+        "itemEffect": "[프로폴리스] 구강에서의 항균작용에 도움을 줄 수 있음",
+        "itemUse" : "1일 2회, 1회 3회(0.45 ml)씩 구강에 분무하여 섭취 하십시오. 사용 전 잘 흔들어 주세요.",
+        "itemStorage" : "직사광선 및 고온다습한 곳을 피해 서늘하고 건조한 곳에 보관하십시오. <br>(스프레이 분사구가 구강에 직접 닿지 않도록 주의하시고, 분사 후에는 잘 닦아서 보관해 주십시오.)",
+        "itemPackaging" : "25 ml"
+    },
+    {
+        "id": "VTGRP120",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "비타그란 비타민C"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/163116710377379657.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 : <br> 비타민C 1,000 ㎎(1,000%), 비타민B2 2.4㎎(171%), 비타민B6 1.5㎎(100%), 나이아신 15㎎ NE(100%)<br>※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "고유의 향미가 있고 이미ㆍ이취가 없는 밝은 노란색의 입자성이 있는 분말",
+        "itemEffect": "[비타민C]<br>결합조직 형성과 기능유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[비타민B2]<br>체내 에너지 생성에 필요<br>[비타민B6]<br> 단백질 및 아미노산 이용에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요<br>[나이아신]<br>체내 에너지 생성에 필요<br>",
+        "itemUse" : "1일 2회, 1회 1포씩 섭취하십시오",
+        "itemStorage" : "직사광선 및 고온다습한 곳을 피해 서늘한 실온에 보관하십시오",
+        "itemPackaging" : "120포 <br>240 g(2 g x 10포 x 12개입)"
+    },
+    {
+        "id": "VTGRP20",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "비타그란 비타민C"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/163116695987434920.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 : 비타민C 1,000 ㎎(1,000%), 비타민B2 2.4㎎(171%), 비타민B6 1.5㎎(100%), 나이아신 15㎎ NE(100%)<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "고유의 향미가 있고 이미ㆍ이취가 없는 밝은 노란색의 입자성이 있는 분말",
+        "itemEffect": "[비타민C]<br>결합조직 형성과 기능유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[비타민B2]<br>체내 에너지 생성에 필요<br>[비타민B6]<br> 단백질 및 아미노산 이용에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요<br>[나이아신]<br>체내 에너지 생성에 필요<br>",
+        "itemUse" : "1일 2회, 1회 1포씩 섭취하십시오",
+        "itemStorage" : "직사광선 및 고온다습한 곳을 피해 서늘한 실온에 보관하십시오",
+        "itemPackaging" : "20포 <br>40 g (2 g x 10포 x 2개입)"
+    },
+    {
+        "id": "VTGRP60",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "비타그란 비타민C100"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/163116727012733802.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 : 비타민C 100 ㎎(100%), 비타민B2 1.2 ㎎(86%)<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임",
+        "itemProperties": "고유의 향미가 있고 이미ㆍ이취가 없는 밝은 노란색의 입자성이 있는 분말",
+        "itemEffect": "[비타민C]<br>결합조직 형성과 기능유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[비타민B2]<br>체내 에너지 생성에 필요<br>",
+        "itemUse" : "1일 1회, 1회 1포씩 섭취하십시오",
+        "itemStorage" : "직사광선 및 고온다습한 곳을 피해 서늘한 실온에 보관하십시오",
+        "itemPackaging" : "60포 <br>120g(2 g x 10포 x 6개입)"
+    },
+    {
+        "id": "VTGRT250",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "비타그란 비타민C1000"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/163116797643337524.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 : 비타민C 1,000 ㎎(1,000%)<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임",
+        "itemProperties": "고유의 향미가 있고 이미ㆍ이취가 없는 밝은 흰색의 장방형 정제",
+        "itemEffect": "[비타민C]<br>결합조직 형성과 기능유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요",
+        "itemUse" : "1일 1회, 1회 1정을 물과 함께 섭취하십시오",
+        "itemStorage" : "직사광선 및 고온다습한 곳을 피해 서늘한 실온에 보관하십시오. 정제상태로 공기 중에 방치하거나 다른 용기에 보관하지 마십시오.",
+        "itemPackaging" : "250정 <br>268.5 g(1,074 ㎎ x 50정 x 5개입)"
+    },
+    {
+        "id": "VTGRTP250",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "비타그란 비타민C1000 플러스"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/163116809589856339.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 : 비타민C 1,000 ㎎(1,000%), 비타민B6 0.9 ㎎(60%), 비타민D 10 ㎍(100%), 아연 2.55 ㎎(30%), 망간 0.9 ㎎(30%)<br> <br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "고유의 향미가 있고 이미ㆍ이취가 없는 밝은 흰색의 장방형 정제",
+        "itemEffect": "[비타민C]<br> 결합조직 형성과 기능유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[비타민B6]<br> 단백질 및 아미노산 이용에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요<br>[비타민D]<br>칼슘과 인이 흡수되고 이용되는데 필요, 뼈의 형성과 유지에 필요, 골다공증발생 위험 감소에 도움을 줌 <br> [아연]<br>정상적인 면역기능에 필요, 정상적인 세포분열에 필요<br>[망간]<br>뼈 형성에 필요, 에너지 이용에 필요, 유해산소로부터 세포를 보호하는데 필요<br>",
+        "itemUse" : "1일 1회, 1회 1정을 물과 함께 섭취하십시오",
+        "itemStorage" : "직사광선 및 고온다습한 곳을 피해 서늘한 실온에 보관하십시오. 정제상태로 공기 중에 방치하거나 다른 용기에 보관하지 마십시오.",
+        "itemPackaging" : "250정 <br>275 g(1,100 ㎎ x 50정 x 5개입)"
+    },
+    {
+        "id": "VTGRT100",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "비타그란 비타민C500"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/163116745131165444.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 : 비타민C 500 ㎎(500%) <br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "고유의 향미가 있고 이미ㆍ이취가 없는 밝은 흰색의 장방형 정제",
+        "itemEffect": "[비타민C]<br> 결합조직 형성과 기능유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>",
+        "itemUse" : "1일 1회, 1회 1정을 물과 함께 섭취하십시오",
+        "itemStorage" : "직사광선 및 고온다습한 곳을 피해 서늘한 실온에 보관하십시오. 정제상태로 공기 중에 방치하거나 다른 용기에 보관하지 마십시오.",
+        "itemPackaging" : "100정 <br>70 g(700 ㎎ x 50정 x 2개입)"
+    },
+    {
+        "id": "VTGRCR70",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "비타그란 비타민C츄어블 라즈베리맛"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/163116863101837969.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 : 비타민C 400 ㎎(400%), 비타민B2 2.4 ㎎(171%), 비타민B6 3 ㎎(200%), 나이아신 26 ㎎ NE(173%) <br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "고유의 향미가 있고 이미ㆍ이취가 없는 연한 분홍색의 원형 정제",
+        "itemEffect": "[비타민C]<br>결합조직 형성과 기능유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[비타민B2]<br> 체내 에너지 생성에 필요<br>[비타민B6]<br> 단백질 및 아미노산 이용에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요<br>[나이아신]<br>체내 에너지 생성에 필요<br>",
+        "itemUse" : "1일 2회, 1회 2정을 입안에서 녹이거나 씹어서 섭취하십시오.",
+        "itemStorage" : "직사광선 및 고온다습한 곳을 피해 서늘한 실온에 보관하십시오.",
+        "itemPackaging" : "70정 <br>112 g (1,600 ㎎ x 70정)"
+    },
+    {
+        "id": "VTGRCL70",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "비타그란 비타민C츄어블 레몬맛"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/163116826384019858.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 : 비타민C 400 ㎎(400%), 비타민B2 2.4 ㎎(171%), 비타민B6 3 ㎎(200%), 나이아신 26 ㎎ NE(173%)<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "고유의 향미가 있고 이미ㆍ이취가 없는 연한 노랑색의 원형 정제",
+        "itemEffect": "[비타민C]<br>결합조직 형성과 기능유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[비타민B2]<br> 체내 에너지 생성에 필요<br>[비타민B6]<br> 단백질 및 아미노산 이용에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요<br>[나이아신]<br>체내 에너지 생성에 필요<br>",
+        "itemUse" : "1일 2회, 1회 2정을 입안에서 녹이거나 씹어서 섭취하십시오.",
+        "itemStorage" : "직사광선 및 고온다습한 곳을 피해 서늘한 실온에 보관하십시오.",
+        "itemPackaging" : "70정 <br>112 g (1,600 ㎎ x 70정)"
+    },
+    {
+        "id":  "VTGRCA70",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "비타그란 비타민C츄어블 사과맛"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/163116838945298526.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 : 비타민C 400 ㎎(400%), 비타민B2 2.4 ㎎(171%), 비타민B6 3 ㎎(200%), 나이아신 26 ㎎ NE(173%)<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "고유의 향미가 있고 이미ㆍ이취가 없는 연한 연두색의 원형 정제",
+        "itemEffect": "[비타민C]<br>결합조직 형성과 기능유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[비타민B2]<br> 체내 에너지 생성에 필요<br>[비타민B6]<br> 단백질 및 아미노산 이용에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요<br>[나이아신]<br>체내 에너지 생성에 필요<br>",
+        "itemUse" : "1일 2회, 1회 2정을 입안에서 녹이거나 씹어서 섭취하십시오.",
+        "itemStorage" : "직사광선 및 고온다습한 곳을 피해 서늘한 실온에 보관하십시오.",
+        "itemPackaging" : "70정 <br>112 g (1,600 ㎎ x 70정)"
+    },
+    {
+        "id":"VTGRCG70",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "비타그란 비타민C츄어블 포도맛"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/16311685101735539.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 : 비타민C 400 ㎎(400%), 비타민B2 2.4 ㎎(171%), 비타민B6 3 ㎎(200%), 나이아신 26 ㎎ NE(173%)<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "고유의 향미가 있고 이미ㆍ이취가 없는 연한 보라색의 원형 정제",
+        "itemEffect": "[비타민C]<br>결합조직 형성과 기능유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[비타민B2]<br> 체내 에너지 생성에 필요<br>[비타민B6]<br> 단백질 및 아미노산 이용에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요<br>[나이아신]<br>체내 에너지 생성에 필요<br>",
+        "itemUse" : "1일 2회, 1회 2정을 입안에서 녹이거나 씹어서 섭취하십시오.",
+        "itemStorage" : "직사광선 및 고온다습한 곳을 피해 서늘한 실온에 보관하십시오.",
+        "itemPackaging" : "70정 <br>112 g (1,600 ㎎ x 70정)"
+    },
+    {
+        "id": "SFRLIS",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "기타",
+        "itemName": {
+            "itemTitle" : "셀파렉스 간솔루션",
+            "engName" : "SelfRX Liver solution"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/159947103701641900.png",
+            "thumb2" : "./image/item/159953106543872790.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 :<br> 비타민C 100 mg(100 %), 셀렌 55 ㎍(100 %), 비타민E 3.3 mg α-TE(30 %), 아연 8.5 mg(100 %), 망간 3 mg(100 %), 판토텐산 5 mg(100 %), 비타민B6 1.5 mg(100 %), 비타민B2 1.4 mg(100 %), 비타민B1 1.2 mg (100 %), 엽산 400 ㎍(100 %), Cycloalliin 4.95 mg<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "고유의 향미가 있고 이미, 이취가 없는 연한 노랑 또는 밝은 회황색의 장방형 제피정제",
+        "itemEffect": "[유산균발효마늘추출물] 간 건강에 도움을 줄 수 있음<br>[비타민C] 결합조직 형성과 기능유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[셀렌] 유해산소로부터 세포를 보호하는데 필요<br>[비타민E] 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[아연] 정상적인 면역기능에 필요, 정상적인 세포분열에 필요<br>[망간] 뼈 형성에 필요, 에너지 이용에 필요, 유해산소로부터 세포를 보호하는데 필요<br>[판토텐산] 지방, 탄수화물, 단백질 대사와 에너지 생성에 필요<br>[비타민B6] 단백질 및 아미노산 이용에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요<br>[비타민B1] 탄수화물과 에너지 대사에 필요<br>[비타민B2] 체내 에너지 생성에 필요<br>[엽산] 세포와 혈액생성에 필요,태아 신경관의 정상 발달에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요",
+        "itemUse" : "1일 1회, 1회 3정을 충분한 물과 함께 섭취하십시오.",
+        "itemStorage" : "제품은 직사광선을 피하고 실온에서 보관 유통하십시오.제품 개봉 후에는 흡습되지 않게 밀봉하여 보관하십시오.",
+        "itemPackaging" : "90 g (1,000 mg*90정)"
+    },
+    {
+        "id":  "SFRJOS",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "기타",
+        "itemName": {
+            "itemTitle" : "셀파렉스 관절솔루션",
+            "engName" : "SelfRX Joint solution"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/159947283194354808.png",
+            "thumb2" : "./image/item/159953109272558117.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 :<br>셀렌 55 ㎍(100 %), 망간 3 mg(100 %), 비타민D 10 ㎍(100 %), 파라(p)-쿠마르산 0.5 mg<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "이미, 이취가 없고 고유의 향미가 있는 흐린 황갈색의 제피정제",
+        "itemEffect": "[강황추출물]  관절건강에 도움을 줄 수 있음<br>[셀렌] 유해산소로부터 세포를 보호하는데 필요<br>[망간] 뼈 형성에 필요, 에너지 이용에 필요, 유해산소로부터 세포를 보호하는데 필요<br>[비타민D] 칼슘과 인이 흡수되고 이용되는데 필요, 뼈의 형성과 유지에 필요, 골다공증발생 위험 감소에 도움을 줌",
+        "itemUse" : "1일 1회, 1회 3정을 충분한 물과 함께 섭취하십시오.",
+        "itemStorage" : "제품은 직사광선을 피하고 실온에서 보관 유통하십시오.제품 개봉 후에는 흡습되지 않게 밀봉하여 보관하십시오.",
+        "itemPackaging" : "72 g(800 mg x 90정)"
+    },
+    {
+        "id":"SFREYS",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "기타",
+        "itemName": {
+            "itemTitle" : "셀파렉스 눈솔루션",
+            "engName" : "SelfRX Eyes solution"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/159947134242535687.png",
+            "thumb2" : "./image/item/159953110466413192.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 :<br> 비타민E 3.3 mg α-TE(30 %), 아연 2.55 mg(30 %), 비타민A 210 ㎍ RAE(30 %), 루테인 20 mg, 아스타잔틴 4 mg<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "이미, 이취가 없고 고유의 향미가 있는 어두운 빨강색의 점조성 내용물을 함유한 적색 연질캡슐",
+        "itemEffect": "[마리골드꽃추출물] 노화로 인해 감소될 수 있는 황반색소밀도를 유지하여 눈 건강에 도움을 줄 수 있음<br>[헤마토코쿠스추출물] 눈의 피로도 개선에 도움을 줄 수 있음<br>[비타민E] 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[아연] 정상적인 면역기능에 필요, 정상적인 세포분열에 필요<br>[비타민A] 어두운 곳에서 시각 적응을 위해 필요, 피부와 점막을 형성하고 기능을 유지하는데 필요, 상피세포의 성장과 발달에 필요<br>",
+        "itemUse" : "1일 1회, 1회 1캡슐을 충분한 물과 함께 섭취하십시오.",
+        "itemStorage" : "제품은 직사광선을 피하고 실온에서 보관 유통하십시오.제품 개봉 후에는 흡습되지 않게 밀봉하여 보관하십시오.",
+        "itemPackaging" : "15 g(500 mg*30캡슐)"
+    },
+    {
+        "id":  "SFRBOS",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "기타",
+        "itemName": {
+            "itemTitle" : "셀파렉스 뼈&치아솔루션",
+            "engName" : "SelfRX Bones&Teeth solution"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/159947303160352251.png",
+            "thumb2" : "./image/item/159953113933695334.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 :<br> 칼슘 210 mg(30 %), 마그네슘 105 mg(33%), 망간 3 mg(100 %), 비타민D 6 ㎍(60 %)<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "이미, 이취가 없고 고유의 향미가 있는 노란 하얀색의 제피정제",
+        "itemEffect": "[칼슘] 뼈와 치아 형성에 필요, 신경과 근육 기능 유지에 필요, 정상적인 혈액응고에 필요, 골다공증발생 위험 감소에 도움을 줌<br>[마그네슘] 에너지 이용에 필요, 신경과 근육 기능 유지에 필요<br>[망간] 뼈 형성에 필요, 에너지 이용에 필요, 유해산소로부터 세포를 보호하는데 필요<br>[비타민D] 칼슘과 인이 흡수되고 이용되는데 필요, 뼈의 형성과 유지에 필요, 골다공증발생 위험 감소에 도움을 줌",
+        "itemUse" : "1일 1회, 1회 3정 또는 1일 3회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+        "itemStorage" : "제품은 직사광선을 피하고 실온에서 보관 유통하십시오.제품 개봉 후에는 흡습되지 않게 밀봉하여 보관하십시오.",
+        "itemPackaging" : "63 g(700 mg x 90정)"
+    },
+    {
+        "id": "SFRSLP",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "기타",
+        "itemName": {
+            "itemTitle" : "셀파렉스 수면솔루션",
+            "engName" : "SelfRX Sleeping solution"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/163998691973117351.png",
+            "thumb2" : "./image/item/163998691975147067.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 :<br> 비타민C 30mg (30%), 나이아신 4.5mgNE (30%), 비타민B₁ 0.36mg (30%), 엽산 120㎍ (30%), 비타민B12 24㎍ (1000%), 감마-오리자널 4.4mg<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "고유의 향미가 있고 이미, 이취가 없는 흰노랑 또는 밝은 회황색의 장방형 제피정제",
+        "itemEffect": "[미강주정추출물] 수면에 도움을 줄 수 있음<br>[비타민C] 결합조직 형성과 기능유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[나이아신] 체내 에너지 생성에 필요<br>[비타민B12] 정상적인 엽산 대사에 필요<br>[판토텐산] 지방, 탄수화물, 단백질 대사와 에너지 생성에 필요<br>[비타민B1] 탄수화물과 에너지 대사에 필요<br>[엽산] 세포와 혈액생성에 필요, 태아 신경관의 정상 발달에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요",
+        "itemUse" : "1일 1회, 1회 3정 또는 1일 3회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+        "itemStorage" : "제품은 직사광선을 피하고 실온에서 보관 유통하십시오.제품 개봉 후에는 흡습되지 않게 밀봉하여 보관하십시오.",
+        "itemPackaging" : "67.5 g(0.75 g x 90정)"
+    },
+    {
+        "id":"SFREFM",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "기타의 비타민제",
+        "itemName": {
+            "itemTitle" : "셀파렉스 에센셜포맨",
+            "engName" : "SelfRX Essential for man"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/159946471467878702.png",
+            "thumb2" : "./image/item/159953055004324193.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 :<br> 마그네슘 305 mg(97 %), 비타민C 100 mg(100 %), 셀렌 60 ㎍(109 %), 철 10 mg(83 %), 판토텐산 15 mg(300 %), 아연 15 mg(176 %), 나이아신 17.6 mg NE(117 %), 크롬 35 ㎍ (117 %), 망간 4 mg(133 %), 몰리브덴 25 ㎍(100 %), 비오틴 60 ㎍(200 %), 비타민B6 5.4 mg(360 %), 비타민B2 5.1 mg(364 %), 비타민B1 4.1 mg (342 %), 구리 0.8 mg(100 %), 비타민B12 27.5 ㎍(1146 %), 엽산 400 ㎍(100 %), 요오드 150 ㎍(100 %), 비타민A 350 ㎍ RAE(50 %), 비타민D 7 ㎍(70 %), 비타민E 5.5 mg α-TE(50 %), L-테아닌 200 mg<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "[멀티비타민미네랄-정제] 고유의 향미가 있고 이미, 이취가 없는 흑갈색 또는 어두운 회갈색 장방형 제피정제, [테아닌-정제] 고유의 향미가 있고 이미, 이취가 없는 회황색 또는 밟은 회황색 타원형 제피정제, [지용성 비타민-정제] 고유의 향미가 있고 이미, 이취가 없는 하양 장방형 제피정제",
+        "itemEffect": "[마그네슘] 에너지 이용에 필요, 신경과 근육 기능 유지에 필요<br>[테아닌] 스트레스로 인한 긴장완화에 도움을 줄 수 있음   <br>[비타민C] 결합조직 형성과 기능유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[비타민E] 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[셀렌] 유해산소로부터 세포를 보호하는데 필요<br>[철] 체내 산소운반과 혈액생성에 필요, 에너지 생성에 필요 <br>[판토텐산] 지방, 탄수화물, 단백질 대사와 에너지 생성에 필요<br>[아연] 정상적인 면역기능에 필요, 정상적인 세포분열에 필요<br>[나이아신] 체내 에너지 생성에 필요 <br>[망간] 뼈 형성에 필요, 에너지 이용에 필요, 유해산소로부터 세포를 보호하는데 필요<br>[비타민A] 어두운 곳에서 시각 적응을 위해 필요, 피부와 점막을 형성하고 기능을 유지하는데 필요, 상피세포의 성장과 발달에 필요<br>[몰리브덴] 산화, 환원 효소의 활성에 필요<br>[비타민D] 칼슘과 인이 흡수되고 이용되는데 필요, 뼈의 형성과 유지에 필요, 골다공증발생 위험 감소에 도움을 줌  <br>[비오틴] 지방, 탄수화물, 단백질 대사와 에너지 생성에 필요<br>[비타민B6] 단백질 및 아미노산 이용에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요<br>[비타민B2] 체내 에너지 생성에 필요<br>[비타민B1] 탄수화물과 에너지 대사에 필요<br>[구리] 철의 운반과 이용에 필요, 유해산소로부터 세포를 보호하는데 필요<br>[비타민B12] 정상적인 엽산 대사에 필요<br>[엽산] 세포와 혈액생성에 필요, 태아 신경관의 정상 발달에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요<br>[요오드] 갑상선 호르몬의 합성에 필요, 에너지 생성에 필요, 신경발달에 필요<br>[크롬] 체내 탄수화물, 지방, 단백질 대사에 관여",
+        "itemUse" : "1일 1회, 1회 1포를 충분한 물과 함께 섭취하십시오.",
+        "itemStorage" : "제품은 직사광선을 피하고 실온에서 보관 유통하십시오.제품 개봉 후에는 흡습되지 않게 밀봉하여 보관하십시오.",
+        "itemPackaging" : "102 g [3.4 g(1,000 mg*2정, 700 mg*2정)*30포]"
+    },
+    {
+        "id": "SFREFW",
+        "topSearched": true,
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "기타의 비타민제",
+        "itemName": {
+            "itemTitle" : "셀파렉스 에센셜포우먼",
+            "engName" : "SelfRX Essential for woman"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/159946990309748634.png",
+            "thumb2" : "./image/item/159953102190828920.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 :<br> 마그네슘 315 mg(100 %), 비타민C 120 mg(120 %), 셀렌 72 ㎍(131 %), 철 14 mg(117 %), 판토텐산 14 mg(280 %), 아연 9.6 mg(113 %), 나이아신 16 mg NE(107 %), 크롬 42 ㎍ (140 %), 망간 4.2 mg(140 %), 몰리브덴 50 ㎍(200 %), 비오틴 50 ㎍(167%), 비타민B6 5.4 mg(360 %), 비타민B2 4.3 mg(307 %), 비타민B1 3.8 mg (317 %), 구리 0.8 mg(100 %), 비타민B12 25 ㎍(1042 %), 엽산 440 ㎍(110 %), 요오드 170 ㎍(113 %), 비타민A 490 ㎍ RAE(70 %), 비타민D 7 ㎍(70 %), 비타민E 7.7 mg α-TE(70 %), L-테아닌 200 mg<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "고유의 향미가 있고 이미, 이취가 없는 회갈색 장방형 제피정제, 흐린 자줏빛 분홍 또는 탁한 자줏빛 분홍 타원형 제피정제, 하양 장방형 제피정제",
+        "itemEffect": "[마그네슘] 에너지 이용에 필요, 신경과 근육 기능 유지에 필요<br>[테아닌] 스트레스로 인한 긴장완화에 도움을 줄 수 있음 <br>[비타민C] 결합조직 형성과 기능유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[비타민E] 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[셀렌] 유해산소로부터 세포를 보호하는데 필요<br>[철] 체내 산소운반과 혈액생성에 필요, 에너지 생성에 필요 <br>[판토텐산] 지방, 탄수화물, 단백질 대사와 에너지 생성에 필요<br>[아연] 정상적인 면역기능에 필요, 정상적인 세포분열에 필요<br>[나이아신] 체내 에너지 생성에 필요 <br>[망간] 뼈 형성에 필요, 에너지 이용에 필요, 유해산소로부터 세포를 보호하는데 필요<br>[비타민A] 어두운 곳에서 시각 적응을 위해 필요, 피부와 점막을 형성하고 기능을 유지하는데 필요, 상피세포의 성장과 발달에 필요<br>[몰리브덴] 산화, 환원 효소의 활성에 필요<br>[비타민D] 칼슘과 인이 흡수되고 이용되는데 필요, 뼈의 형성과 유지에 필요, 골다공증발생 위험 감소에 도움을 줌 <br>[비오틴] 지방, 탄수화물, 단백질 대사와 에너지 생성에 필요<br>[비타민B6] 단백질 및 아미노산 이용에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요<br>[비타민B2] 체내 에너지 생성에 필요<br>[비타민B1] 탄수화물과 에너지 대사에 필요<br>[구리] 철의 운반과 이용에 필요, 유해산소로부터 세포를 보호하는데 필요<br>[비타민B12] 정상적인 엽산 대사에 필요<br>[엽산] 세포와 혈액생성에 필요, 태아 신경관의 정상 발달에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요<br>[요오드] 갑상선 호르몬의 합성에 필요, 에너지 생성에 필요, 신경발달에 필요<br>[크롬] 체내 탄수화물, 지방, 단백질 대사에 관여",
+        "itemUse" : "1일 1회, 1회 1포를 충분한 물과 함께 섭취하십시오.",
+        "itemStorage" : "제품은 직사광선을 피하고 실온에서 보관 유통하십시오.제품 개봉 후에는 흡습되지 않게 밀봉하여 보관하십시오.",
+        "itemPackaging" : "102 g [3.4 g(1,000 mg*2정, 700 mg*2정)*30포]"
+    },
+    {
+        "id": "CCLOAO60",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "써큐란 식물성알티지오메가-3"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166208120146413273.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 :<br> 2캡슐 (0.8 g)비타민E : 11 mg α-TE 100%), EPA+DHA합 600 mg<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "고유의 향미가 있고 이미, 이취가 없는 연한 노란색의 내용물을 함유한 연한 초록색의 타원형 연질캡슐",
+        "itemEffect": "[EPA 및 DHA 함유 유지] 혈중 중성지질 개선, 혈행 개선에 도움을 줄 수 있음, 건조한 눈을 개선하여 눈 건강에 도움을 줄 수 있음 <br>[비타민E] 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요",
+        "itemUse" : "1일 1회, 1회 2캡슐을 충분한 물과 함께 섭취하십시오.",
+        "itemStorage" : "제품은 직사광선을 피하고 실온에서 보관 유통하십시오.제품 개봉 후에는 흡습되지 않게 밀봉하여 보관하십시오.",
+        "itemPackaging" : "24 g (400 mg x 60캡슐)"
+    },
+    {
+        "id": "CCLOAO120",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "써큐란 식물성알티지오메가-3 1000"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166208235433271024.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 :<br> 2캡슐 (0.8 g)비타민E 11 mg α-TE(100%), EPA+DHA합 1,000 mg<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "고유의 향미가 있고 이미, 이취가 없는 연한 노란색의 내용물을 함유한 연한 초록색의 장방형 연질캡슐",
+        "itemEffect": "[EPA 및 DHA 함유 유지] 혈중 중성지질 개선, 혈행 개선에 도움을 줄 수 있음, 건조한 눈을 개선하여 눈 건강에 도움을 줄 수 있음 <br>[비타민E] 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요",
+        "itemUse" : "1일 1회, 1회 2캡슐을 충분한 물과 함께 섭취하십시오.",
+        "itemStorage" : "제품은 직사광선을 피하고 실온에서 보관 유통하십시오.제품 개봉 후에는 흡습되지 않게 밀봉하여 보관하십시오.",
+        "itemPackaging" : "76.8 g (640 mg x 60캡슐 x 2개입)"
+    },
+    {
+        "id": "CCLOR120",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "써큐란 알티지오메가-3 1200"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162511977897441957.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 :<br> 비타민A : 700 ㎍ RAE (100%), 비타민D : 10 ㎍ (100%), 비타민E : 11 mg α-TE (100%), EPA+DHA합 : 1,200 mg, EPA : 685.7 mg, DHA : 514.3 mg<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "고유의 향미가 있고 이미, 이취가 없으며 연한 노란색 내용물을 함유한 투명한 타원형 연질캡슐",
+        "itemEffect": "[EPA 및 DHA 함유 유지] 혈중 중성지질 개선, 혈행 개선에 도움을 줄 수 있음, 기억력 개선에 도움을 줄 수 있음, 건조한 눈을 개선하여 눈 건강에 도움을 줄 수 있음<br>[비타민A] 어두운 곳에서 시각 적응을 위해 필요, 피부와 점막을 형성하고 기능을 유지하는데 필요, 상피세포의 성장과 발달에 필요<br>[비타민D] 칼슘과 인이 흡수되고 이용되는데 필요, 뼈의 형성과 유지에 필요, 골다공증발생 위험 감소에 도움을 줌<br>[비타민E] 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요",
+        "itemUse" : "1일 1회, 1회 2캡슐을 충분한 물과 함께 섭취하십시오.",
+        "itemStorage" : "제품은 직사광선을 피하고 실온에서 보관 유통하십시오.제품 개봉 후에는 흡습되지 않게 밀봉하여 보관하십시오.",
+        "itemPackaging" : "105.6 g (880 mg x 60캡슐 x 2EA)"
+    },
+    {
+        "id": "CCLA",
+        "topSearched": true,
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "써큐란 알파"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/160084926348884635.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 :<br> 비타민B6 : 5 mg(333%), 감마리놀렌산 : 240 mg, 플라보놀배당체 : 36 mg<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "흑갈색 점조성 내용물을 함유한 진초록색의 장방형 연질캡슐",
+        "itemEffect": "[감마리놀렌산 함유 유지] 혈중 콜레스테롤 개선ㆍ혈행 개선ㆍ월경전 변화에 의한 불편한 상태 개선ㆍ면역과민반응에 의한 피부상태 개선에 도움을 줄 수 있음<br>[은행잎 추출물] 기억력 개선에 도움을 줄 수 있음, 혈행 개선에 도움을 줄 수 있음<br>[비타민B6] 단백질 및 아미노산 이용에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요",
+        "itemUse" : "1일 1회, 1회 2캡슐을 충분한 물과 함께 섭취하십시오.",
+        "itemStorage" : "제품은 직사광선을 피하고 실온에서 보관 유통하십시오.제품 개봉 후에는 흡습되지 않게 밀봉하여 보관하십시오.",
+        "itemPackaging" : "740mg x 60캡슐(60EA/BOX)<br> 740mg x 120캡슐(20EA/BOX)<br>740mg x 180캡슐(20EA/BOX)"
+    },
+    {
+        "id":"CCLC60",
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "영양제",
+        "itemName": {
+            "itemTitle" : "써큐란 코큐텐"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162511917613499411.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 :<br> 비타민A : 700 ㎍ RAE (100%), 비타민C : 100 mg (100%), 비타민E : 11 mg α-TE (100%), 비타민B6 : 1.5 mg (100%), 비타민B12 : 2.4 ㎍ (100%), 엽산 : 400 ㎍ (100%), 셀렌 : 55 ㎍ (100%), 코엔자임Q10 : 100 mg<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "고유의 향미가 있고 이미, 이취가 없는 진한 노란 주황의 점도가 있는 내용물을 함유한 흑갈색 장방형 연질캡슐",
+        "itemEffect": "[코엔자임Q10] 항산화, 높은 혈압 감소에 도움을 줄 수 있음<br>[비타민C] 결합조직 형성과 기능유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[비타민A] 어두운 곳에서 시각 적응을 위해 필요, 피부와 점막을 형성하고 기능을 유지하는데 필요, 상피세포의 성장과 발달에 필요<br>[비타민B6] 단백질 및 아미노산 이용에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요<br>[비타민B12] 정상적인 엽산 대사에 필요<br>[비타민E] 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[셀렌] 유해산소로부터 세포를 보호하는데 필요<br>[엽산] 세포와 혈액생성에 필요, 태아 신경관의 정상 발달에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요",
+        "itemUse" : "1일 1회, 1회 2캡슐을 충분한 물과 함께 섭취하십시오.",
+        "itemStorage" : "제품은 직사광선을 피하고 실온에서 보관 유통하십시오.제품 개봉 후에는 흡습되지 않게 밀봉하여 보관하십시오.",
+        "itemPackaging" : "42 g(700 mg x 60캡슐)"
+    },
+    {
+        "id":  "OTMIML30",
+        "topSearched": true,
+        "itemNew": "",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "기타",
+        "itemName": {
+            "itemTitle" : "오쏘몰이뮨",
+            "engName" : "Orthomol Immun"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162554792024424220.png",
+            "thumb2" : "./image/item/162554792027621324.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량 :<br> 비타민C 1,000 mg(1,000 %), 비타민E 150 mg α-TE(1,364 %), 베타카로틴 6 mg, 나이아신 70 mg NE(467 %), 비타민B6 23 mg(1533 %), 아연 10 mg(118 %), 비오틴 170 μg(567 %), 셀레늄 50 μg(91 %), 비타민A 470 μg RE(67 %), 망간 2.0 mg(67 %), 구리 0.5 mg(63 %), 비타민K 80μg(114 %), 크롬 30 μg(100 %), 몰리브덴 65 μg(260 %), 철 7.2 mg(60 %), 판토텐산 7 mg(140 %), 엽산 800 μg(200 %), 요오드 150 μg(100 %)<br> ※ ( )안의 수치는 1일 영양성분기준치에 대한 비율임<br>",
+        "itemProperties": "흰색정제 : 이미, 이취가 없는 흰색의 제피정제 / 노란색정제 : 이미, 이취가 없는 노란색의 제피정제 / 액상 : 고유의 색상과 향미를 가지며 이미, 이취가 없는 진한 노란색 액상",
+        "itemEffect": "[비타민C] 결합조직 형성과 기능유지에 필요, 철의 흡수에 필요,<br>항산화작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[비타민E] 항산화작용을 하여 유해산소로부터 세포를 보호하는데 필요<br>[베타카로틴] 어두운 곳에서 시각 적응을 위해 필요, 피부와 점막을 형성하고 기능을 유지하는데 필요,<br>상피세포의 성장과 발달에 필요<br>[나이아신] 체내 에너지 생성에 필요<br>[비타민B6] 단백질 및 아미노산 이용에 필요, 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요<br>[아연] 정상적인 면역기능에 필요, 정상적인 세포분열에 필요<br>[비오틴] 지방, 탄수화물, 단백질 대사와 에너지 생성에 필요<br>[셀레늄] 유해산소로부터 세포를 보호하는데 필요<br>[비타민A] 어두운 곳에서 시각 적응을 위해 필요, 피부와 점막을 형성하고 기능을 유지하는데 필요,<br>상피세포의 성장과 발달에 필요<br>[망간] 뼈 형성에 필요, 에너지 이용에 필요, 유해산소로부터 세포를 보호하는데 필요<br>[비타민K] 정상적인 혈액응고에 필요, 뼈의 구성에 필요<br>[크롬] 체내 탄수화물, 지방, 단백질 대사에 관여<br>[몰리브덴] 산화·환원효소의 활성에 필요<br>[철] 체내 산소운반과 혈액생성에 필요, 에너지 생성에 필요<br>[판토텐산] 지방, 탄수화물, 단백질 대사와 에너지 생성에 필요<br>[엽산] 세포와 혈액생성에 필요, 태아 신경관의 정상 발달에 필요,<br>혈액의 호모시스테인 수준을 정상으로 유지하는데 필요<br>[요오드] 갑상선 호르몬의 합성에 필요, 에너지 생성에 필요, 신경발달에 필요",
+        "itemUse" : "1일 1회, 1회 내용액을 섭취 전 충분히 흔들어 준 후 노란색과 흰색 정제 총 2정과 함께 식중 또는 식후에 섭취하십시오.",
+        "itemStorage" : "수분, 열에 의해 품질에 영향을 받을 수 있으므로 직사광선을 피해 서늘한 곳에 보관, 유통하시고 개봉 후 가능한 빨리 섭취하십시오. 어린이의 손이 닿지 않는 곳에 보관하십시오.",
+        "itemPackaging" : "액상 600 ml + 정제 27.57 g [{액상 20 ml + 정제 919 mg(노란색:447 mg + 흰색:472 mg)} x 30 개입]"
+    },
+    {
+        "id": "DFLPV108",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "캔디류(식품)",
+        "itemName": {
+            "itemTitle" : "디에이덤 레몬 플러스 캔디",
+            "engName" : "DADERM LEMON PLUS CANDY"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166375237711816817.png",
+            "thumb2" : "./image/item/162554792027621324.png"
+        },
+        "itemIngredient": "비타민C 550mg",
+        "itemProperties": "",
+        "itemEffect": "",
+        "itemUse" : "",
+        "itemStorage" : "",
+        "itemPackaging" : ""
+    },
+    {
+        "id": "LTN",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "여성용품/화장품",
+        "itemName": {
+            "itemTitle" : "락티나폼(락티나폼 여성청결제)",
+            "engName" : "DADERM LEMON PLUS CANDY"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/LTNF280RRP.png"
+        },
+        "itemIngredient": "쑥추출물, 국화추출물, 락틱애씨드",
+        "itemProperties": "부드러운 거품타입",
+        "itemEffect": "",
+        "itemUse" : "락티나 폼을 2~3회 펌핑 후 바로 나오는 부드러운 거품으로 외음부를 세정해줍니다.",
+        "itemStorage" : "기밀용기,실온보관",
+        "itemPackaging" : "용량 : 280ml"
+    },
+    {
+        "id": "MCN",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "혼합음료(식품)",
+        "itemName": {
+            "itemTitle" : "모닝케어 (깨질듯한 숙취 모닝케어H, 더부룩한 숙취 모닝케어D, 푸석푸석한 숙취 모닝케어S)"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162615658344254313.png"
+        },
+        "itemIngredient": "[제품별 특징]<br> <br>깨질듯한 숙취 모닝케어H<br>- RSE@(쌀눈 대두 발효 추출물), 녹차카테킨추출물, 버드나무껍질추출분말 함유<br><br>더부룩한 숙취 모닝케어D<br>- RSE@(쌀눈 대두 발효 추출물), 허벌엣센스디에이, 양배추복합추출물 함유<br><br>푸석푸석한 숙취 모닝케어S<br>- RSE@(쌀눈 대두 발효 추출물), 히알루론산, 피쉬콜라겐 함유",
+        "itemProperties": "제품고유의 향미를 가지고 이미, 이취가 없는 연갈색의 액체",
+        "itemEffect": "",
+        "itemUse" : "권장섭취방법 : 숙취유형에 맞는 제품을 선택하여 음주전후 음용",
+        "itemStorage" : "직사광선을 피해 실온에 보관하시고, 뚜껑 개봉시 손 등을 다치거나 병이 깨질 수 있으므로 주의하시기 바랍니다.",
+        "itemPackaging" : "100ml 유리병"
+    },
+    {
+        "id": "BDJ50",
+        "topSearched": true,
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "캔디류(식품)",
+        "itemName": {
+            "itemTitle" : "박카스맛 젤리"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/167227576545889081.png"
+        },
+        "itemIngredient": "[제품별 특징]<br> 50g 한 봉 당 타우린 1,000mg 함유<br>비타민 B1, B2, B6 함유",
+        "itemProperties": "타원형의 박카스맛 젤리",
+        "itemEffect": "",
+        "itemUse" : "",
+        "itemStorage" : "직사광선을 피하여 온도 습도가 낮은 곳에 보관해주시고, 개봉 후 가급적 빨리 드십시오.<br>30ºC 이하에서 보관, 하절기 직사광선을 피해주세요.",
+        "itemPackaging" : "1EA : 50g<br>1CASE : 8EA<br>1BOX : 40EA"
+    },
+    {
+        "id":"IBGC",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "화장품",
+        "itemName": {
+            "itemTitle" : "비겐크림톤",
+            "engName" : "Bigen Cream Tone"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/8.png"
+        },
+        "itemIngredient": "p-페닐렌디아민, 레조시놀, m-아미노페놀, 과산화수소 등",
+        "itemProperties": "크림",
+        "itemEffect": "모발의 염모 <br>G(밝은 밤색) <br>4G(자연 밤색) <br>5G(진한 밤색) <br>6G(자연 갈색) <br>7G(자연흑갈색)",
+        "itemUse" : "제1제 1 g(mL)에 대하여 제2제 1 g(mL)의 비율로 사용 직전에 잘 섞은 후 모발에 균등히 바른다. 25~30 분 후에 미지근한 물로 잘 헹군 후 비누나 샴푸로 깨끗이 씻고 마지막에 따뜻한 물로 충분히 헹군다. 용량은 모발의 양에 따라 적절히 증감한다.",
+        "itemStorage" : "기밀용기, 실온(1~30℃)보관.",
+        "itemPackaging" : "40g X 2/카톤, 60g X 2/카톤"
+    },
+    {
+        "id": "BGCS",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "화장품",
+        "itemName": {
+            "itemTitle" : "비겐크림톤 빠른염색"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/hayazome001.png"
+        },
+        "itemIngredient": "m-아미노페놀 , p-아미노페놀, p-페닐렌디아민, 레조시놀, 과산화수소 등",
+        "itemProperties": "크림",
+        "itemEffect": "모발의 염모 <br>3(밝은 밤색) <br>4(자연 밤색) <br>5(진한 밤색) <br>6(자연 갈색) <br>7(자연흑갈색)",
+        "itemUse" : "제1제 1 g(mL)에 대하여 제2제 1 g(mL)의 비율로 사용 직전에 잘 섞은 후 모발에 균등히 바른다. 25~30 분 후에 미지근한 물로 잘 헹군 후 비누나 샴푸로 깨끗이 씻고 마지막에 따뜻한 물로 충분히 헹군다. 용량은 모발의 양에 따라 적절히 증감한다.",
+        "itemStorage" : "기밀용기, 실온(1~30℃)보관.",
+        "itemPackaging" : "40g X 2/카톤"
+    },
+    {
+        "id": "BG",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "화장품",
+        "itemName": {
+            "itemTitle" : "새로나온비겐",
+            "engName" : "Bigen"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/3bigen.png"
+        },
+        "itemIngredient": "황산p-페닐렌디아민, 황산m-아미노페놀, 과탄산나트륨 등",
+        "itemProperties": "분말",
+        "itemEffect": "모발의 염모<br>새로나온비겐 흑색(흑색)<br>새로나온비겐비 자연흑갈색(자연흑갈색)<br>새로나온비겐씨 자연갈색(자연갈색)",
+        "itemUse" : "이 제품 5g을 물 50ml에 용해하고 두발에 바른다. 약 30분 후 미지근한 물로 잘 헹군 후 비누나 샴푸로 깨끗이 씻는다.",
+        "itemStorage" : "기밀용기",
+        "itemPackaging" : "5g / 병"
+    },
+    
+    {
+        "id": "ILOCB28",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "혼합음료(식품)",
+        "itemName": {
+            "itemTitle" : "아일로 타입1콜라겐 비오틴 앰플 28일분"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166252842041919410.png"
+        },
+        "itemIngredient": "정제수, 오렌지농축액(이스라엘산), 생선콜라겐(생선젤라틴:중국산), 프락토올리고당, 생선콜라겐펩타이드(생선비늘:중국산), 이소말토올리고당, 비타민C, 레몬농충액(이스라엘산), 구연산, 엘라스틴가수분해물, 오렌지향혼합제제[향료(주정, 트리아세틴, 오렌지향1, 오렌지향2, 자당지방산에스테르)], 구연산삼나트륨, 효소처리스테비아, 잔탄검, 황금혼합추출물, 아미노산혼합제제[뷰미노콤플렉스(글리신, L-라이신염산염, L-프롤린, L-알라닌, L-아르지닌)], 비오틴(프랑스산), 히알루론산, 우유단백질",
+        "itemProperties": "고유의 향미가 있고 이미, 이취가 없는 진한 노란 주황색의 액상",
+        "itemEffect": "",
+        "itemUse" : "1일 1회, 1회 1병(25ml)을 흔들어서 섭취하십시오.",
+        "itemStorage" : "직사광선을 피하고, 실온에 보관 유통하십시오.",
+        "itemPackaging" : "25ml x 28병 (700ml)"
+    },
+    {
+        "id": "ILOW30",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "혼합비타민제",
+        "itemName": {
+            "itemTitle" : "아일로 화이타치온"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166252935647429867.png"
+        },
+        "itemIngredient": "건조효모(에스토니아산), 비타민C, 결정포도당, 혼합유당[유당(미국산), 덱스트린], 에리스리톨, 혼합제제(트레할로스, 덱스트린, 변성전분, 합성향료, 천연향료), 토마토농축추출물분말(미국산), 효소처리스테비아, 비타민E혼합제제(dl-α-토코페릴아세테이트, 변성전분, 덱스트린, 이산화규소), 이산화규소, DL-사과산, 카복시메틸셀룰로스나트륨, 아미노산혼합제제[뷰미노콤플렉스(글리신, L-라이신염산염, L-프롤린, L-알라닌, L-아르지닌)]",
+        "itemProperties": "고유의 향미가 있고 이미, 이취가 없는 밝은 회황색의 분말",
+        "itemEffect": "",
+        "itemUse" : "1일 1회, 1회 1포(4 g)를 섭취하십시오.",
+        "itemStorage" : "직사광선을 피하고, 실온에 보관 유통하십시오.",
+        "itemPackaging" : "4g x 30포 (120g)"
+    },
+    {
+        "id": "JGY200",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "화장품",
+        "itemName": {
+            "itemTitle" : "질경이 에코아 워시 그린 젤"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/157310191187267615.png"
+        },
+        "itemIngredient": "정제수, 녹차수, 글리세린, 코코-베타인, 잔탄검, 소듐클로라이드, 우스니아추출물, 초피나무열매추출물, 할미꽃추출물, 다마스크장미꽃수, 병풀추출물, 프로판다이올, 겐티아나뿌리추출물, 컴프리잎추출물, 오렌지껍질오일, 베르가모트오일, 라벤더오일, 팔마로사오일, 펜틸렌글라이콜, 센티드제라늄오일, 포트마리골드꽃, 호장근뿌리추출물, 황금추출물, 시트릭애씨드, 글루코오스, 녹차추출물, 도둑놈의지팡이뿌리추출물, 베타인, 스페인감초뿌리추출물, 약모밀추출물 , 은행나무잎추출물, 참당귀뿌리추출물, 카테츄잎/목부가루, 코치닐선인장열매추출물, 월계수잎추출물, 로즈마리잎추출물, 마트리카리아꽃추출물, 페퍼민트잎",
+        "itemProperties": "젤타입",
+        "itemEffect": "민감한 피부를 위한 젤타입 y존 유기농 여성 청결제",
+        "itemUse" : "손에 적당량을 덜어 외음부에 부드럽게 클렌징한 후 미온수로 깨끗하게 헹구어 줍니다.",
+        "itemStorage" : "",
+        "itemPackaging" : "200ml"
+    },
+    {
+        "id": "JGYF150",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "화장품",
+        "itemName": {
+            "itemTitle" : "질경이 에코아 워시 그린 폼"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/157310196955794676.png"
+        },
+        "itemIngredient": "정제수, 녹차수, 글리세린, 코코-베타인, 소듐클로라이드, 우스니아추출물, 초피나무열매추출물, 할미꽃추출물, 다마스크장미꽃수, 병풀추출물, 프로판다이올, 겐티아나뿌리추출물, 컴프리잎추출물, 오렌지껍질오일, 베르가모트오일, 라벤더오일, 팔마로사오일, 펜틸렌글라이콜, 센티드제라늄오일, 포트마리골드꽃, 시트릭애씨드, 호장근뿌리추출물, 황금추출물, 글루코오스, 녹차추출물, 도둑놈의지팡이뿌리추출물, 베타인, 스페인감초뿌리추출물, 약모밀추출물, 은행나무잎추출물, 참당귀뿌리추출물, 카테츄잎/목부가루, 코치닐선인장열매추출물, 월계수잎추출물, 로즈마리잎추출물, 마트리카리아꽃추출물, 페퍼민트잎",
+        "itemProperties": "폼타입",
+        "itemEffect": "민감한 피부를 위한 젤타입 y존 유기농 여성 청결제",
+        "itemUse" : "손에 적당량을 덜어 외음부에 부드럽게 클렌징한 후 미온수로 깨끗하게 헹구어 줍니다.",
+        "itemStorage" : "",
+        "itemPackaging" : "150g"
+    },
+    {
+        "id": "NNSP102",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "화장품",
+        "itemName": {
+            "itemTitle" : "파티온 노스카나인 스팟 패치",
+            "engName" : "FATION NOSCA9 SPOT PATCH"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/167176761540726517.png"
+        },
+        "itemIngredient": "Salicylic acid 0.2%, Madecassoside, Niacinamide",
+        "itemProperties": "",
+        "itemEffect": "",
+        "itemUse" : "",
+        "itemStorage" : "",
+        "itemPackaging" : ""
+    },
+    {
+        "id": "NNJPS50",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "화장품",
+        "itemName": {
+            "itemTitle" : "파티온 노스카나인 잡티 프루프 선크림",
+            "engName" : "FATION NOSCA9 SPOT PROOF SUN CREAM"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166202477320687939.png"
+        },
+        "itemIngredient": "Heparin RX Complex™ 10,000 ppm",
+        "itemProperties": "",
+        "itemEffect": "피부의 미백에 도움을 준다. 피부의 주름개선에 도움을 준다. 자외선으로부터 피부를 보호한다. (SPF50+, PA++++)",
+        "itemUse" : "본 품 적당량을 취해 피부에 골고루 펴 바른다.",
+        "itemStorage" : "",
+        "itemPackaging" : ""
+    },
+    {
+        "id": "NNCW500",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "화장품",
+        "itemName": {
+            "itemTitle" : "파티온 노스카나인 클렌징 워터",
+            "engName" : "FATION NOSCA9 CLEANSING WATER"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166208031190760528.png"
+        },
+        "itemIngredient": "Heparin RX Complex™",
+        "itemProperties": "",
+        "itemEffect": "",
+        "itemUse" : "",
+        "itemStorage" : "",
+        "itemPackaging" : ""
+    },
+    {
+        "id": "NNCG200",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "화장품",
+        "itemName": {
+            "itemTitle" : "파티온 노스카나인 클렌징 젤",
+            "engName" : "FATION NOSCA9 CLEANSING GEL"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166208047243398429.png"
+        },
+        "itemIngredient": "Heparin RX Complex™",
+        "itemProperties": "",
+        "itemEffect": "",
+        "itemUse" : "",
+        "itemStorage" : "",
+        "itemPackaging" : ""
+    },
+    {
+        "id": "DMLR",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "화장품",
+        "itemName": {
+            "itemTitle" : "파티온 더마 모이스처 립밤 로지",
+            "engName" : "FATION DERMA MOISTURE LIP BALM ROSY"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/16729029990122148.png"
+        },
+        "itemIngredient": "",
+        "itemProperties": "",
+        "itemEffect": "",
+        "itemUse" : "",
+        "itemStorage" : "",
+        "itemPackaging" : ""
+    },
+    {
+        "id": "RFRBM",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "화장품",
+        "itemName": {
+            "itemTitle" : "파티온 리얼 핏 쌀겨 브라이트닝 마스크",
+            "engName" : "FATION REAL FIT RICE BRAN BRIGHTENING MASK"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/166208509953488639.png"
+        },
+        "itemIngredient": "쌀겨추출물, 나이아신아마이드",
+        "itemProperties": "",
+        "itemEffect": "피부의 미백에 도움을 준다.",
+        "itemUse" : "",
+        "itemStorage" : "본품을 피부에 붙이고 10~20분 후 지지체를 제거한 다음 남은 제품을 골고루 펴 바른다.",
+        "itemPackaging" : ""
+    },
+    
+    {
+        "id": "HTEC1",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "체외진단의료기기",
+        "itemName": {
+            "itemTitle" : "해피타임 얼리체크",
+            "engName" : "HAPPYTIME EARLY CHECK"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162578843333958979.png"
+        },
+        "itemIngredient": "마우스 항 HCG 단일클론항체 골드접합체<br>마우스 면역글로불린지(Ig G) 골드접합체<br>마우스 항 HCG 단일클론항체<br>산양 항 마우스 면역글로불린지(IG G) 다중클론항체",
+        "itemProperties": "결과창과 소변 흡수막대, 손잡이가 있는 플라스틱 테스트기",
+        "itemEffect": "사람의 소변에서 HCG(Human chorionic gonadotropin)를 면역크로마토그래피법으로 정성하여 임신 여부를 확인하는데 도움을 주는 체외진단용 의료기기",
+        "itemUse" : "상세사항은 제품의 첨부문서를 참조하여 주시기 바랍니다.",
+        "itemStorage" : "미개봉, 2~30℃보관",
+        "itemPackaging" : "1Kit/갑(50갑X4/BOX)"
+    },
+    {
+        "id": "HTP",
+        "itemNew": "",
+        "itemCategory": "생활건강/화장품",
+        "itemClassify": "체외진단의료기기",
+        "itemName": {
+            "itemTitle" : "해피타임 플러스",
+            "engName" : "HAPPYTIME EARLY CHECK"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162578876441250201.png"
+        },
+        "itemIngredient": "항마우스면역글로불린지<br>마우스항HCG단일클론항체1<br>마우스항HCG단일클론항체2",
+        "itemProperties": "상단에 양성과 음성 결과 판정 기준이 표기된 결과표시창과 소변흡수부위에 분홍색 보호캡이 장착된 길 스틱형태의 백색 플라스틱키트",
+        "itemEffect": "뇨중 hCG검사를 통한 임신 진단",
+        "itemUse" : "흡수대를 흐르는 뇨 또는 용기에 수집된 뇨중에 5초 이상 적신 후 뚜껑을 닫고 3~5분 후 판독합니다. 상세사항은 제품의 첨부문서를 참조하여 주시기 바랍니다.",
+        "itemStorage" : "기밀용기, 실온보관(1~30℃)",
+        "itemPackaging" : "1Kit/갑(50갑X4/BOX)"
+    },
+    {
+        "id": "GGDORI",
+        "topSearched": true,
+        "itemNew": "신제품",
+        "itemCategory": "의약외품",
+        "itemClassify": "치약제",
+        "itemName": {
+            "itemTitle" :  "검가드 오리지널"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162578853838368773.png"
+        },
+        "itemIngredient": "글리시리진산이칼륨, 세틸피리디늄염화물수화물, 일불소인산나트륨, 토코페롤아세테이트, 판테놀 ",
+        "itemProperties": "무색~미황색의 불투명한 액제",
+        "itemEffect": "이를 희게 유지하고 튼튼하게 한다. 구강내를 청결히 유지한다. 구강내를 상쾌하게 한다. 불소에 의한 충치예방·구취를 제거한다. 심미효과를 높인다. 치은염, 치주염(치조농루)의 예방, 치주질환의 예방, 잇몸질환의 예방",
+        "itemUse" : "적당량(약10~15ml)을 입에 머금고 30초 정도 가글한 후 뱉어내고, 칫솔질에 의해 치아를 닦습니다.",
+        "itemStorage" : "기밀용기, 실온(1-30℃)보관",
+        "itemPackaging" : "750ml/병(12병/BOX), 380ml/병(24병/BOX)"
+    },
+    {
+        "id": "GGD",
+        "itemNew": "신제품",
+        "itemCategory": "의약외품",
+        "itemClassify": "치약제",
+        "itemName": {
+            "itemTitle" :  "검가드 치약"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162578852217981862.png"
+        },
+        "itemIngredient": "세틸피리디늄염화물, 일플루오르인산나트륨, 질산칼륨",
+        "itemProperties": "흰색의 페이스트제",
+        "itemEffect": "시린이 예방 및 감소, 감수성이 강한 치아(시린이)의 보호, 충치예방, 치태제거(안티프라그), 치은염, 치주염(치조농루)를 예방, 이를 희게 유지하고 튼튼하게 한다, 구강 내를 청결히 유지한다, 심미효과를 높인다.",
+        "itemUse" : "적당량을 칫솔에 묻혀 칫솔질에 의해 치아를 닦는다.",
+        "itemStorage" : "기밀용기, 실온(1~30℃)보관",
+        "itemPackaging" : "150g/개(24개/BOX)"
+    },
+    {
+        "id": "GEYE60",
+        "itemNew": "신제품",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "눈영양제",
+        "itemName": {
+            "itemTitle" :  "굿ː아이"
+        },
+        "itemImage": {
+            "thumb1" :  "./image/item/165164844196142119.png"
+        },
+        "itemIngredient": "1일 섭취량 당: <br>  루테인 16 mg<br>  지아잔틴 4 mg<br> 아스타잔틴 4 mg<br>  비타민A 700 ㎍ RAE(100%)<br>  비타민E 11 mg α-TE(100%)<br> ※( )안의 수치는 1일 영양성분기준치에 대한 비율임",
+        "itemProperties": "고유의 향미가 있고 이미, 이취가 없는 적색의 내용물을 함유한 투명한 갈색의 타원형 연질캡슐",
+        "itemEffect": "[루테인지아잔틴복합추출물20%] 노화로 인해 감소될 수 있는 황반색소밀도를 유지하여 눈건강에 도움을 줄 수 있음<br> [헤마토코쿠스추출물] 눈의 피로도 개선에 도움을 줄 수 있음<br> [비타민A] ①어두운 곳에서 시각 적응을 위해 필요②피부와 점막을 형성하고 기능을 유지하는데 필요③상피세포의 성장과 발달에 필요<br> [비타민E] 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요",
+        "itemUse" : "1일 1회, 1회 1캡슐을 물과 함께 섭취",
+        "itemStorage" : "직사광선을 받지 아니하는 서늘한 곳에서 보관 및 유통하시고, 어린이의 손에 닿지 않도록 주의하시기 바랍니다.",
+        "itemPackaging" : "30캡슐X2병/지함케이스(2개월분)"
+    },
+    {
+        "id": "GEYEA60",
+        "itemNew": "신제품",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "눈영양제",
+        "itemName": {
+            "itemTitle" : "굿ː아이 루테인지아잔틴&아스타잔틴"
+        },
+        "itemImage": {
+            "thumb1" :  "./image/item/165164897141958314.png"
+        },
+        "itemIngredient": "1일 섭취량 당: <br> 루테인 20.1348 mg<br> 지아잔틴 3.8652 mg<br>  아스타잔틴 8 mg<br> 비타민A 700 ㎍ RAE(100%)<br> 아연 8.5 mg(100%)<br> 비타민E(11 mg α-TE)(100%)<br> ※( )안의 수치는 1일 영양성분기준치에 대한 비율임",
+        "itemProperties": "고유의 향미가 있고 이미·이취가 없는 진한 빨강색의 점도가 있는 내용물을 함유한 갈흑색의 타원형 연질캡슐",
+        "itemEffect": "[루테인지아잔틴복합추출물] 노화로 인해 감소될 수 있는 황반색소밀도를 유지하여 눈 건강에 도움을 줄 수 있음<br> [헤마토코쿠스추출물] 눈의 피로도 개선에 도움을 줄 수 있음<br> [비타민A] 어두운 곳에서 시각 적응을 위해 필요, 상피세포의 성장과 발달에 필요, 피부와 점막을 형성하고 기능을 유지하는데 필요<br> [아연] 정상적인 면역기능에 필요, 정상적인 세포분열에 필요<br> [비타민E] 항산화작용을 하여 유해산소로부터 세포를 보호하는데 필요",
+        "itemUse" : "",
+        "itemStorage" : "",
+        "itemPackaging" : ""
+    },
+    {
+        "id": "GEYEO120",
+        "itemNew": "신제품",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "눈영양제",
+        "itemName": {
+            "itemTitle" :  "굿ː아이 루테인지아잔틴&알티지오메가3"
+        },
+        "itemImage": {
+            "thumb1" :  "./image/item/165164920743260140.png"
+        },
+        "itemIngredient": "1일 섭취량 당:<br> 루테인 18.18 mg<br>  지아잔틴 1.82 mg<br>  EPA와 DHA의 합 600 mg<br> 비타민A 700 ㎍ RAE(100 %)<br> 비타민E 11 mg α-TE(100 %)<br> ※( )안의 수치는 1일 영양성분기준치에 대한 비율임",
+        "itemProperties": "고유의 향미가 있고 이미·이취가 없는 적색의 점도가 있는 내용물을 함유한 갈색의 장방형 연질캡슐",
+        "itemEffect": "<dd>[루테인지아잔틴복합추출물] 노화로 인해 감소될 수 있는 황반색소밀도를 유지하여 눈 건강에 도움을 줄 수 있음<br> [EPA 및 DHA 함유 유지] ①혈중 중성지질 개선·혈행 개선·건조한 눈을 개선하여 눈 건강에 도움을 줄 수 있음<br> [비타민A] ①어두운 곳에서 시각 적응을 위해 필요②피부와 점막을 형성하고 기능을 유지하는데 필요③상피세포의 성장과 발달에 필요<br> [비타민E] ①항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요</dd>",
+        "itemUse" : "1일 1회, 1회 1캡슐을 물과 함께 섭취",
+        "itemStorage" : "직사광선을 받지 아니하는 서늘한 곳에서 보관 및 유통하시고, 어린이의 손에 닿지 않도록 주의하시기 바랍니다.",
+        "itemPackaging" : "60캡슐x2병/지함케이스(4개월분)"
+    },
+    {   "id": "GJITM240",
+        "itemNew": "신제품",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "기타",
+        "itemName": {
+            "itemTitle" :  "굿ː조인트 MSM"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/165164728373944377.png"
+        },
+        "itemIngredient": "1일 섭취량 당: <br> N-아세틸글루코사민(NAG) 500 mg <br> 디메틸설폰(MSM) 1,500 mg<br> 비타민D 3 ㎍(30%)<br> 칼슘 210 mg(30%)<br> ※( )안의 수치는 1일 영양성분기준치에 대한 비율임",
+        "itemProperties": "고유의 향미가 있고 이미, 이취가 없는 흰색 또는 탁한 흰색의 타원형 코팅 정제",
+        "itemEffect": "[엠에스엠(MSM, Methyl sulfonylmethane, 디메틸설폰)] 관절 및 연골건강에 도움을 줄 수 있음<br> [NAG(엔에이지, N-아세틸글루코사민, N-Acetylglucosamine)] 관절 및 연골 건강에 도움을 줄 수 있음<br> [비타민D]①칼슘과 인이 흡수되고 이용되는데 필요②뼈의 형성과 유지에 필요③골다공증발생 위험 감소에 도움을 줌<br> [칼슘]①뼈와 치아 형성에 필요②신경과 근육 기능 유지에 필요③정상적인 혈액응고에 필요④골다공증발생 위험 감소에 도움을 줌",
+        "itemUse" : "1일 2회, 1회 2정을 물과 함께 섭취",
+        "itemStorage" : "① 직사광선을 피해 서늘한 곳에 보관하시고, 어린이의 손이 닿지 않는 곳에 보관하십시오.② 제품 개봉 후에는 흡습이 일어날 수 있으니 반드시 밀봉하여 보관하십시오.",
+        "itemPackaging" : "120정x2병/지함케이스(4개월분"
+    },
+    {
+        "id": "GJITB120",
+        "itemNew": "신제품",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "기타",
+        "itemName": {
+            "itemTitle" : "굿ː조인트 보스웰리아"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/165164793718562716.png"
+        },
+        "itemIngredient": "1일 섭취량 당: <br>  N-아세틸글루코사민(NAG) 500 mg<br> 디메틸설폰(MSM) 1,500 mg<br> 비타민D 3 ㎍(30%)<br> 칼슘 210 mg(30%)<br> ※( )안의 수치는 1일 영양성분기준치에 대한 비율임",
+        "itemProperties": "고유의 향미가 있고 이미·이취가 없는 점박이를 포함한 흰노란색 장방형의 투명 제피정제",
+        "itemEffect": "[엠에스엠(MSM, Methyl sulfonylmethane, 디메틸설폰)] 관절 및 연골건강에 도움을 줄 수 있음<br> [NAG(엔에이지, N-아세틸글루코사민, N-Acetylglucosamine)] 관절 및 연골 건강에 도움을 줄 수 있음<br> [비타민D]①칼슘과 인이 흡수되고 이용되는데 필요②뼈의 형성과 유지에 필요③골다공증발생 위험 감소에 도움을 줌<br> [칼슘]①뼈와 치아 형성에 필요②신경과 근육 기능 유지에 필요③정상적인 혈액응고에 필요④골다공증발생 위험 감소에 도움을 줌",
+        "itemUse" : "1일 1회, 1회 2정을 물과 함께 섭취",
+        "itemStorage" : "1. 고온다습한 곳과 직사광선을 피하여 습기가 적고 건조한 곳에 보관하십시오. 2. 개봉 후에는 공기의 노출을 최대한 차단하여 보관 하십시오. 3. 영유아 및 어린이의 손에 닿지 않는 곳에 보관하십시오.",
+        "itemPackaging" : "60정x2갑/지함케이스(2개월분)"
+    },
+    {
+        "id":  "NOQS10",
+        "itemNew": "신제품",
+        "itemCategory": "일반의약품",
+        "itemClassify": "소염/해열/진통제",
+        "itemName": {
+            "itemTitle" : "나프원큐에스연질캡슐(나프록센)",
+            "engName" : "NapOne-QS Soft Cap.(Naproxen)"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/165689368909770514.png"
+        },
+        "itemIngredient": "이 약 1캡슐 중 나프록센(Naproxen) 250mg",
+        "itemProperties": "투명한 무색 내지 파란색 액이 든 진한 파란색의 장방형 연질캡슐",
+        "itemEffect": "1. 주효능효과 류마티양 관절염, 골관절염(퇴행성 관절질환), 강직성 척추염, 건염[힘줄염], 급성 통풍, 월경곤란증  2. 다음 질환에도 사용할 수 있습니다. 활액[윤활]낭염, 골격근장애(염좌[삠], 좌상[타박상], 외상[상처], 요천통[허리통증]), 수술 후 동통[통증], 편두통, 발치[이를 뽑음]후 동통[통증]",
+        "itemUse" : "1. 류마티양 관절염, 골관절염, 강직성 척추염<br> 성인: 나프록센으로서 1회 250~500㎎ 1일 2회(12시간마다) 경구투여하십시오.[복용하십시오.] <br> <br> 2. 급성통풍<br> 성인: 나프록센으로서 초회량[처음 복용량]으로 750㎎을 경구투여하고 발작이 소실[없어짐]될 때까지 8시간간격으로 250㎎을 경구 투여하십시오. [복용하십시오.]<br> <br> 3. 골격근장애, 수술후 동통[통증], 발치[이를 뽑음]후 동통[통증], 월경곤란증, 건염[힘줄염], 활액[윤활]낭염<br> 성인: 나프록센으로서 초회량[처음 복용량]으로 500㎎을 경구투여한 후 6~8시간간격 으로 250㎎씩 투여하십시오. 1일 총용량이 1,250㎎을 초과하지 않도록 하십시오.<br> <br> 4. 편두통<br> 성인 : 나프록센으로서 초회량[처음 복용량]으로 750㎎을 경구투여 하십시오. [복용하십시오.] 필요하면 1일 250-500㎎을 더 투여할 수 있으며 초회량[처음 복용량]의 투여 30분후에 투여하십시오.<br> 1일 총용량이 1250㎎을 초과하지 않도록 하십시오.<br> 연령[나이], 증상에 따라 적절히 증감하십시오.",
+        "itemStorage" : "기밀용기, 실온(1~30℃)보관",
+        "itemPackaging" : "10캡슐/PTP"
+    },
+    {
+        "id": "NOS",
+        "itemNew": "신제품",
+        "itemCategory": "일반의약품",
+        "itemClassify": "조직세포기능용의약품",
+        "itemName": {
+            "itemTitle" : "노스카나겔",
+            "engName" : "Noscarna Gel"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/158372865479416521.png"
+        },
+        "itemIngredient": "이 약 1g 중<br> <br> 주성분 : 헤파린나트륨(KP) 500I.U.<br> 주성분 : 알란토인(USP) 50mg<br> 주성분 : 덱스판테놀(USP) 100mg<br> 첨가제(보존제) : 파라옥시벤조산프로필(KP) 1mg",
+        "itemProperties": "흰색의 불투명한 겔제",
+        "itemEffect": "상처 조직의 치료 후 처치<br> (비대성·켈로이드성 흉터, 여드름 흉터, 수술 흉터)",
+        "itemUse" : "· 성인 및 2세 이상의 소아 : 상처 및 주변피부에 1일 수회 적용하여 <br> 가볍게 마사지 합니다.<br> · 성인의 경우, 비후성 흉터에 대해서는 전날 두껍게 바르고 붕대로 고정하여,<br> 하루 저녁 동안 적용할 수도 있습니다.",
+        "itemStorage" : "기밀용기, 실온(1~30℃) 보관",
+        "itemPackaging" : "20g/튜브(10갑X24/BOX)<br> 10g/튜브(10갑X45/BOX)"
+    },
+    {
+        "id":  "NSQ20M",
+        "itemNew": "신제품",
+        "itemCategory": "일반의약품",
+        "itemClassify": "이비과용제",
+        "itemName": {
+            "itemTitle" : "노즈원큐 나잘스프레이(멘톨향)"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/163115311600212605.png"
+        },
+        "itemIngredient": "이 약 1mL 중 자일로메타졸린염산염 1mg, L-카르보시스테인 10mg<br> 첨가제(보존제): 벤잘코늄염화물액 0.0002mL<br> <br> <br> ",
+        "itemProperties": "일정량씩 분무되는 플라스틱 용기에 든 멘톨향의 무색 내지 거의 무색의 투명한 액",
+        "itemEffect": "감기,비염, 부비동염, 수술로 인한 비강 염증에 의한 다음 증상의 완화 : 코막힘, 콧물",
+        "itemUse" : "12세 이상의 소아 또는 성인 : 1일 3회, 1회 1번 각 비강(코안)에 분무한다(뿌린다).",
+        "itemStorage" : "기밀용기, 실온(15~25℃)보관",
+        "itemPackaging" : "20mL/병"
+    },
+    {
+        "id": "NSQ20",
+        "itemNew": "신제품",
+        "itemCategory": "일반의약품",
+        "itemClassify": "이비과용제",
+        "itemName": {
+            "itemTitle" : "노즈원큐 나잘스프레이(무향)"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/163115315151570132.png"
+        },
+        "itemIngredient": "이 약 1mL 중 자일로메타졸린염산염 1mg, L-카르보시스테인 10mg<br> 첨가제(보존제): 벤잘코늄염화물액 0.0002mL<br> <br><br>",
+        "itemProperties": "일정량씩 분무되는 플라스틱 용기에 든 무향의 무색 내지 거의 무색의 투명한 액",
+        "itemEffect": "감기,비염, 부비동염, 수술로 인한 비강 염증에 의한 다음 증상의 완화 : 코막힘, 콧물",
+        "itemUse" : "12세 이상의 소아 또는 성인 : 1일 3회, 1회 1번 각 비강(코안)에 분무한다(뿌린다).",
+        "itemStorage" : "기밀용기, 실온(15~25℃)보관",
+        "itemPackaging" : "20mL/병"
+
+    },
+    {
+        "id": "DSN",
+        "itemNew": "신제품",
+        "itemCategory": "의약외품",
+        "itemClassify": "보건용마스크",
+        "itemName": {
+            "itemTitle" : "더스논3패널황사방역마스크KF94(소형, 대형)"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/1625789461066539.png",
+            "thumb2" : "./image/item/162503575747735233.png"
+        },
+        "itemIngredient": "부직포(겉감,안감), 폴리프로필렌 필터 부직포(필터), 폴리우레탄폼(코스펀지), 피복이중철심(코편), 나일론끈(머리끈)",
+        "itemProperties": "4겹의 부직포로 구성된 백색 마스크로서 측면에는 탄력성이 있는 밴드가 있다.",
+        "itemEffect": "황사, 미세먼지 등 입자성 유해물질 및 감염원으로부터 호흡기를 보호",
+        "itemUse" : "1. 호흡기와 맞닿는 면체가 오염되지 않았는지 확인한다. 2. 코편이 있는 부분을 위로하여 잡고 코와 입을 가리도록 착용한다. 3. 머리끈을 귀에 걸고 끈 조절을 하여 위치를 고정시킨다. 4. 틈이 없는지 확인하여 안면에 완전히 밀착되도록 한다",
+        "itemStorage" : "실온보관",
+        "itemPackaging" : "개별포장 5개입"
+    },
+    {
+        "id":"DOQS10",
+        "itemNew": "신제품",
+        "itemCategory": "일반의약품",
+        "itemClassify": "소염/해열/진통제",
+        "itemName": {
+            "itemTitle" : "덱스원큐에스연질캡슐(덱시부프로펜)",
+            "engName" : "DexOne-QS Soft Cap.(Dexibuprofen)"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/165689349601770444.png"
+        },
+        "itemIngredient": "이 약 1캡슐 중 덱시부프로펜(Dexibuprofen) 300mg",
+        "itemProperties": "투명한 무색 내지 연한 청록색의 액이 든 연한 청록색의 장방형 연질캡슐",
+        "itemEffect": "1. 만성 다발성 관절염, 류마티스관절염<br>  2. 관절증<br>  3. 강직척추염<br>  4. 외상 및 수술 후 통증성 부종(부기) 또는 염증<br> 5. 염증, 통증 및 발열을 수반하는 감염증의 치료보조",
+        "itemUse" : "성인: 덱시부프로펜으로서 1회 300 mg을 1일 2～4회 경구투여한다.(복용한다) 단, 1일 덱시부프로펜으로서 1,200 mg을 초과하지 않는다.",
+        "itemStorage" : "기밀용기, 실온보관 (1~30℃)",
+        "itemPackaging" : "10캡슐/PTP"
+
+    },
+    {
+        "id":  "DPS",
+        "itemNew": "신제품",
+        "itemCategory": "일반의약품",
+        "itemClassify": "치과구강용약",
+        "itemName": {
+            "itemTitle" : "덴파사캡슐",
+            "engName" : "Denpasa Cap."
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/162622640828778106.png"
+        },
+        "itemIngredient": "이 약 1캡슐 중<br>  아스코르브산 150mg<br> 리소짐염산염 30mg<br> 토코페롤에세테이트2배산 10mg<br> 카르바조크롬 2mg<br> ",
+        "itemProperties": "엷은 주황색의 분말이 든 암청색의 경질캡슐제",
+        "itemEffect": "치주치료 후 치은염, 경·중등도 치주염의 보조치료",
+        "itemUse" : "성인 1회 1캡슐, 1일 3회 식후에 복용하십시오.",
+        "itemStorage" : "밀폐용기,실온(1~30℃) 보관",
+        "itemPackaging" : "10캡슐(10캡슐/PTP), 120캡슐(10캡슐/PTP×12)"
+    },
+    {
+        "id": "DDN",
+        "itemNew": "신제품",
+        "itemCategory": "일반의약품",
+        "itemClassify": "기타의 화학요법제",
+        "itemName": {
+            "itemTitle" : "도다나겔(티로트리신)",
+            "engName" : "Dodana Gel"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/158371724017618904.png"
+        },
+        "itemIngredient": "이 약 1g 중<br> 주성분 : 티로트리신(KP) 1mg<br> 첨가제(보존제) : 세틸피리디늄염화물수화물 0.5mg",
+        "itemProperties": "미황색의 투명한 겔",
+        "itemEffect": "티로트리신 감수성 균에 감염된 외상(예, 찰과상), 곪은 피부감염의 개선",
+        "itemUse" : "감염된 부위에 1일 2 ∼ 3회 적당량을 바른다. 가벼운 상처나 점막 부위의 감염에는 드레싱이 필요하지 않다. 심한 삼출성 상처에는 드레싱이 권장되며 이 약을 1 ～ 2회 사용시마다 드레싱을 교체하는 것이 권장된다.",
+        "itemStorage" : "기밀용기, 실온(1~30℃) 보관",
+        "itemPackaging" : "8g : 24g/튜브 X 10Case/ Box"
+    },
+    {
+        "id": "PRBD60",
+        "itemNew": "신제품",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "기타",
+        "itemName": {
+            "itemTitle" : "동아 덴마크 프로바이오틱스"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/PRBD60small.png"
+        },
+        "itemIngredient": "1일 섭취량 당 함량: 프로바이오틱스 수 1,000,000,000 CFU",
+        "itemProperties": "상하부 흰색의 캡슐",
+        "itemEffect": "[프로바이오틱스] 유산균 증식 및 유해균 억제ㆍ배변활동 원활ㆍ장 건강에 도움을 줄 수 있음",
+        "itemUse" : "1일 1회, 1회 1캡슐을 충분한 물과 함께 섭취하십시오.",
+        "itemStorage" : "실온보관 본 용기는 내부에 흡습제가 포함된 특수 용기로서 캡슐, 정제 등 건조한 식품보존을 위한 전용 용기입니다. 사용 후 반드시 뚜껑을 잘 닫고 건조한 곳에 보관하시고 다른 용도로 재사용하지 마시기 바랍니다.",
+        "itemPackaging" : "30캡슐x2병/갑(2개월분)"
+    },
+    {
+        "id":  "PRB30",
+        "itemNew": "신제품",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "기타",
+        "itemName": {
+            "itemTitle" : "동아 패밀리솔루션 유산균"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/PRB30SMALL.png"
+        },
+        "itemIngredient": "1일 섭취량 당: 프로바이오틱스 수 300,000,000 CFU",
+        "itemProperties": "미황색의 분말",
+        "itemEffect": "[프로바이오틱스] 유산균 증식 및 유해균 억제ㆍ배변활동 원활ㆍ장 건강에 도움을 줄 수 있음",
+        "itemUse" : "1일 1회, 1회 1포씩 섭취하십시오.",
+        "itemStorage" : "직사광선을 피해 서늘한 곳에 보관하시고, 어린이 손에 닿지 않도록 보관하십시오.",
+        "itemPackaging" : "30포/갑"
+    },
+    {
+        "id": "PRB300",
+        "itemNew": "신제품",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "기타",
+        "itemName": {
+            "itemTitle" : "동아 프로바이오틱스"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/165164870704848328.png"
+        },
+        "itemIngredient": "1일 섭취량 당: 프로바이오틱스 수 300,000,000 CFU",
+        "itemProperties": "미황색의 분말로 이미, 이취가 없다.",
+        "itemEffect": "[프로바이오틱스] 유산균 증식 및 유해균 억제ㆍ배변활동 원활ㆍ장 건강에 도움을 줄 수 있음",
+        "itemUse" : "1일 1회, 1회 1포씩 섭취하십시오.",
+        "itemStorage" : "직사광선을 피해 서늘한 곳에 보관하시고, 어린이 손이 닿지 않도록 보관하십시오.",
+        "itemPackaging" : "10포/팩"
+    },
+    {
+        "id":  "PRB90",
+        "itemNew": "신제품",
+        "itemCategory": "건강기능식품",
+        "itemClassify": "기타",
+        "itemName": {
+            "itemTitle" : "동아 혼합유산"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/11-5.png"
+        },
+        "itemIngredient": "1일 섭취량 당 : 프로바이오틱스 수 300,000,000 CFU",
+        "itemProperties": "미색의 분말로 이미, 이취가 없음",
+        "itemEffect": "[프로바이오틱스] 유산균 증식 및 유해균 억제ㆍ배변활동 원활ㆍ장 건강에 도움을 줄 수 있음",
+        "itemUse" : "1일 1회, 1회 1포씩 섭취하십시오.",
+        "itemStorage" : "직사광선을 피해 서늘한 곳에 보관하시고, 어린이 손이 닿지 않도록 보관하십시오.",
+        "itemPackaging" : "30포 X 3케이스/케이스(20케이스/BOX)"
+    },
+    {
+        "id":  "PTNOL50",
+        "itemNew": "신제품",
+        "itemCategory": "일반의약품",
+        "itemClassify": "기타의 외피용약",
+        "itemName": {
+            "itemTitle" : "동아제약D-판테놀연고",
+            "engName" : "Dexpanthenol"
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/167263529575924239.png"
+        },
+        "itemIngredient": "이 약 1g 중 D-판테놀 50mg",
+        "itemProperties": "이 약은 라놀린 냄새가 나는 미백색의 불투명한 연고제이다.",
+        "itemEffect": "상처, 화상, 찢긴 상처(수유기 중의 유두균열(갈라짐) 등), 욕창, 급ㆍ만성 피부염, 습진, 피부궤양, 기저귀 발진, 햇볕에 탄 데(일광피부염)의 보조치료",
+        "itemUse" : "1) 상처를 청결히 한 후 환부에 1일 1-2회 바른다. <br> 2) 수유기 중의 유두균열에는 매 수유 직후 유두에 바른다.",
+        "itemStorage" : "기밀용기, 25℃ 이하 보관",
+        "itemPackaging" : "50g / 튜브 (10갑 X 12 / BOX)"
+    },
+    {
+        "id": "DMDG",
+        "itemNew": "신제품",
+        "itemCategory": "일반의약품",
+        "itemClassify": "치과구강용약",
+        "itemName": {
+            "itemTitle" : "드라이문트 겔",
+            "engName" : "DRY MUND Gel."
+        },
+        "itemImage": {
+            "thumb1" : "./image/item/dmdg-1.png"
+        },
+        "itemIngredient": "이 약 100g 중 염화나트륨(KP) 85mg (나트륨으로서 33.439mg), 염화칼륨(KP) 120mg(칼륨으로서 62.938mg), 염화칼슘수화물(KP) 20mg (칼슘으로서 5.452mg), 염화마그네슘(USP) 5mg (마그네슘으로서 0.598mg)<br> 첨가제(보존제): 파라옥시벤조산메틸 66mg, 파라옥시벤조산프로필 33mg",
+        "itemProperties": "미황색의 겔제",
+        "itemEffect": "1. 인후(목구멍)와 구강(입안)의 건조증(마름증)",
+        "itemUse" : "1회 적당량을 매일 수회 바른다.",
+        "itemStorage" : "기밀용기, 실온(1~30℃)보관",
+        "itemPackaging" : "50g/튜브"
+    }
+]
