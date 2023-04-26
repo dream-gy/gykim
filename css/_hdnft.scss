@@ -1,0 +1,61 @@
+/* header 영역 */
+header {
+  position: fixed;
+  width: 100%;
+  transition: all 0.5s;
+  top: 0;
+  &.affix {
+    //background: linear-gradient(rgba(222, 190, 92, 0.2), rgba(252, 220, 149, 0.02));
+    background: #fff;
+    box-shadow: 5px 0px 10px rgba(166,173,201,.2);
+    z-index: 9999;
+  }
+  .logo {
+    padding: 1.5rem 0;
+    @include tablet{
+      padding: 1.25rem 0;
+    }
+    a {
+      display: block;
+      width: 8rem;
+      height: 2.25rem;
+      @include desktop{
+        width: 7.1111rem;
+        height: 2rem;
+      }
+      @include tablet{
+        width: 6.7142rem;
+        height: 1.857rem;
+      }
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+footer {
+  @include tablet{
+    margin-top: 8.75rem;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0 50px;
+    @include tablet{
+      display: block;
+      text-align: center;
+    }
+    
+  }
+  p {
+    @include point-tit;
+  }
+  .copyright {
+    font-size: 0.8rem;
+    color: $grayAb;
+    font-weight: 100;
+  }
+}
