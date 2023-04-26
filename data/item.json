@@ -1,0 +1,292 @@
+[
+   {
+    "id":"dapharm",
+    "type": "적응형웹사이트",
+    "title": "동아제약",
+    "thumbnail":"./image/project-dapharm.png",
+    "url":"#",
+    "mainImage": "./image/project-dapharm.png",
+    "info":"일반적인 기업형 웹사이트를 제작하고자 대한민국의 의약제품 제조사인 동아제약을 선택하였습니다. 기존의 올드했던 웹사이트를 탈피하고 요즘 트렌드에 맞게 원페이지 구조로 디자인하였습니다. 그리고 가능한 내부의 모든 서브페이지까지 링크를 연결 할 수 있도록 메인을 포함하여 총 17개의 페이지를 만들었습니다. 첫 제작으로 만든 포트폴리오인 만큼 미숙하고 오래걸렸지만 서브페이지까지 제작 할 수 있어서 좋은 경험이 되었습니다.",
+    "preiod" : "3달_2022.11~2022.01",
+    "page": "Main + Sub *16",
+    "size": "적응형_PC : min-width = 1400px",
+    "content":{
+      "cont01": {
+        "subtitle": "video Full page",
+        "subcont": "동영상을 활용한 웹 메인 홈페이지 제작을 해보았습니다. 간단한 영상편집으로 직접제작하여 image의 폴더안에 파일을 연결하였습니다. 브라우저 크기 뿐만아니라 배율이 변경되어도 항상 같은 비율로 보이도록 신경써야한다는 것을 알게되었습니다.",
+        "link": {
+          "list01":{
+            "linkId": "lion/#cont03",
+            "name": "유튜브 영상을 배경으로 사용 및 제어"
+          }
+        },
+        "image": {
+           "url01": "./image/sub/dapharm/detail01-01.png",
+           "url02": "./image/sub/dapharm/detail01-02.png"
+        }
+      },
+      "cont02": {
+        "subtitle": "약국 검색 구현",
+        "subcont": "해당 브랜드와 제품, 도/시를 선택하여 검색할 수 있는 카테고리별 검색 화면입니다. 하지만 정말 해당 브랜드의 제품들이 있냐 없냐 검색은 안됩니다. 도와 시만 구별하여 결과가 나타납니다. 사용자가 어느 지역을 검색해도 결과가 나왔으면 하는 바람에 데이터를 만들어내느라 많은 시간이 걸렸습니다. 총 약국의 수가 2546개입니다.",
+        "link": {
+          "list01":{
+            "linkId": "dapharm/#cont04",
+            "name": "제품 검색 구현"
+          },
+          "list02":{
+            "linkId": "myPortfolio/#cont02",
+            "name": "Jquery를 이용한 AJAX연결"
+          }
+        },
+        "image": {
+           "url01": "./image/sub/dapharm/detail02-01.png",
+           "url02": "./image/sub/dapharm/detail02-02.png"
+        }
+      },
+      "cont03": {
+        "subtitle": "자체 슬라이드 구현",
+        "subcont": "총 슬라이더 5개로 구성되어 있습니다. 슬라이더 라이브러리가 아닌 직접 슬라이드를 구현해 보고 싶었습니다. 유튜브와 인터넷을 통해 보고 배우며 만들어 보았습니다.",
+        "link": {
+          "list01":{
+            "linkId": "lionCffee#cont01",
+            "name": "bxslider 슬라이더 플러그인 사용"
+          },
+          "list02": {
+            "linkId": "dental/#cont02",
+            "name": "Swiper 슬라이더 플러그인 사용"
+          }
+        },
+        "image": {
+           "url01": "./image/sub/dapharm/detail03-01.png",
+           "url02": "./image/sub/dapharm/detail03-02.png"
+        }
+      },
+      "cont04": {
+        "subtitle": "제품 검색 구현",
+        "subcont": "약국 검색을 한번 해서 어떻게 구현해야 할지 감이 빨리 잡혔습니다. 하지만 종류가 다양한 검색 기능이 있어서 시간이 조금 걸렸습니다. 다음번에는 검색포털 사이트처럼 자동완성 기능 구현을 해보고 싶습니다.",
+        "link": {
+          "list01":{
+            "linkId": "dapharm/#cont02",
+            "name": "약국 검색 구현"
+          },
+          "list02":{
+            "linkId": "myPortfolio/#cont02",
+            "name": "Jquery를 이용한 AJAX연결"
+          }
+        },
+        "image": {
+           "url01": "./image/sub/dapharm/detail04-01.png",
+           "url02": "./image/sub/dapharm/detail04-02.png"
+        }
+      },
+      "cont05": {
+        "subtitle": "숫자 카운트 애니메이션",
+        "subcont": "스크롤 내렸을 때 특정영역에 도달하면 숫자카운팅이 되는 애니메이션입니다. 웹사이트에 들어가면 자주보이는 애니메이션으로 한번 구현해보고싶었습니다.",
+        "image": {
+           "url01": "./image/sub/dapharm/detail05-01.png",
+           "url02": "./image/sub/dapharm/detail05-02.png"
+        }
+      },
+      "cont06": {
+        "subtitle": "Kakao Maps API 여려개 생성",
+        "subcont": "부모 탭 2개와 그 안에 자식 탭 3개로 구성되어 총 6개의 지도를 만들었습니다. 연습으로 하나를 먼저 만들었을 때는 손쉽게 구현이 되었습니다. 하지만 막상 여러 개를 구현하니 단순하지 않아 애를 먹었습니다.",
+        "image": {
+           "url01": "./image/sub/dapharm/detail06-01.png",
+           "url02": "./image/sub/dapharm/detail06-02.png"
+        }
+      },
+      "cont07": {
+        "subtitle": "게시판 리스트 구현",
+        "subcont": "탭을 클릭할 때마다 데이터를 바꾸고 다른 레이아웃을 가져와 화면에 나타나게 만들었습니다. 이 코드를 짜면서 어떻게 하면 반복적인 코드를 줄이고, 좀 더 효율적인 코드를 만들 수 있을까 깊은 고민에 빠졌습니다. 지금도 복잡하고 길어 보이는데, 좀 더 생산적인 코드를 만들고 싶습니다.",
+        "image": {
+           "url01": "./image/sub/dapharm/detail07-01.png",
+           "url02": "./image/sub/dapharm/detail07-02.png"
+        }
+      },
+      "cont08": {
+        "subtitle": "Summernote 웹에디터 사용",
+        "subcont": "웹페이지를 작성할 수 있는 HTML 편집기인 썸머노트를 사용하였습니다. 이 서브페이지를 만들어봄으로써 웹에디터를 알게 되었습니다. 디자인을 했을 때부터 이 부분을 어떻게 구현해야 하나 고민했는데, 웹퍼블리셔로 웹에디터를 접해볼 수 있어서 좋은 경험이었습니다.",
+        "image": {
+           "url01": "./image/sub/dapharm/detail08-01.png",
+           "url02": "./image/sub/dapharm/detail08-02.png"
+        }
+      }
+    }
+  }, 
+  {
+    "id":"lionCoffee",
+    "type": "반응형웹사이트",
+    "title": "라이언커피",
+    "thumbnail":"./image/project-lion.png",
+    "url":"#",
+    "mainImage": "./image/project-lion.png",
+    "info":"브랜드형 웹사이트를 만들고 싶어서 커피 브랜드 중 라이언 커피를 선정하게 되었습니다. 브랜드형 웹사이트는 적응형보다 반응형이 더 적합하다고 생각하였습니다. 기업형 사이트는 양이 많아 무거운 반면 브랜드형은 기업형에 비해 용량이 작아 로딩 시간이 작게 든다고 생각했습니다. 디자인부터 사이즈 측정이 잘 못되다 보니 생각보다 만족스럽지 못한 사이트가 되었습니다. 하루빨리 많은 반응형을 만들어 마스터하고 싶습니다. 반응형을 만들 때 px과 rem 둘 다 경험하고 싶어 이 사이트는 px로 포트폴리오 사이트는 rem으로 제작하게 되었습니다. 또한 요즘 flex가 대세이지만 float도 연습하고 싶어 float를 사용하여 레이아웃을 배치하였습니다",
+    "preiod" : "1달_2023.02~2022.03",
+    "page": "Main + Sub *5",
+    "size": "반응형_PC : max-width = 1280px, 반응형_tablet : max-width = 1023px,  반응형_모바일 : max-width = 767px",
+    "content": {
+      "cont01": {
+        "subtitle": "bxslider 슬라이더 플러그인 사용",
+        "subcont": "이미지 슬라이더에 자주 사용한다는 bxSlider를 사용했습니다. 적응형 사이트를 제작할 때 쓰면 좋을 것 같습니다. 반응형으로 갯수를 설정할 때 생각보다 코드가 길어지고 깔끔하지 못하는 것 같습니다.",
+        "link": {
+          "list01":{
+            "linkId": "dental/#cont02",
+            "name": "Swiper 슬라이더 플러그인 사용"
+          },
+          "list02": {
+            "linkId": "dapharm/#cont03",
+            "name": "자체 슬라이드 구현"
+          }
+        },
+        "image": {
+           "url01": "./image/sub/lion/detail01-01.png",
+           "url02": "./image/sub/lion/detail01-02.png"
+        }
+      },
+      "cont02":{
+        "subtitle":"스크롤이벤트 | 연혁",
+        "subcont": "연혁등의 타임라인 형식의 컨텐츠를 구현하였습니다. 스크롤을 내리면 다음 글이 보여주는 기술입니다. 다음에는 가로형인 타임라인을 만들어보고 싶습니다.",
+        "link": {
+          "list01":{
+            "linkId": "dental#cont01",
+            "name": "스크롤 이벤트 | 텍스트 롤링"
+          }
+        },
+        "image": {
+           "url01": "./image/sub/lion/detail02-01.png",
+           "url02": "./image/sub/lion/detail02-02.png"
+        }
+      },
+      "cont03":{
+        "subtitle":"텍스트 무한 롤링 애니메이션",
+        "subcont": "최근 웹사이트에서 볼 수 있는 가로로 흐르는 텍스트 효과입니다. 생각할 땐 빨리 구현할 수 있을 줄 알았는데 버벅거리며 만들어 아쉬웠습니다. 하루빨리 많은 애니메이션 기술을 경험하여 버벅거림 없이 내가 생각하는 데로 구현하도록 할 것입니다.",
+        "link": {
+          "list01":{
+            "linkId": "dental#cont01",
+            "name": "스크롤 이벤트 | 텍스트 롤링"
+          }
+        },
+        "image": {
+           "url01": "./image/sub/lion/detail03-01.png",
+           "url02": "./image/sub/lion/detail03-02.png"
+        }
+      }
+    }
+  }, 
+  {
+    "id":"misoDental",
+    "type": "모바일웹사이트",
+    "title": "미소치과병원",
+    "thumbnail":"./image/project-miso.png",
+    "url":"#",
+    "mainImage": "./image/project-miso.png",
+    "info":"태블릿PC와 같은 모바일 기기의 사용이 확산됨에 따라 모바일 환경에서 보기 편한 웹사이트를 구축하는 것은 기업의 주요 업무 중 하나가 되었습니다. 그래서 가상의 치과병원을 만들어 모바일형 웹사이트를 만들어보았습니다. 메인페이지와 이벤트 팝업창 그리고 메뉴화면만 구성하였습니다. 그리고 Sass(SCSS) 문법을 활용하여 디자인하였습니다. ",
+    "preiod" : "1주일_2023.04.10~2022.04.17",
+    "page": "Main page",
+    "size": "모바일형_모바일 : min-width = 320px",
+    "content": {
+      "cont01": {
+        "subtitle": "Sass(SCSS)문법 활용",
+        "subcont": "CSS보다 더 편리하며 유지보수가 쉬운 Sass(SCSS)문법을 사용해보았습니다. 변수와 조건문그리고 Mixin을 사용하여 작업을 더 편리하게 작업할 수 있어 좋은 경험이었습니다.",
+        "link": {
+          "list01":{
+            "linkId": "myportfolio/#cont01",
+            "name": "SCSS(SASS)+FLEX+GRID"
+          }
+        },
+        "image": {
+           "url01": "./image/sub/misoDental/detail01-01.png",
+           "url02": "./image/sub/misoDental/detail01-02.png"
+        }
+      },
+      "cont02": {
+        "subtitle": "Swiper 슬라이더 플러그인 사용",
+        "subcont": "슬라이더 플러그인 중에서 제일 사용하기 좋았던 플러그인이였습니다. 요즘 다양하고 트랜디한 슬라이더의 형태가 있던데 하루빨리 만들어 제어해보고싶습니다. ",
+        "link": {
+          "list01":{
+            "linkId": "lionCoffee/#cont01",
+            "name": "bxslider 슬라이더 플러그인 사용"
+          }, 
+          "list02": {
+            "linkId": "dapharm/#cont03",
+            "name": "자체 슬라이드 구현"
+          }
+        },
+        "image": {
+           "url01": "./image/sub/misoDental/detail02-01.png",
+           "url02": "./image/sub/misoDental/detail02-02.png"
+        }
+      },
+      "cont03": {
+        "subtitle": "쿠키를 활용한 오늘 하루 그만 보기 기능 ",
+        "subcont": "웹사이트에 방문하면 페이지 최상단에 자주 보이는 팝업창(오늘 하루 보지 않기) 기능을 구현해 보고 싶었습니다. 인터넷을 보고 따라 배우며 공부했지만 아직 쿠키를 마스터하지 못했습니다. 다음에는 여러 개의 팝업창을 구현여 쿠키에 대해 좀 더 공부하는 시간을 가지겠습니다.",
+        "image": {
+           "url01": "./image/sub/misoDental/detail03-01.png",
+           "url02": "./image/sub/misoDental/detail03-02.png"
+        }
+      }
+    }
+  }, 
+  {
+    "id":"myPortfolio",
+    "type": "반응형웹사이트",
+    "title": "아름답게 빛나리",
+    "thumbnail":"./image/project-myportfolio.png",
+    "url":"#",
+    "mainImage": "./image/project-myportfolio.png",
+    "info":"포트폴리오 사이트의 컨셉은 '꿈을 향한 도전, 열정으로 빛낸다'입니다.  제 한자이름을 풀이하면 아름답게 빛나다는 뜻을 가지고있습니다. 웹퍼블리셔의 향한 도전을 코딩 공부와 관련된 아이콘을 일러스트하여 꾸며보았습니다. 또 반응형웹사이트로 총 4단계로 이루어져있습니다.",
+    "preiod" : "1주일_2023.04.18~2022.04.26",
+    "page": "Main + Sub *1",
+    "size": "반응형_PC : max-width = 1400px, 반응형_laptop : max-width = 1020px, 반응형_tablet : max-width = 768px,  반응형_모바일 : max-width = 480px",
+    "content": {
+      "cont01": {
+        "subtitle": "SCSS(SASS)+FLEX+GRID",
+        "subcont":  "SCSS(SASS)+FLEX+GRID를 활용하여 사이트를 제작하였습니다. 앞서 만든 포트폴리오보다 세부적으로 css를 나누어 체계적으로 관리하려 하였습니다. 복잡한 레이아웃은 아니였지만 GRID를 경험할 수 있어 좋았고, 다음은 GRID로만 이루어진 반응형을 구현해보고 싶습니다.",
+        "link": {
+          "list01":{
+            "linkId": "misoDental/#cont01",
+            "name": "Sass(SCSS)문법 활용"
+          }
+        },
+        "image": {
+           "url01": "./image/sub/myPortfolio/detail01-01.png",
+           "url02": "./image/sub/myPortfolio/detail01-02.png"
+        }
+      },
+      "cont02": {
+        "subtitle": "Jquery를 이용한 AJAX연결",
+        "subcont": "item.json 파일에 포트폴리오의 정보를 넣게 되면 자동으로 리스트가 구현되도록하였습니다. 리스트를 클릭하면 파라미터로 해당아이디를 넘겨 클릭한 포트폴리오의 자세한 정보를 볼 수 있습니다.",
+        "link": {
+          "list01":{
+            "linkId": "dapharm/#cont02",
+            "name": "약국 검색 구현"
+          },
+          "list02":{
+            "linkId": "dapharm/#cont04",
+            "name": "제품 검색 구현"
+          }
+        },
+        "image": {
+           "url01": "./image/sub/myPortfolio/detail02-01.png",
+           "url02": "./image/sub/myPortfolio/detail02-02.png"
+        }
+      },
+      "cont03": {
+        "subtitle": "svg를 활용한 Line Drawing Animation",
+        "subcont": "요즘 핫한 svg 스크롤 애니메이션을 구현해 보았습니다. 연필로 그리듯이 생동감 있게 펼쳐지는 애니메이션입니다. 기회가 되면 더 많은 드로잉 애니메이션을 연출해 봐야겠다는 생각이 들었습니다.",
+        "image": {
+           "url01": "./image/sub/myPortfolio/detail03-01.gif",
+           "url02": "./image/sub/myPortfolio/detail03-02.png"
+        }
+      },
+      "cont04": {
+        "subtitle": "Splitter 플러그인 사용",
+        "subcont": "포트폴리오를 기술을 설명하는 레이이웃을 어떻게 하면 안 길어지고, 최대한 이미지가 크게 보며 설명 글을 읽을 수 있을까 고민하게 되었습니다. 그러다 크기 조정이 가능하고 분할이 되는 Splitter효과를 알게 되어 Splitter플러그인을  사용하게 되었습니다.",
+        "image": {
+           "url01": "./image/sub/myPortfolio/detail04-01.gif",
+           "url02": "./image/sub/myPortfolio/detail04-02.png"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,792 @@
+@charset "UTF-8";
+@import "_variable.scss"; //변수
+@import "_mixin.scss"; //믹스인
+@import url(./_rest.css); //리셋
+@import "_font.scss"; //폰트
+@import "_hdnft.scss"; //해더&푸터
+
+
+/* 공통영역 */
+html {
+  @include desktop {
+    font-size: 18px;
+  }
+  @include laptop() {
+    font-size: 16px;
+  }
+  @include tablet() {
+    font-size: 14px;
+  }
+  .container {
+    @include tablet {
+      width: 90%;
+    }
+  }
+}
+.container {
+  width: 93%;
+  margin: 0 auto;
+}
+.four-pointed-star {
+  position:relative;
+  margin:1rem auto;
+  width:1rem;
+  &:before, &:after {
+    content:"";
+    position:absolute;
+    background:#FFE55F;
+    width:0.6rem;
+    height:0.615rem;
+    @include desktop {
+      width: 0.4rem;
+      height: 0.415rem;
+    }
+   
+  }
+  &:before {
+    transform:rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+  }
+  &:after {
+    transform:rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+  }
+  &.pink {
+    &:before,&:after {
+    background:#E980FF;
+    }
+  }
+  &.green {
+    &:before,&:after {
+    background:#85FF61;
+    }
+  }
+}
+.shine {
+  position: absolute;
+  &.m {
+    @include background("shine.png", 4.3rem, 4.3rem);
+    @include desktop {
+      @include background("shine.png", 2.3rem, 2.3rem);
+    }
+  }
+  &.s {
+    @include background("shine.png", 2.3rem, 2.3rem);
+    @include desktop {
+      @include background("shine.png", 1.3rem, 1.3rem);
+    }
+  }
+}
+// .point-tit {
+//   color: $grayAb;
+//   font-weight: 100;
+//   font-size: 0.8rem;
+//   &.ls {
+//     letter-spacing: 5px;
+//   }
+//   p:nth-child(2){
+//     padding-left: 25px;
+//   }
+// }
+.highlighter {
+  position: relative;
+  &::before {
+    content:"";
+    @include position(left, 50%, bottom,0, -1);
+    width: 100%;
+    height: 50%;
+    background: rgba($color: #FAE58F, $alpha: 1.0);
+  }
+}
+section {
+  margin-top: 8.5rem;
+  @include tablet {
+    margin-top: 3.125rem;
+  }
+}
+
+
+
+/* main 영역 */
+main {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 900px;
+  @include desktop {
+    height: 800px;
+  }
+  @include laptop {
+    height: 700px;
+  }
+  .tit {
+    font-size: 0.7rem;
+    font-weight: 900;
+    padding-top: 3.7rem;
+    @include tablet{
+      padding-top: 2.875rem;
+    }
+    h2 {
+      font-size: 4rem;
+      @include tablet{
+        font-size: 3.428rem;
+      }
+    }
+    p:before {
+      content:"";
+      display: inline-block;
+      width: 30px;
+      height: 3px;
+      background: $black;
+      vertical-align: middle;
+      margin-right: 0.4rem;
+    }
+    span {
+      font-weight: 400;
+    }
+  }
+  .start {
+    width: 7.75rem;
+    height: 7.75rem;
+    border-radius: 100%;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    background: linear-gradient(rgba(255, 202, 161, 1), rgba(255, 223, 218, 0.3));
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 1.25rem;
+    @include desktop {
+      width: 7.5rem;
+      height: 7.5rem;
+    }
+    @include tablet{
+      display: none;
+    }
+    .flip {
+      @include position(left, 50%, top, 50%, 20);
+      p {
+        transition: all 0.4s;
+        transform-style: preserve-3d;
+        &:before {
+          position: absolute;
+          transform: rotateX(-90deg);
+        }
+        &:nth-child(1):before {
+          content:"RIGHT";
+        }
+        &:nth-child(2):before {
+          content:"NOW!";
+        }
+      }
+    }
+    &:hover p {
+      transform: rotateX(90deg) translateY(-22px);
+    }
+  }
+  .point-tit {
+    @include point-tit(8px);
+    @include position(right, 10%, top, 40%, 20);
+    @include tablet{
+      right: 1.125rem;
+      top: 10.75rem;
+    }
+  }
+  .visual {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 37rem;
+    height: 37rem;
+    line-height: 37rem;
+    margin-top: -7rem;
+    @include desktop {
+      width: 31.666rem;
+      height: 31.666rem;
+      line-height: 31.666rem;
+      margin-top: -3rem;
+      left: 53%;
+    }
+    @include laptop {
+      width: 35.635rem;
+      height: 35.635rem;
+      line-height: 35.635rem;
+    }
+    @include tablet{
+      width: 28.5rem;
+      height: 28.5rem;
+      line-height: 28.5rem;
+      margin-top: 4rem;
+      left: 56%;
+    }
+    @include mobile{
+      width: 22.5rem;
+      height: 22.5rem;
+      line-height: 22.5rem;
+      margin-top: 5.55rem;
+    }
+    .visual-circle{
+      position: relative;
+      transform: translate(0,0);
+      width: 100%;
+      height: 100%;
+      border-radius: 100%;
+      background: linear-gradient(rgba(222, 190, 92, 0.2), rgba(252, 220, 149, 0.02));
+      text-align: center;
+      img {
+        display: inline-block;
+        width: 50%;
+        vertical-align: middle;
+        @include tablet{
+          width: 17.5625rem;
+        }
+      }
+      .four-pointed-star{
+        opacity: 1;
+      }
+      .four-pointed-star.yellow {
+        @include position(left, -20%, top, 50%, 20);
+      }
+      .four-pointed-star.pink {
+        @include position(right, -20%, top, 20%, 20);
+        &:before , &:after {
+          width: 0.4rem;
+          height: 0.415rem;
+          @include laptop {
+            width: 0.3rem;
+            height: 0.315rem;
+          }
+        }
+      }
+      .four-pointed-star.green {
+        @include position(right, -25%, bottom, 15%, 20);
+        &:before , &:after {
+          width: 0.2rem;
+          height: 0.215rem;
+         
+        }
+      }
+      .shine {
+        opacity: 1;
+        &.m {
+          @include position(left, -40%, top, 70%, 20)
+        }
+        &.s {
+          @include position(right, -50%, bottom, 10%, 20)
+        }
+      }
+      .icon {
+        &-light {
+          @include background('icon-light.png',5.15rem ,8.05rem );
+          @include position(left, 70%, top, 10%, 20);
+          @include desktop {
+            @include background('icon-light.png',3.95rem ,6.2rem );
+            left:  65%;
+          }
+          @include tablet{
+            left:  70%;
+          }
+        }
+        &-code {
+          @include background('icon-code.png',6.85rem ,4.95rem );
+          @include position(left, -10%, top, 30%, 20);
+          @include desktop {
+            @include background('icon-code.png',5.25rem ,3.8rem );
+            left:  -5%;
+          }
+          @include mobile{
+           display: none;
+          }
+        }
+        &-notebook {
+          @include background('icon-notebook.png',10.9rem ,5.55rem );
+          @include position(left, 60%, top, 45%, 20);
+          @include desktop {
+            @include background('icon-notebook.png',8.4rem ,4.3rem );
+            left: 55%;
+          }
+          @include tablet{
+            left: 60%;
+          }
+          @include mobile {
+            left: 50%;
+            top: 40%;
+          }
+        }
+        &-pencil {
+          @include background('icon-pencil.png',4.65rem ,3.95rem );
+          @include position(left, 5%, top, 55%, 20);
+          @include desktop {
+            @include background('icon-pencil.png',3.6rem ,3rem );
+            left: 10%;
+          }
+          @include tablet{
+            left: 5%;
+          }
+          @include mobile{
+            display: none;
+           }
+        }
+        &-coffee {
+          @include background('icon-coffee.png',3.45rem ,4.9rem);
+          @include position(left, 20%, bottom, 10%, 20);
+          @include desktop {
+            @include background('icon-coffee.png',2.6rem ,3.75rem);
+            left: 25%;
+          }
+          @include tablet{
+            left: 20%;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* about,portfolio,contact 묶음 */
+
+.section-wrap {
+  transition: all 1s;
+  position: absolute;
+  z-index: 60;
+  background: #fff;
+  box-shadow: 5px 0px 10px rgba(166,173,201,.2);
+}
+
+
+
+/* about 영역 */
+.about {
+  .about-tit {
+    display: flex;
+    justify-content: center;
+    @include tablet{
+      display: block;
+    }
+    .tit {
+      width: 25rem;
+      font-weight: 900;
+      text-align: right;
+      font-family: 'Do Hyeon', sans-serif;
+      @include laptop {
+        width: 17rem;
+      }
+      @include tablet{
+        width: 100%;
+      }
+      h2 {
+        font-size: 2.4rem;
+        @include laptop {
+          font-size: 1.875rem;
+        }
+      }
+      p {
+        font-size: 4rem;
+        line-height: 1;
+        @include laptop {
+          font-size: 2.875rem;
+        }
+        span {
+          position: relative;
+          svg {
+            width: 500px;
+            fill: none;
+            stroke: $red;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-miterlimit: 10;
+            stroke-width: 15px;
+            @include laptop {
+              width: 300px;
+            }
+          }
+          #circle {
+            @include position(left, -45%, top, -82%, 20);
+            @include tablet {
+              left: -55%;
+              top: -100%;
+            }
+            path {
+              stroke-dasharray: 1405;
+              stroke-dashoffset: 1405;
+              &.on {
+                animation: path 1000ms forwards;
+              }
+            }
+          }
+          #sunlight {
+            @include position(left,-45%,  top, -82%, 20);
+            path {
+              stroke-dasharray: var(--length);
+              stroke-dashoffset: var(--length);
+              &.on {
+                animation: path 500ms 500ms forwards;
+              }
+            }
+          }
+          @keyframes path {
+            100% {
+              stroke-dashoffset: 0;
+            }
+          }
+        }
+      }
+    }
+    .txt {
+      position: relative;
+      width: 20rem;
+      padding: 1rem;
+      box-sizing: border-box;
+      font-size: 0.9rem;
+      word-break: keep-all;
+      margin-top: 9.5rem;
+      @include laptop {
+        width: 18rem;
+        font-size: 0.875rem;
+        margin-top: 3.5rem;
+      }
+      @include tablet{
+        margin-top: 4.375rem;
+        padding: 0;
+      }
+      &:before {
+        content:"";
+        @include  position(left, 1rem, bottom, 100%, 20);
+        @include background('coffee2.png', 3.05rem, 11.2rem);
+        @include laptop {
+          @include background('coffee2.png', 2.8125rem, 10.375rem);
+        }
+        @include tablet {
+          left: 0;
+        }
+        @include mobile {
+          display: none;
+        }
+      }
+    }
+  }
+  .about-detail {
+    width:85%;
+    margin: 0 auto;
+    @include desktop {
+      width:90%;
+    }
+    @include tablet {
+      width: 100%;
+      
+    }
+    .curriculum {
+      font-weight: bold;
+      position: relative;
+      margin: 7.5rem 0 3rem;
+      @include tablet {
+        font-size: 0.875rem;
+        margin: 2.5rem 0;
+      }
+      p {
+        @include point-tit;
+        opacity: 0.7;
+        @include position(left, 0, top, calc(100% + 1rem), 20);
+        @include laptop {
+          display: none;
+        }
+      }
+    }
+    .skiils {
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      @include laptop {
+        justify-content:  flex-start;
+      }
+      .skills-list {
+        // width: 34.2rem;
+        width: 32rem;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 0.9rem;
+        @include tablet {
+          
+        }
+        @include mobile {
+          display: block;
+          width: 100%;
+        }
+        >li {
+          width: 15rem;
+          margin-right: 2rem;
+          box-sizing: border-box;
+          @include tablet {
+            width: calc(50% - 1rem);
+          }
+          @include mobile {
+            width:16.875rem;
+          }
+          &:nth-child(even){
+            margin-right: 0;
+            
+          }
+          >p {
+            font-weight: 900;
+            position: relative;
+            border-bottom: 3px solid $black;
+            padding: 0.5rem 0  0.5rem 2.5rem;
+          }
+          @for $i from 1 to 6 {
+            &:nth-child(#{$i})>p:before {
+              content:"";
+              @include position(left, 0, top, 50%, 20);
+              width: 1.8rem;
+              height:1.8rem;
+              background: url(../image/skills-icon0#{$i}.png) no-repeat center/ 1.8rem;
+            }
+          }
+        }
+        .detail {
+          padding: 1rem 0;
+          li {
+            font-weight: 300;
+          }
+        }
+      }
+      &:before {
+        content:"";
+        @include position(left,0.25rem, bottom, 1.75rem, 30);
+        @include background('book2.png', 6.75rem, 4.5rem);
+        @include laptop {
+          left: initial;
+          right:1.9rem;
+        }
+        @include mobile {
+          display: none;
+        }
+      }
+      &:after {
+        content:"";
+        @include position(left, 0, bottom, 0, 20);
+        @include background('book.png', 8.8rem, 4.85rem);
+        @include laptop {
+          left: initial;
+          right:0;
+        }
+        @include mobile {
+          display: none;
+        }
+      }
+    }
+  }
+  
+}
+
+
+
+/* portfolio 영역 */
+.portfolio {
+  .work-tit {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 4.5rem;
+    border-bottom: 3px solid $black;
+    @include tablet{
+     padding-bottom: 1.25rem;
+    }
+    @include mobile {
+      display: block;
+      justify-content: initial;
+    }
+    h2 {
+      font-family: 'Do Hyeon', sans-serif;
+      font-size: 3.5rem;
+      line-height: 1;
+    }
+    p {
+      font-size: 0.9rem;
+      &:before {
+        content:"아직\A모자라지만";
+        white-space: pre;
+        display: block;
+        text-align: right;
+        font-weight: 700;
+        color: #6ECCD0;
+        @include mobile {
+          text-align: left;
+        }
+      }
+    }
+  }
+  .works {
+    h3 {
+      font-size: 2.4rem;
+      font-weight: 900;
+      padding: 1rem 0;
+    }
+    ul{
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      @include mobile {
+        display: block;
+      }
+      li {
+        width: calc(33.3333% - 0.6666rem);
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        @include laptop {
+          width: calc(50% - 0.5rem);
+        }
+        @include mobile {
+          width: 100%;
+        }
+        &:nth-child(3n){
+          margin-right: 0;
+          @include laptop {
+            margin-right: 1rem;
+          }
+        }
+        &:nth-child(2n){
+          @include laptop {
+            margin-right: 0;
+          }
+        }
+        &:hover img {
+          background-color:  $yellowF9;
+        }
+        img {
+          transition:  background 0.3s;
+          width: 100%;
+          background: $grayD9;
+        }
+        .cont {
+          .tit {
+            margin-top: -1rem;
+            p {
+              @include point-tit(5px);
+              display: inline-block;
+              color: $gray39;
+              background: $white;
+              padding: 0.8rem 1rem;
+            }
+            h4 {
+              
+              padding: 0 1rem;
+            }
+          }
+        }
+        .link {
+          margin-top: 2rem;
+          a {
+            position: relative;
+            display: block;
+            font-size: 0.8rem;
+            color: $gray39;
+            padding: 1rem;
+            border-bottom: 1px solid $black;
+            transition: all 0.3s;
+            &:after {
+              content:"";
+              @include position(right, 1rem, top, 50%, 20);
+              width: 17px;
+              height: 17px;
+              background: url(../image/link.png) no-repeat center/ 17px;
+            }
+            &:hover:nth-child(1){
+              border-left: 5px solid #ff5858;
+            }
+            &:hover:nth-child(2){
+              border-left: 5px solid #fee140;
+              
+            }
+          }
+        }
+       
+      }
+    }
+  }
+}
+
+
+.contact {
+  position: relative;
+  .tit-wrap {
+    display: flex;
+    @include tablet {
+      display: block;
+    }
+    .tit {
+      //width: 24.6rem;
+      font-weight: 900;
+      line-height: 1.3;
+      h2 {
+        font-weight: 900;
+        font-size: 2.4rem;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 1rem;
+        @include desktop{
+          font-size: 2rem;
+        }  
+        @include laptop{
+          font-size: 1.875rem;
+        } 
+          
+      }
+      p {
+        font-size: 3.5rem;
+        @include desktop{
+          font-size: 2.9rem;
+        }  
+        @include laptop{
+          font-size: 2.875rem;
+        }  
+        @include mobile{
+          //font-size: 2.475rem;
+        } 
+      }
+    }
+    .txt {
+      width: 25rem;
+      margin-left: 15%;
+      @include laptop {
+        margin-left: 0;
+      }
+      @include tablet {
+        margin-top: 2.5rem;
+      }
+      @include mobile {
+        width: 100%;
+      }
+      &:before {
+        content:"";
+        display: block;
+        opacity: 0.3;
+        width: 100%;
+        height: 440px;
+        background: url(../image/draw.png) no-repeat center/ 100%;
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+  }
+  .eamil {
+    display: block;
+    margin-top: 2.5rem;
+    text-decoration: underline;
+  }
+  .point-tit {
+    @include point-tit(2px);
+    @include position(right, 10%, top, 30%, 20);
+    @include tablet{
+      right: initial;
+      left: 16.875rem;
+      top: 60%;
+      bottom: 80%;
+      right: 33px;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+
+
+
+
+
