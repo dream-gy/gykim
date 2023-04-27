@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="./css/info.css">
     <link rel="stylesheet" href="./css/jquery.splitter.css">
     <script src="./js/jquery-3.6.1.min.js"></script>
-    <script src="./js/jquery.splitter.js"></script>
-    <script src="./js/sub.js"></script>
+    
   </head>
 <body>
   <div id="wrap">
@@ -76,84 +75,10 @@
       </div>
     </footer>
   </div> 
+  <script src="./js/jquery.splitter.js"></script>
+  <script src="./js/sub.js"></script>
   <script>
 
-$.ajax({
-  url : "./data/item.json",
-  dataType : "json",
-  success : function(data){
-    var itemId = getParameterByName('itemId'); //주소창 파라미터값
-    var mainImg,
-        type,
-        title,
-        info,
-        preiod,
-        page,
-        size,
-        html,
-        linkhtml,
-        elements =[];
-    $.each(data,function(index, item){
-      if(itemId == item.id){
-          mainImg = item.mainImage;
-          type = item.type;
-          title = item.title;
-          info = item.info;
-          preiod = item.preiod;
-          size = item.size.replace(/,/g,"<br>");
-          page = item.page;
-
-          $.each(item.content,function(key, list){
-            arrlinke = [];
-            if(list.link) {
-              $.each(list.link,function(i,el){
-                  linkhtml ="<li><a href='"+el.linkId+"'>"+el.name +"</a></li>";
-                  arrlinke.push(linkhtml);
-              });
-              arrlinke = arrlinke.join(""); 
-              html = 
-                "<li id='"+key+"'>"+
-                  "<h4>"+list.subtitle+"</h4>"+
-                  "<div class='desc'>" + list.subcont +  
-                    "<p>관련링크</p>" +
-                    "<ul>"+arrlinke+"</ul>"+
-                  "</div>"+
-                  "<div class='cont'>"+
-                    "<div class='img'><img src='"+list.image.url01+"' alt=''></div>"+
-                    "<div class='code'><img src='"+list.image.url02+"' alt=''></div>"+
-                  "</div>"
-                "</li>";
-              elements.push($(html).get(0));
-            }else {
-              html = 
-                "<li id='"+key+"'>"+
-                  "<h4>"+list.subtitle+"</h4>"+
-                  "<div class='desc'>"+ list.subcont+ "</div>"+
-                  "<div class='cont'>"+
-                    "<div class='img'><img src='"+list.image.url01+"' alt=''></div>"+
-                    "<div class='code'><img src='"+list.image.url02+"' alt=''></div>"+
-                  "</div>"
-                "</li>";
-            elements.push($(html).get(0));
-            }//list.link
-          });//(item.content).each
-      }//if(itemId == item.itemid)
-    });//data.each
-      
-    var mainHtml = "<img src='"+mainImg+"' alt=''>";
-    $(".visual .img").find("img").remove();
-    $(".visual .img").html(mainHtml);
-    //$(".visual .deco h2").find(".num").html(number);
-    $(".info .tit").find("p").html(type);
-    $(".info .tit").find("h3").html(title);
-    $(".info-list li").eq(0).find(".cont").html(info);
-    $(".info-list li").eq(2).find(".cont").html(preiod);
-    $(".info-list li").eq(3).find(".cont").html(size);
-    $(".info-list li").eq(4).find(".cont").html(page);
-    $(".detail-list").append(elements);
-          
-  }//data.success
-});//ajax
 
   </script>
 </body>
