@@ -63,12 +63,3 @@ caption > div, legend, .hidden {overflow: hidden; display:block; position:absolu
 section {
   margin-bottom: 70px;
 }
-@media screen and (max-width:767px){
-
-}
-@media screen and (min-width:320px){
-  
-}
-.quick {
- 
-}
