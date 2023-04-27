@@ -816,10 +816,11 @@ footer {
 .quick {
   position: fixed;
   bottom: 0;
-  left: 0;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 80;
   width: 100%;
+  max-width: 480px;
   height: 3.8rem;
   background: #fff;
   border: 1px solid #F6F6F6;
@@ -862,11 +863,12 @@ footer {
   }
   display: none;
   position:fixed;
-  top:0;
-  left:0;
-  right:0;
+  top: 0;
+  left:50%;
+  transform: translateX(-50%);
   background: rgba(0,0,0,0.8);
   width: 100%;
+  max-width: 480px;
   height: 100vh;
   z-index: 99;
  

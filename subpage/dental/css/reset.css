@@ -42,8 +42,11 @@ textarea {
 
 
 /* Style */
+html,body {
+  background:#ABABAB;
+}
 html { font-size: 20px;}
-body { overflow-x:hidden; font-size: 1rem; color: #353432; letter-spacing: -0.025rem; }
+body { display: block; overflow-x:hidden; font-size: 1rem; color: #353432; letter-spacing: -0.025rem; }
 a, button { color: #353432;}
 p, li{word-break: keep-all;}
 
@@ -56,7 +59,7 @@ caption > div, legend, .hidden {overflow: hidden; display:block; position:absolu
 .clearfix:before, .clearfix:after { content:""; clear:both; display: block;}
 .clearfix{*zoom:1;}
 
-#wrap { min-width:320px; position: sticky;  overflow-x:hidden;}
+#wrap { min-width:320px; max-width: 480px; margin:  0 auto;  background:#fff; position: sticky;  overflow-x:hidden;}
 section {
   margin-bottom: 70px;
 }
