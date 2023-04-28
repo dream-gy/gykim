@@ -112,7 +112,7 @@ $(function(){
                 "<h4>"+item.title+"</h4>"+
               "</div>"+
               "<div class='link'>"+
-                "<a href='"+item.url+"'>Visit Website</a>"+
+                "<a href='"+item.url+" target='_blank''>Visit Website</a>"+
                 "<a href='info.html?itemId="+item.id+"'>View Detailse</a>" + 
               "</div>"+
             "</div>"+
