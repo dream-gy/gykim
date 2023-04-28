@@ -248,7 +248,8 @@ header {
   &.active {
     display: block;
     visibility: visible;
-    left:0;
+    left:50%;
+    transform: translateX(-50%);
     border-radius: 0;
   }
   .mhd {

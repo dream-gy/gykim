@@ -183,7 +183,8 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
 .mobile-menu.active {
   display: block;
   visibility: visible;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   border-radius: 0;
 }
 .mobile-menu .mhd {
