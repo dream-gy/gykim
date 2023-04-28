@@ -32,7 +32,7 @@ $.ajax({
             arrlinke = [];
             if(list.link) {
               $.each(list.link,function(i,el){
-                  linkhtml ="<li><a href='"+el.linkId+"'>"+el.name +"</a></li>";
+                  linkhtml ="<li><a href='"+el.linkId+"'  target='_blank'>"+el.name +"</a></li>";
                   arrlinke.push(linkhtml);
               });
               arrlinke = arrlinke.join(""); 
