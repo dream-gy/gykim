@@ -87,6 +87,7 @@ $footerFontSize : 0.6rem;
 .container {
   @include container;
   position: relative;
+  overflow: hidden;
 
 }
 h2 {
@@ -424,6 +425,7 @@ header {
 .main-visual {
   position: relative;
   margin-top: 1.5rem;
+  overflow: hidden;
   ul {
     li {
       width: 90% !important;

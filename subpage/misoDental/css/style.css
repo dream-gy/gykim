@@ -3,6 +3,7 @@
   padding: 0 1.2rem;
   min-width: 320px;
   position: relative;
+  overflow: hidden;
 }
 
 h2 {
@@ -392,6 +393,7 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
 .main-visual {
   position: relative;
   margin-top: 1.5rem;
+  overflow: hidden;
 }
 .main-visual ul li {
   width: 90% !important;
