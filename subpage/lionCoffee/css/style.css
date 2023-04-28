@@ -23,13 +23,18 @@
 .skip-nav a:active {
   top: 0;
 }
+/* clearfix */
 .clearfix:before, .clearfix:after {
-	content:"";
-	clear:both;
-	display: block;
-
+  display: block;
+  content: '';
+  line-height: 0;
 }
-.clearfix{*zoom:1;}
+.clearfix:after {
+  clear:both;
+}
+.clearfix {
+  *zoom: 1;
+}
 .hidden {
     display:block; 
     overflow:hidden; 
