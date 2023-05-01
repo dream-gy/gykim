@@ -47,7 +47,7 @@ html {
     margin: 9rem auto 0;
     box-shadow: 10px 10px 30px rgba( $black, 0.2), -10px -10px 30px rgba( $black, 0.1);
     background-color: $grayD9;;
-    &:after {
+    &::after {
       content:"";
       @include position(left, 0, top, 100%, 20);
       width: 100%;
@@ -83,7 +83,7 @@ html {
     h2 {
       @include position(left, 0, top, -45px, -1);
       font-family: "Do Hyeon", sans-serif;
-      &:before {
+      &::before {
         content:"#";
         display: inline-block;
       }
@@ -92,7 +92,7 @@ html {
       @include position(right, 0, bottom, -2rem, 20);
       font-weight: 900;
     }
-    &:after {
+    &::after {
       content:"이렇게 작업했어요 - ";
       @include position(left, 60%, bottom, 110%, 20);
       @include point-tit(5px);
@@ -162,7 +162,7 @@ html {
       }
       &.skills {
         position: relative;
-        &:before {
+        &::before {
           display: none;
           content:"항목을 클릭하면 해당리스트로 이동합니다.";
           @include position(left, 100, bottom, 100%, 20);
@@ -193,7 +193,7 @@ html {
           font-weight: 900;
           display: inline-block;
           position: relative;
-          &:before {
+          &::before {
             content:"";
             @include position(left, 0, top, 0, -1);
             width: 0;
@@ -201,7 +201,7 @@ html {
             background: #FFE55F;
             transition: all 0.8s;
           }
-          &.on:before {
+          &.on::before {
             width: 100%;
           }
         }
@@ -223,7 +223,7 @@ html {
             &:hover {
               color: $gray39;
             }
-            &:before {
+            &::before {
               content:"";
               display: inline-block;
               vertical-align: middle;

@@ -181,7 +181,7 @@
     "content": {
       "cont01": {
         "subtitle": "Sass(SCSS)문법 활용",
-        "subcont": "CSS보다 더 편리하며 유지보수가 쉬운 Sass(SCSS)문법을 사용해보았습니다. 변수와 조건문그리고 Mixin을 사용하여 작업을 더 편리하게 작업할 수 있어 좋은 경험이었습니다.",
+        "subcont": "CSS보다 더 편리하며 유지보수가 쉬운 Sass(SCSS)문법을 사용해보았습니다. 변수와 조건문 그리고 Mixin을 사용하여 작업을 더 편리하게 할 수 있어 좋은 경험이었습니다.",
         "link": {
           "list01":{
             "linkId": "info.html?itemId=myPortfolio#cont01",

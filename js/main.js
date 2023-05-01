@@ -1,40 +1,40 @@
 $(function(){
   
   //스크롤시 parallax효과
-  var parallax = $("#wrap .parallax");
-  var topInfo = []; //parallax offset 배열 담을 용도
+  // var parallax = $("#wrap .parallax");
+  // var topInfo = []; //parallax offset 배열 담을 용도
   
-  function parallaxTop(){
-    var mainHeight = $("main").height();
-    $(".section-wrap").css("top",mainHeight);
-    topInfo = []; //초기화
-    parallax.each(function(){
-      topInfo.push($(this).offset().top);
-    })
-  }
-  $(window).resize(function(){
-    parallaxTop()
-  })
-  parallaxTop()
-  parallax.css("postion","fixed");
-  $(window).scroll(function(){
-    var sct = $(this).scrollTop()*0.99;
-    parallax.each(function(idx){//
+  // function parallaxTop(){
+  //   var mainHeight = $("main").height();
+  //   $(".section-wrap").css("top",mainHeight);
+  //   topInfo = []; //초기화
+  //   parallax.each(function(){
+  //     topInfo.push($(this).offset().top);
+  //   })
+  // }
+  // $(window).resize(function(){
+  //   parallaxTop()
+  // })
+  // parallaxTop()
+  // parallax.css("postion","fixed");
+  // $(window).scroll(function(){
+  //   var sct = $(this).scrollTop()*0.99;
+  //   parallax.each(function(idx){//
       
-      var newtop1 = topInfo[0] + sct;
-      var newtop2 = topInfo[1] - sct;
+  //     var newtop1 = topInfo[0] + sct;
+  //     var newtop2 = topInfo[1] - sct;
       
-      parallax.eq(0).css("top",newtop1);
-      parallax.eq(1).css("top",newtop2);
+  //     parallax.eq(0).css("top",newtop1);
+  //     parallax.eq(1).css("top",newtop2);
      
-      if( $(window).scrollTop() > topInfo[1]){
-        parallax.eq(0).css("display","none");
-      }else{
-        parallax.eq(0).css("display","block");
-      }
+  //     if( $(window).scrollTop() > topInfo[1]){
+  //       parallax.eq(0).css("display","none");
+  //     }else{
+  //       parallax.eq(0).css("display","block");
+  //     }
       
-    })
-  })//window.scroll
+  //   })
+  // })//window.scroll
 
 
 

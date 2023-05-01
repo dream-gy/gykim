@@ -7,7 +7,8 @@
 
 
 /* 공통영역 */
-html {
+html,body {
+  width: 100%;
   @include desktop {
     font-size: 18px;
   }
@@ -31,7 +32,7 @@ html {
   position:relative;
   margin:1rem auto;
   width:1rem;
-  &:before, &:after {
+  &::before, &::after {
     content:"";
     position:absolute;
     background:#FFE55F;
@@ -43,19 +44,19 @@ html {
     }
    
   }
-  &:before {
+  &::before {
     transform:rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
   }
-  &:after {
+  &::after {
     transform:rotate(45deg) skewX(22.5deg) skewY(22.5deg);
   }
   &.pink {
-    &:before,&:after {
+    &::before,&::after {
     background:#E980FF;
     }
   }
   &.green {
-    &:before,&:after {
+    &::before,&::after {
     background:#85FF61;
     }
   }
@@ -107,15 +108,16 @@ section {
 
 /* main 영역 */
 main {
-  position: absolute;
-  top: 0;
+  // position: absolute;
+  // top: 0;
   width: 100%;
-  height: 900px;
+  height: 100vh;
+  // height: 900px;
   @include desktop {
-    height: 800px;
+    // height: 800px;
   }
   @include laptop {
-    height: 700px;
+    // height: 700px;
   }
   .tit {
     font-size: 0.7rem;
@@ -130,7 +132,7 @@ main {
         font-size: 3.428rem;
       }
     }
-    p:before {
+    p::before {
       content:"";
       display: inline-block;
       width: 30px;
@@ -166,14 +168,14 @@ main {
       p {
         transition: all 0.4s;
         transform-style: preserve-3d;
-        &:before {
+        &::before {
           position: absolute;
           transform: rotateX(-90deg);
         }
-        &:nth-child(1):before {
+        &:nth-child(1)::before {
           content:"RIGHT";
         }
-        &:nth-child(2):before {
+        &:nth-child(2)::before {
           content:"NOW!";
         }
       }
@@ -241,13 +243,17 @@ main {
       }
       .four-pointed-star{
         opacity: 1;
+        display: block;
+        @include tablet {
+          display: none;
+        }
       }
       .four-pointed-star.yellow {
         @include position(left, -20%, top, 50%, 20);
       }
       .four-pointed-star.pink {
         @include position(right, -20%, top, 20%, 20);
-        &:before , &:after {
+        &::before , &::after {
           width: 0.4rem;
           height: 0.415rem;
           @include laptop {
@@ -258,7 +264,7 @@ main {
       }
       .four-pointed-star.green {
         @include position(right, -25%, bottom, 15%, 20);
-        &:before , &:after {
+        &::before , &::after {
           width: 0.2rem;
           height: 0.215rem;
          
@@ -345,8 +351,8 @@ main {
 
 .section-wrap {
   transition: all 1s;
-  position: absolute;
-  z-index: 60;
+  // position: absolute;
+  // z-index: 60;
   background: #fff;
   box-shadow: 5px 0px 10px rgba(166,173,201,.2);
 }
@@ -447,7 +453,7 @@ main {
         margin-top: 4.375rem;
         padding: 0;
       }
-      &:before {
+      &::before {
         content:"";
         @include  position(left, 1rem, bottom, 100%, 20);
         @include background('coffee2.png', 3.05rem, 11.2rem);
@@ -531,7 +537,7 @@ main {
             padding: 0.5rem 0  0.5rem 2.5rem;
           }
           @for $i from 1 to 6 {
-            &:nth-child(#{$i})>p:before {
+            &:nth-child(#{$i})>p::before {
               content:"";
               @include position(left, 0, top, 50%, 20);
               width: 1.8rem;
@@ -547,7 +553,7 @@ main {
           }
         }
       }
-      &:before {
+      &::before {
         content:"";
         @include position(left,0.25rem, bottom, 1.75rem, 30);
         @include background('book2.png', 6.75rem, 4.5rem);
@@ -559,7 +565,7 @@ main {
           display: none;
         }
       }
-      &:after {
+      &::after {
         content:"";
         @include position(left, 0, bottom, 0, 20);
         @include background('book.png', 8.8rem, 4.85rem);
@@ -600,7 +606,7 @@ main {
     }
     p {
       font-size: 0.9rem;
-      &:before {
+      &::before {
         content:"아직\A모자라지만";
         white-space: pre;
         display: block;
@@ -681,7 +687,7 @@ main {
             padding: 1rem;
             border-bottom: 1px solid $black;
             transition: all 0.3s;
-            &:after {
+            &::after {
               content:"";
               @include position(right, 1rem, top, 50%, 20);
               width: 17px;
@@ -753,7 +759,7 @@ main {
       @include mobile {
         width: 100%;
       }
-      &:before {
+      &::before {
         content:"";
         display: block;
         opacity: 0.3;

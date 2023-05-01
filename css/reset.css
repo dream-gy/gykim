@@ -9,7 +9,7 @@ label,input,select,textarea,button,a {vertical-align:middle;}
 u,ins,a{text-decoration:none;}
 button { cursor: pointer;}
 em {font-style:normal; font-weight: bold;}
-*,*:after, *:before { box-sizing:border-box; }
+*,*::after, *::before { box-sizing:border-box; }
 /* Normalize */
 body { font-family: 'Noto Sans KR', sans-serif; }
 select { appearance:none;}
@@ -50,6 +50,8 @@ caption > div, legend, .hidden {overflow: hidden; display:block; position:absolu
 .skip { position: absolute; left: 0; right: 0; top:-100%; transition: all .5s; line-height: 5rem; background: #000; color:#fff; text-align: center; z-index: 100;}
 .skip:focus { top: 0; }
 
-.clearfix:before, .clearfix:after { content:""; clear:both; display: block;}
-.clearfix{*zoom:1;}
+/* clearfix */
+.clearfix::before, .clearfix::after {display: block; content: ''; line-height: 0;}
+.clearfix::after {clear:both;}
+.clearfix { *zoom: 1;}
 

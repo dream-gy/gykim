@@ -77,23 +77,26 @@ footer .copyright {
 }
 
 /* 공통영역 */
+html, body {
+  width: 100%;
+}
 @media (max-width: 1400px) {
-  html {
+  html, body {
     font-size: 18px;
   }
 }
 @media (max-width: 1020px) {
-  html {
+  html, body {
     font-size: 16px;
   }
 }
 @media (max-width: 768px) {
-  html {
+  html, body {
     font-size: 14px;
   }
 }
 @media (max-width: 768px) {
-  html .container {
+  html .container, body .container {
     width: 90%;
   }
 }
@@ -108,7 +111,7 @@ footer .copyright {
   margin: 1rem auto;
   width: 1rem;
 }
-.four-pointed-star:before, .four-pointed-star:after {
+.four-pointed-star::before, .four-pointed-star::after {
   content: "";
   position: absolute;
   background: #FFE55F;
@@ -116,21 +119,21 @@ footer .copyright {
   height: 0.615rem;
 }
 @media (max-width: 1400px) {
-  .four-pointed-star:before, .four-pointed-star:after {
+  .four-pointed-star::before, .four-pointed-star::after {
     width: 0.4rem;
     height: 0.415rem;
   }
 }
-.four-pointed-star:before {
+.four-pointed-star::before {
   transform: rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
 }
-.four-pointed-star:after {
+.four-pointed-star::after {
   transform: rotate(45deg) skewX(22.5deg) skewY(22.5deg);
 }
-.four-pointed-star.pink:before, .four-pointed-star.pink:after {
+.four-pointed-star.pink::before, .four-pointed-star.pink::after {
   background: #E980FF;
 }
-.four-pointed-star.green:before, .four-pointed-star.green:after {
+.four-pointed-star.green::before, .four-pointed-star.green::after {
   background: #85FF61;
 }
 
@@ -188,20 +191,8 @@ section {
 
 /* main 영역 */
 main {
-  position: absolute;
-  top: 0;
   width: 100%;
-  height: 900px;
-}
-@media (max-width: 1400px) {
-  main {
-    height: 800px;
-  }
-}
-@media (max-width: 1020px) {
-  main {
-    height: 700px;
-  }
+  height: 100vh;
 }
 main .tit {
   font-size: 0.7rem;
@@ -221,7 +212,7 @@ main .tit h2 {
     font-size: 3.428rem;
   }
 }
-main .tit p:before {
+main .tit p::before {
   content: "";
   display: inline-block;
   width: 30px;
@@ -267,14 +258,14 @@ main .start .flip p {
   transition: all 0.4s;
   transform-style: preserve-3d;
 }
-main .start .flip p:before {
+main .start .flip p::before {
   position: absolute;
   transform: rotateX(-90deg);
 }
-main .start .flip p:nth-child(1):before {
+main .start .flip p:nth-child(1)::before {
   content: "RIGHT";
 }
-main .start .flip p:nth-child(2):before {
+main .start .flip p:nth-child(2)::before {
   content: "NOW!";
 }
 main .start:hover p {
@@ -362,6 +353,12 @@ main .visual .visual-circle img {
 }
 main .visual .visual-circle .four-pointed-star {
   opacity: 1;
+  display: block;
+}
+@media (max-width: 768px) {
+  main .visual .visual-circle .four-pointed-star {
+    display: none;
+  }
 }
 main .visual .visual-circle .four-pointed-star.yellow {
   position: absolute;
@@ -376,12 +373,12 @@ main .visual .visual-circle .four-pointed-star.pink {
   top: 20%;
   z-index: 20;
 }
-main .visual .visual-circle .four-pointed-star.pink:before, main .visual .visual-circle .four-pointed-star.pink:after {
+main .visual .visual-circle .four-pointed-star.pink::before, main .visual .visual-circle .four-pointed-star.pink::after {
   width: 0.4rem;
   height: 0.415rem;
 }
 @media (max-width: 1020px) {
-  main .visual .visual-circle .four-pointed-star.pink:before, main .visual .visual-circle .four-pointed-star.pink:after {
+  main .visual .visual-circle .four-pointed-star.pink::before, main .visual .visual-circle .four-pointed-star.pink::after {
     width: 0.3rem;
     height: 0.315rem;
   }
@@ -392,7 +389,7 @@ main .visual .visual-circle .four-pointed-star.green {
   bottom: 15%;
   z-index: 20;
 }
-main .visual .visual-circle .four-pointed-star.green:before, main .visual .visual-circle .four-pointed-star.green:after {
+main .visual .visual-circle .four-pointed-star.green::before, main .visual .visual-circle .four-pointed-star.green::after {
   width: 0.2rem;
   height: 0.215rem;
 }
@@ -536,8 +533,6 @@ main .visual .visual-circle .icon-coffee {
 /* about,portfolio,contact 묶음 */
 .section-wrap {
   transition: all 1s;
-  position: absolute;
-  z-index: 60;
   background: #fff;
   box-shadow: 5px 0px 10px rgba(166, 173, 201, 0.2);
 }
@@ -661,7 +656,7 @@ main .visual .visual-circle .icon-coffee {
     padding: 0;
   }
 }
-.about .about-tit .txt:before {
+.about .about-tit .txt::before {
   content: "";
   position: absolute;
   left: 1rem;
@@ -672,19 +667,19 @@ main .visual .visual-circle .icon-coffee {
   background: url(../image/coffee2.png) no-repeat center/3.05rem;
 }
 @media (max-width: 1020px) {
-  .about .about-tit .txt:before {
+  .about .about-tit .txt::before {
     width: 2.8125rem;
     height: 10.375rem;
     background: url(../image/coffee2.png) no-repeat center/2.8125rem;
   }
 }
 @media (max-width: 768px) {
-  .about .about-tit .txt:before {
+  .about .about-tit .txt::before {
     left: 0;
   }
 }
 @media (max-width: 480px) {
-  .about .about-tit .txt:before {
+  .about .about-tit .txt::before {
     display: none;
   }
 }
@@ -777,7 +772,7 @@ main .visual .visual-circle .icon-coffee {
   border-bottom: 3px solid #191919;
   padding: 0.5rem 0 0.5rem 2.5rem;
 }
-.about .about-detail .skiils .skills-list > li:nth-child(1) > p:before {
+.about .about-detail .skiils .skills-list > li:nth-child(1) > p::before {
   content: "";
   position: absolute;
   left: 0;
@@ -788,7 +783,7 @@ main .visual .visual-circle .icon-coffee {
   height: 1.8rem;
   background: url(../image/skills-icon01.png) no-repeat center/1.8rem;
 }
-.about .about-detail .skiils .skills-list > li:nth-child(2) > p:before {
+.about .about-detail .skiils .skills-list > li:nth-child(2) > p::before {
   content: "";
   position: absolute;
   left: 0;
@@ -799,7 +794,7 @@ main .visual .visual-circle .icon-coffee {
   height: 1.8rem;
   background: url(../image/skills-icon02.png) no-repeat center/1.8rem;
 }
-.about .about-detail .skiils .skills-list > li:nth-child(3) > p:before {
+.about .about-detail .skiils .skills-list > li:nth-child(3) > p::before {
   content: "";
   position: absolute;
   left: 0;
@@ -810,7 +805,7 @@ main .visual .visual-circle .icon-coffee {
   height: 1.8rem;
   background: url(../image/skills-icon03.png) no-repeat center/1.8rem;
 }
-.about .about-detail .skiils .skills-list > li:nth-child(4) > p:before {
+.about .about-detail .skiils .skills-list > li:nth-child(4) > p::before {
   content: "";
   position: absolute;
   left: 0;
@@ -821,7 +816,7 @@ main .visual .visual-circle .icon-coffee {
   height: 1.8rem;
   background: url(../image/skills-icon04.png) no-repeat center/1.8rem;
 }
-.about .about-detail .skiils .skills-list > li:nth-child(5) > p:before {
+.about .about-detail .skiils .skills-list > li:nth-child(5) > p::before {
   content: "";
   position: absolute;
   left: 0;
@@ -838,7 +833,7 @@ main .visual .visual-circle .icon-coffee {
 .about .about-detail .skiils .skills-list .detail li {
   font-weight: 300;
 }
-.about .about-detail .skiils:before {
+.about .about-detail .skiils::before {
   content: "";
   position: absolute;
   left: 0.25rem;
@@ -849,17 +844,17 @@ main .visual .visual-circle .icon-coffee {
   background: url(../image/book2.png) no-repeat center/6.75rem;
 }
 @media (max-width: 1020px) {
-  .about .about-detail .skiils:before {
+  .about .about-detail .skiils::before {
     left: initial;
     right: 1.9rem;
   }
 }
 @media (max-width: 480px) {
-  .about .about-detail .skiils:before {
+  .about .about-detail .skiils::before {
     display: none;
   }
 }
-.about .about-detail .skiils:after {
+.about .about-detail .skiils::after {
   content: "";
   position: absolute;
   left: 0;
@@ -870,13 +865,13 @@ main .visual .visual-circle .icon-coffee {
   background: url(../image/book.png) no-repeat center/8.8rem;
 }
 @media (max-width: 1020px) {
-  .about .about-detail .skiils:after {
+  .about .about-detail .skiils::after {
     left: initial;
     right: 0;
   }
 }
 @media (max-width: 480px) {
-  .about .about-detail .skiils:after {
+  .about .about-detail .skiils::after {
     display: none;
   }
 }
@@ -908,7 +903,7 @@ main .visual .visual-circle .icon-coffee {
 .portfolio .work-tit p {
   font-size: 0.9rem;
 }
-.portfolio .work-tit p:before {
+.portfolio .work-tit p::before {
   content: "아직\a모자라지만";
   white-space: pre;
   display: block;
@@ -917,7 +912,7 @@ main .visual .visual-circle .icon-coffee {
   color: #6ECCD0;
 }
 @media (max-width: 480px) {
-  .portfolio .work-tit p:before {
+  .portfolio .work-tit p::before {
     text-align: left;
   }
 }
@@ -1003,7 +998,7 @@ main .visual .visual-circle .icon-coffee {
   border-bottom: 1px solid #191919;
   transition: all 0.3s;
 }
-.portfolio .works ul li .link a:after {
+.portfolio .works ul li .link a::after {
   content: "";
   position: absolute;
   right: 1rem;
@@ -1084,7 +1079,7 @@ main .visual .visual-circle .icon-coffee {
     width: 100%;
   }
 }
-.contact .tit-wrap .txt:before {
+.contact .tit-wrap .txt::before {
   content: "";
   display: block;
   opacity: 0.3;
@@ -1093,7 +1088,7 @@ main .visual .visual-circle .icon-coffee {
   background: url(../image/draw.png) no-repeat center/100%;
 }
 @media (max-width: 768px) {
-  .contact .tit-wrap .txt:before {
+  .contact .tit-wrap .txt::before {
     display: none;
   }
 }

@@ -36,7 +36,7 @@
   cursor: row-resize;
   height: 6px;
 }
-.splitter_panel .vsplitter:after, .splitter_panel .hsplitter:after {
+.splitter_panel .vsplitter::after, .splitter_panel .hsplitter::after {
   content:"";
   position: absolute;
   width: 14px;
@@ -45,18 +45,17 @@
   border: 1px solid #D9D9D9;
   background: url(../image/splitter.png) no-repeat center/ 4px, linear-gradient(to left, rgba(255, 255, 255, 1),rgba(217, 217, 217, 1));
 }
-.splitter_panel .vsplitter:after {
+.splitter_panel .vsplitter::after {
   left: -14px;
   top: 50%;
   transform: translateY(-50%);
 }
-.splitter_panel .hsplitter:after {
+.splitter_panel .hsplitter::after {
   left: 50%;
   top: -36px;
   transform: translateX(-50%);
   transform: rotate(90deg);
 }
-
 
 
 .splitter_panel .vsplitter.splitter-invisible,
