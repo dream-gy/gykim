@@ -216,6 +216,7 @@ article:last-child .container {
 .slider-wrap {
     position: relative;
 }
+
 .slider-controls-box {
     position: absolute;
     bottom: 20px;
@@ -445,6 +446,10 @@ table .date .year {
     letter-spacing: 1px;
     line-height: 1;
     
+}
+table td:first-child{
+  padding: 15px 0;
+  text-align: center;
 }
 .paging {
     text-align: center;
@@ -728,7 +733,9 @@ main .txt-wrap .txt {
 .main3 .txt-point, .main3 .tit-txt {
     color :#f8f8f8;
 }
-
+main .slider-controls-box {
+  width: 170px;
+ }
 /* about */
 .about .txt {
     width: 400px;
@@ -1604,10 +1611,6 @@ height: 200px;
 .page-content h3 {
     color:#0d1f1e;
 }
-.news-table td:first-child{
-  padding: 15px 0;
-  text-align: center;
-}
 .event-list {
     width: 100%;
     position: relative;
@@ -2265,17 +2268,13 @@ height: 200px;
     td.tit {
       font-size: 14px;
     }
+
 }
 /* mobile 규격 */
 @media screen and (max-width: 540px){
     .container {
 		  min-width: 320px;
 	  }
-   
-   
-    main .slider-controls-box {
-     width: 170px;
-    }
     .page-count {
       font-size: 14px;
     }
