@@ -111,13 +111,14 @@ main {
   // position: absolute;
   // top: 0;
   width: 100%;
-  height: 100vh;
-  // height: 900px;
+  // height: 100vh;
+  overflow: hidden;
+  height: 900px;
   @include desktop {
-    // height: 800px;
+    height: 800px;
   }
   @include laptop {
-    // height: 700px;
+    height: 700px;
   }
   .tit {
     font-size: 0.7rem;
