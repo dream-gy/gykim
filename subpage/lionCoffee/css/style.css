@@ -24,12 +24,12 @@
   top: 0;
 }
 /* clearfix */
-.clearfix:before, .clearfix:after {
+.clearfix::before, .clearfix::after {
   display: block;
   content: '';
   line-height: 0;
 }
-.clearfix:after {
+.clearfix::after {
   clear:both;
 }
 .clearfix {
@@ -92,7 +92,7 @@ h4 {
     letter-spacing: -0.5px;
     z-index: 70;
 }
-.read-more:before {
+.read-more::before {
     content: "";
     position: absolute;
     bottom: 4px;
@@ -102,7 +102,7 @@ h4 {
     overflow: hidden;
     background: #fafafa;
 }
-.read-more:hover:before {
+.read-more:hover::before {
     animation-name: hoverMv;
     animation-duration: 0.5s;
 }
@@ -116,7 +116,7 @@ button.read-more {
     padding: 15px 0;
     border-radius: 5px;
 }
-button.read-more:before {
+button.read-more::before {
     display: none;
 }
 @keyframes hoverMv {
@@ -146,7 +146,7 @@ button.read-more:before {
     position: relative;
     transition: all 0.2s;
 }
-.more:after {
+.more::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -162,9 +162,6 @@ button.read-more:before {
 }
 .more:hover {
    background: #ffd105cf;
-}
-.more:hover:after {
-    
 }
 
 #contents article {
@@ -246,7 +243,7 @@ article:last-child .container {
 .page-count .total {
     color:rgba(255, 255, 255, 0.5)
 }
-.page-count .total:before {
+.page-count .total::before {
     content: "";
     display: inline-block;
     width: 1px;
@@ -260,7 +257,7 @@ article:last-child .container {
 .slider-controls-box.black .page-count .total{
     color: #0d1f1e83;
 }
-.slider-controls-box.black .page-count .total:before {
+.slider-controls-box.black .page-count .total::before {
     background-color: #0d1f1e83;
 }
 .slider-controls-box.black .bx-prev {
@@ -283,7 +280,6 @@ article:last-child .container {
     display: block;
     width: 20px;
     height: 20px;
-    vertical-align: middle;
     background: url('../image/player.png') no-repeat -20px -40px;
     background-size: 500%;
     overflow:hidden; 
@@ -362,7 +358,7 @@ table .tit a {
     text-overflow: ellipsis;
     padding-left: 35px;
 }
-table .tit a.new:after {
+table .tit a.new::after {
     content:"N";
     display: inline-block;
     vertical-align: middle;
@@ -380,7 +376,7 @@ table .tit a.new:after {
     margin-top: -1px;
     letter-spacing: normal;
 }
-table .fix a:before {
+table .fix a::before {
     content:"!";
     position: absolute;
     top: 50%;
@@ -399,7 +395,7 @@ table .fix a:before {
     margin-left: 5px;
     letter-spacing: normal;
 }
-table .tit:after, table .tit:before  {
+table .tit::after, table .tit::before  {
     content:"";
     display: block;
     position: absolute;
@@ -407,20 +403,16 @@ table .tit:after, table .tit:before  {
     transform: translateY(-50%);
     background: #0d1f1e;
 }
-table .tit:after {
+table .tit::after {
     top: calc(50% - 1px);
     width: 18px;
     height: 3px;
     transform: rotate(90deg);
 }
-table .tit:before {
+table .tit::before {
     top: calc(50%);
     width: 18px;
     height: 3px;
-}
-
-table .date {
-    
 }
 table .news-cont {
     display: inline-block;
@@ -436,7 +428,7 @@ table .date .day {
     font-family:'Roboto';
     position: relative;
 }
-table .date .day:after {
+table .date .day::after {
     content: "";
     position: absolute;
     top: -4px;
@@ -538,7 +530,7 @@ header {
 }
 header.on {
     background: #f8f8f8f7;
-    border-radius: 0 0 35px 35px;
+    border-radius: 0 0 15px 15px;
 }
 .logo {
     width: 120px;
@@ -560,7 +552,7 @@ nav {
     position: relative;
     transition: all 0.2s;
 }
-.gnb-list a:before {
+.gnb-list a::before {
     content: "";
     position: absolute;
     top: 0;
@@ -575,7 +567,7 @@ nav {
 .gnb-list a:hover {
     color: #cf2e39;
 }
-.gnb-list a:hover:before {
+.gnb-list a:hover::before {
     opacity: 1;
 }
 .gnb-list li:last-child {
@@ -600,7 +592,7 @@ nav {
     background: #0d1f1e;
     transition: all 0.3s;
 }
-.m-btn span:before {
+.m-btn span::before {
     content:"";
     position: absolute;
     top: -8px;
@@ -610,7 +602,7 @@ nav {
     background: #0d1f1e;
     transition: all 0.3s;
 }
-.m-btn span:after {
+.m-btn span::after {
     content:"";
     position: absolute;
     top: 8px;
@@ -623,11 +615,11 @@ nav {
 .m-btn.active span {
     background: transparent;
 }
-.m-btn.active span:before {
+.m-btn.active span::before {
     top: 0;
     transform: rotate(-45deg);
 }
-.m-btn.active span:after {
+.m-btn.active span::after {
     width: 100%;
     top: 0;
     transform: rotate(45deg);
@@ -658,13 +650,13 @@ nav {
 .m-gnb .gnb-list a {
     font-size: 35px;
 }
-.m-gnb .gnb-list a:before {
+.m-gnb .gnb-list a::before {
     background: #0d1f1e;
     width: 8px;
     height: 8px;
     opacity: 1;
 }
-.m-gnb .gnb-list a:hover:before {
+.m-gnb .gnb-list a:hover::before {
     background: #cf2e39;
 }
 
@@ -673,7 +665,7 @@ main {
     position: relative;
     padding: 30px 0;
 }
-main:before {
+main::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -736,9 +728,7 @@ main .txt-wrap .txt {
 .main3 .txt-point, .main3 .tit-txt {
     color :#f8f8f8;
 }
-.main-controls {
-   
-}
+
 /* about */
 .about .txt {
     width: 400px;
@@ -748,7 +738,7 @@ main .txt-wrap .txt {
     position: relative;
     z-index: 1;
 }
-.about-img:before {
+.about-img::before {
     content: "";
     position: absolute;
     bottom: calc(100% + 20px);
@@ -887,7 +877,7 @@ main .txt-wrap .txt {
     font-family:'Roboto';
     position: relative;
 }
-.community .news .date .day:after {
+.community .news .date .day::after {
     content: "";
     position: absolute;
     top: 0;
@@ -1113,7 +1103,7 @@ main .txt-wrap .txt {
     font-size: 18px;
     line-height: 1.3;
 }
-.sns-id:before {
+.sns-id::before {
     content: "";
     display: inline-block;
     width: 24px;
@@ -1127,7 +1117,7 @@ main .txt-wrap .txt {
 /* footer */
 footer {
     background-color: #331227;
-    border-radius: 45px 45px 0 0;
+    border-radius: 15px 15px 0 0;
     margin-top: -45px;
 }
 footer .container {
@@ -1194,7 +1184,7 @@ footer .container {
     display: block;
     width: 100%;
 }
-.sub-main:before {
+.sub-main::before {
     content:"";
     position: absolute;
     width: 100%;
@@ -1202,7 +1192,7 @@ footer .container {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 50;
 }
-.sub-main:after {
+.sub-main::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -1220,7 +1210,7 @@ footer .container {
     margin-left: 30%;
     position: relative;
 }
-.about-us .txt:before {
+.about-us .txt::before {
     content:"";
     display: inline-block;
     width: 244px;
@@ -1268,7 +1258,7 @@ footer .container {
     padding-left: 40px;
     margin-left: 20px;
 }
-.history-list:before {
+.history-list::before {
     content:"";
     position: absolute;
     top: 23px;
@@ -1286,7 +1276,7 @@ footer .container {
 .history-list li.active {
     opacity: 1;
 }
-.history-list li:before {
+.history-list li::before {
     content:"";
     position: absolute;
     top: 18px;
@@ -1298,7 +1288,7 @@ footer .container {
     opacity: 0;
     transition: all 0.2s;
 }
-.history-list li.active:before {
+.history-list li.active::before {
     opacity: 1;
 }
 .history-wrap .timeline {
@@ -1406,7 +1396,7 @@ footer .container {
     position: relative;
     display: inline-block;
 }
-.Hawaiian-Lion .coffee-tit .tit:after {
+.Hawaiian-Lion .coffee-tit .tit::after {
     content:"";
     position: absolute;
     left:108%;
@@ -1416,7 +1406,7 @@ footer .container {
     background: url(../image/ourcoffee/coffee-icon01.png) no-repeat;
 
 }
-.Classic-Lion .coffee-tit .tit:after {
+.Classic-Lion .coffee-tit .tit::after {
     content:"";
     position: absolute;
     left:108%;
@@ -1425,7 +1415,7 @@ footer .container {
     height: 128px;
     background:url(../image/ourcoffee/coffee-icon02.png) no-repeat;
 }
-.Flavors-of-Hawaii .coffee-tit .tit:after {
+.Flavors-of-Hawaii .coffee-tit .tit::after {
     content:"";
     position: absolute;
     left:108%;
@@ -1434,7 +1424,7 @@ footer .container {
     height: 122px;
     background:url(../image/ourcoffee/coffee-icon03.png) no-repeat;
 }
-.Lion-Decaf .coffee-tit .tit:after {
+.Lion-Decaf .coffee-tit .tit::after {
     content:"";
     position: absolute;
     left:108%;
@@ -1443,7 +1433,7 @@ footer .container {
     height: 129px;
     background: url(../image/ourcoffee/coffee-icon04.png) no-repeat;
 }
-.Lion-Antioxidant .coffee-tit .tit:after {
+.Lion-Antioxidant .coffee-tit .tit::after {
     content:"";
     position: absolute;
     left:108%;
@@ -1471,7 +1461,7 @@ footer .container {
 .coffee-list .img-wrap {
     position: relative;
 }
-.coffee-list .img-wrap:before { 
+.coffee-list .img-wrap::before { 
    content:"";
     position: absolute;
     width: 90%;
@@ -1495,7 +1485,7 @@ footer .container {
     transform: scale(1.12);
     margin-left: 4px;
 }
-.Lion-Single  .coffee-list .img-wrap:before {
+.Lion-Single  .coffee-list .img-wrap::before {
     top: 60%;
 }
 .coffee-list .txt-wrap {
@@ -1542,7 +1532,7 @@ height: 200px;
     transition: all 0.2s;
     font-size: 15px;
 }
-.website p:after {
+.website p::after {
     content:"";
     display: inline-block; 
     width: 14px;
@@ -1684,6 +1674,7 @@ height: 200px;
     background-color: #fff;
     border-radius: 35px;
     padding: 20px;
+    margin-top: 80px;
 }
 .view-content p, .view-content span, .view-content strong, .view-content em, .view-content b, .view-content em {
     color: #0d1f1e;
@@ -1705,7 +1696,7 @@ height: 200px;
     margin: 0 5px;
     letter-spacing: normal;
 }
-.view-info>span:after {
+.view-info>span::after {
     content:"";
     display: inline-block;
     width: 1px;
@@ -1713,18 +1704,19 @@ height: 200px;
     background: #9999;
     margin-left: 5px;
 }
-.view-info>span:last-child:after {
+.view-info>span:last-child::after {
     display: none;
 }
 .view-content .content {
     padding: 20px; 
 }
+
 .view-more {
     position: relative;
     padding: 20px; 
     border-top: 1px solid #9999;
 }
-.view-more:before {
+.view-more::before {
     content:"";
     position: absolute;
     top: 50%;
@@ -1747,16 +1739,17 @@ height: 200px;
     width: 50%;
 }
 .another-list .tit {
-    width: 70%;
+    width:295px;
 }
 .another-list .next .tit {
     margin:0 0 0 auto;
 }
 .another-list .prev {
     display: block;
-    margin-left:150px;
+    /* margin-left:20%; */
+    padding-left: 20%;
 }
-.another-list .prev:before, .another-list .next:before {
+.another-list .prev::before, .another-list .next::before {
     content:"";
     position: absolute;
     left: 10%;
@@ -1768,14 +1761,14 @@ height: 200px;
     background-size: 500%;
     background-position: 0 -35px;
 }
-.another-list .next:before {
+.another-list .next::before {
     left: 90%;
     background-position: -35px -35px;
 }
 .another-list .next {
     display: block;
     text-align: right;
-    margin-right:150px;
+    padding-right: 20%;
 }
 /* store */
 .branch h2 {
@@ -1887,6 +1880,10 @@ height: 200px;
         position: fixed;
         width: 100%;
     }
+    header.on .logo {
+      width: 70px;
+      height: 40px;
+    }
     #contents {
         padding-top: 70px;
     }
@@ -1938,6 +1935,7 @@ height: 200px;
         bottom: 100%;
         right: 0;
         left: initial;
+        padding: 10px 0;
     }
     .coffee-img img {
         display: block;
@@ -1999,7 +1997,7 @@ height: 200px;
         font-size: 18px;
         margin-left: 35%;
     }
-    .about-us .txt:before {
+    .about-us .txt::before {
         background-size: 210px;
     }
     .logo-list {
@@ -2037,7 +2035,28 @@ height: 200px;
     .review-list li:nth-child(3n) {
         margin-right: 0%;
     }
-
+    .another-list li {
+      width: 100%;
+      float: none;
+    }
+    .another-list li p {
+      display: inline-block;
+    }
+    .another-list .tit {
+      width: initial;
+      padding: 10px;
+    }
+    .another-list .prev {
+      padding-left:0;
+    }
+    .another-list .next {
+      padding-right: 0;
+      text-align: left;
+    }
+    .another-list .prev::before, .another-list .next::before ,.view-more::before  {
+     display: none;
+    }
+    
 }
 @media screen and (max-width: 767px){
     /*Mobile CSS*/
@@ -2113,7 +2132,7 @@ height: 200px;
     .sub-main {
       min-height:190px;
     }
-    .sub-main:after {
+    .sub-main::after {
         background-size: 100px;
     }
      .about-us .txt {
@@ -2122,7 +2141,7 @@ height: 200px;
         width: 460px;
         margin: 60px auto;
     }
-    .about-us .txt:before {
+    .about-us .txt::before {
         width: 170px;
         background-size: 100%;
         right: initial;
@@ -2160,7 +2179,7 @@ height: 200px;
     #contents article.Hawaiian-Lion {
         padding-top: 0px;
     }
-    .ourcoffee .coffee-tit .tit:after {
+    .ourcoffee .coffee-tit .tit::after {
         display: none;
     }
     .ourcoffee .coffee-tit {
@@ -2213,6 +2232,7 @@ height: 200px;
     .tabmenu-list li {
         font-size: 14px;
     }
+  
     /* subpage store */
     .branch .store-img img {
         margin-left: 0;
@@ -2251,7 +2271,9 @@ height: 200px;
     .container {
 		  min-width: 320px;
 	  }
-    .slider-controls-box {
+   
+   
+    main .slider-controls-box {
      width: 170px;
     }
     .page-count {
@@ -2376,6 +2398,8 @@ height: 200px;
     .comm-tab li {
         padding: 15px 25px;
     }
-    
+    .view-content .content img {
+      width: 100% !important;
+    }
    
 }
