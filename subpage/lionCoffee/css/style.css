@@ -226,10 +226,12 @@ article:last-child .container {
     padding: 10px 15px;
     border-radius: 35px 35px;
     z-index: 70;
+    font-size: 0;
 }
 
 .page-count, .ctrl-btn {
     display: inline-block;
+    vertical-align: middle;
 }
 .page-count span {
     margin: 0 2px;
@@ -733,9 +735,6 @@ main .txt-wrap .txt {
 .main3 .txt-point, .main3 .tit-txt {
     color :#f8f8f8;
 }
-main .slider-controls-box {
-  width: 170px;
- }
 /* about */
 .about .txt {
     width: 400px;
