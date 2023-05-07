@@ -80,7 +80,7 @@ border: 5px solid blue;
 .bcs {
   background: url(../image/brand-logo/bcs-title-w.png) no-repeat center #170d8e;
 }
-.brand-site li a:before {
+.brand-site li a::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -88,7 +88,7 @@ border: 5px solid blue;
   background: rgba(0, 0, 0, 0.0);
   transition: all 0.5s ease;
 }
-.brand-site li a:after {
+.brand-site li a::after {
   content: "브랜드 스토리 바로가기";
   width: 100%;
   position: absolute;
@@ -101,10 +101,10 @@ border: 5px solid blue;
   opacity: 0;
   transition: all 0.5s ease;
 }
-.brand-site li:hover a:before  {
+.brand-site li:hover a::before  {
   background: rgba(0, 0, 0, 0.3);
 }
-.brand-site li:hover a:after {
+.brand-site li:hover a::after {
   top: calc(100% - 35px);
   opacity: 0.7;
 }
@@ -209,7 +209,7 @@ border: 5px solid blue;
 #product-search, #category-search {
   position: relative;
 }
-#product-search:after, #category-search:after {
+#product-search::after, #category-search::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -219,7 +219,7 @@ border: 5px solid blue;
   height: 230px;
   background: #f8f8f8;
 }
-#category-search:after {
+#category-search::after {
   top: 230px;
   height: 280px;
 }
@@ -326,13 +326,13 @@ border: 5px solid blue;
   color: #f8f8f8;
   border: 0;
 }
-.sch-tab button:first-child.on:after{
+.sch-tab button:first-child.on::after{
   border:0;
 }
 .sch-tab button:last-child {
   margin-right: 0;
 }
-.sch-tab button.on:after {
+.sch-tab button.on::after {
  content: "";
  position: absolute;
  left: -2px;
@@ -343,7 +343,7 @@ border: 5px solid blue;
  border: 2px solid #232323;
  transition: all 0.3s ease;
 }
-.sch-tab button:before {
+.sch-tab button::before {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -353,23 +353,23 @@ border: 5px solid blue;
   height: 16px;
  
 }
-.sch-tab button:nth-child(1):before {
+.sch-tab button:nth-child(1)::before {
   background: url(../image/tab-menu.png) no-repeat 50% 50%;
   background-size: 90%;
 }
-.sch-tab button:nth-child(2):before {
+.sch-tab button:nth-child(2)::before {
   background: url(../image/drugs.png) no-repeat 50% 50%;
   background-size: 100%;
 }
-.sch-tab button:nth-child(3):before {
+.sch-tab button:nth-child(3)::before {
   background: url(../image/pills.png) no-repeat 50% 50%;
   background-size: 100%;
 }
-.sch-tab button:nth-child(4):before {
+.sch-tab button:nth-child(4)::before {
   background: url(../image/vitamin.png) no-repeat 50% 50%;
   background-size: 100%;
 }
-.sch-tab button:nth-child(5):before {
+.sch-tab button:nth-child(5)::before {
   background: url(../image/medicine.png) no-repeat 50% 50%;
   background-size: 100%;
 }
@@ -419,7 +419,7 @@ border: 5px solid blue;
   transition: all 0.3s ease;
   position: relative;
 }
-.result-item li.best:before, .result-item li.new:before {
+.result-item li.best::before, .result-item li.new::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -427,11 +427,11 @@ border: 5px solid blue;
   padding: 4px 10px;
   font-size: 14px;
 }
-.result-item li.best:before {
+.result-item li.best::before {
   content: "BEST";
   background: gold;
 }
-.result-item li.new:before {
+.result-item li.new::before {
   content: "NEW";
   background: red;
 }

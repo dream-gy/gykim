@@ -21,7 +21,7 @@ main {
   width: 100%;
   height: 100%;
 }
-.video-wrap:after {
+.video-wrap::after {
     content: "";
     width: 100%;
     height: 100%;
@@ -134,7 +134,7 @@ section .container {
 .more-btn:hover {
     letter-spacing: 0;
 }
-.more-btn:before {
+.more-btn::before {
     content: "";
     display: block;
     position: absolute;
@@ -143,7 +143,7 @@ section .container {
     height: 1px;
     background: #232323;
 }
-.more-btn:after {
+.more-btn::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -155,7 +155,7 @@ section .container {
     background-size: 100%;
     transition: all 0.2s ease-in-out;
 }
-.more-btn:hover:after {
+.more-btn:hover::after {
     top: 45%;
     right: -3px;
 }
@@ -177,8 +177,8 @@ section .container {
     align-items: center;
     position: relative;
 }
-.company-inner:after,
-.company-inner:before {
+.company-inner::after,
+.company-inner::before {
     position: absolute;
     z-index: -1;
     color: #f7f7f7;
@@ -186,13 +186,13 @@ section .container {
     font-weight: 900;
     line-height: 1;
 }
-.company-inner:before {
+.company-inner::before {
     content: "DONG-A";
     top: 0;
     left: -160px;
 
 }
-.company-inner:after {
+.company-inner::after {
     content: "PHARM";
     bottom: 0;
     right: -160px;
@@ -225,7 +225,7 @@ section .container {
     margin-bottom: 18px;
 }
 /* b-brand */
-.b-brand:before {
+.b-brand::before {
     content: "";
     display: block;
     position: absolute;
@@ -355,7 +355,7 @@ section .container {
     height: 510px;
     position: relative;
 }
-.np-slide-wrap:after {
+.np-slide-wrap::after {
     content: "";
     width: 100%;
     height: 100%;
@@ -556,7 +556,7 @@ section .container {
     width: calc(90% - 350px);
     position: relative;
 }
-.news li:hover .news-tit span:after {
+.news li:hover .news-tit span::after {
     width: 100%;
 }
 .news li:hover .news-desc {
@@ -580,7 +580,7 @@ section .container {
 .news-tit span {
     position: relative;
 }
-.news-tit span:after {
+.news-tit span::after {
     content: "";
     position: absolute;
     display: block;
@@ -595,7 +595,7 @@ section .container {
 li.new {
     position: relative;
 }
-li.new:before {
+li.new::before {
     content: "N";
     position: absolute;
     top: 5px;
@@ -660,7 +660,7 @@ li.new:before {
     text-decoration: underline;
     color: #019ac3;
 }
-.story-list li:hover .img:after {
+.story-list li:hover .img::after {
     background: rgb(255, 255, 255, 0.2);
 }
 .story-list .cate {
@@ -680,7 +680,7 @@ li.new:before {
     overflow: hidden;
     position: relative;
 }
-.story-list .img:after {
+.story-list .img::after {
     content: "";
     display: block;
     width: 100%;
@@ -770,7 +770,7 @@ li.new:before {
 .section-tit p {
     margin-bottom: 16px;
 }
-.recruit:before {
+.recruit::before {
     content: "";
     position: absolute;
     bottom: 55px;
@@ -779,7 +779,7 @@ li.new:before {
     background: #F7F7F7;
     z-index: -1;
 }
-.recruit .container:after {
+.recruit .container::after {
     content: "";
     position: absolute;
     right: calc(20% - 100px);
@@ -806,7 +806,7 @@ li.new:before {
     position: relative;
     transition: all 0.3s ease;
 }
-.recruit-link a:before {
+.recruit-link a::before {
     content: "";
     display: inline-block;
     vertical-align: middle;
@@ -816,15 +816,15 @@ li.new:before {
     background-size: 100%;
     margin-right: 10px;
 }
-.recruit-link a:nth-child(2):before {
+.recruit-link a:nth-child(2)::before {
     background: url("../image/write.png") no-repeat;
     background-size: 100%;
 }
-.recruit-link a:nth-child(3):before {
+.recruit-link a:nth-child(3)::before {
     background: url("../image/boss.png") no-repeat;
     background-size: 100%;
 }
-.recruit-link a:after {
+.recruit-link a::after {
     content: "";
     display: inline-block;
     vertical-align: middle;
@@ -843,7 +843,7 @@ li.new:before {
     background: rgb(1, 154, 195, 0.3);
     border: 1px solid transparent;
 }
-.recruit-link a:hover:after {
+.recruit-link a:hover::after {
     margin: 0 0 0 20px;
     opacity: 1;
 }
@@ -861,7 +861,7 @@ li.new:before {
     font-size: 18px;
     margin-bottom: 16px;
 }
-.contact-tit:after {
+.contact-tit::after {
     content: "";
     display: block;
     width: 100%;

@@ -9,7 +9,7 @@
 .mp-mean {
   position: relative;
 }
-.mp-mean:before {
+.mp-mean::before {
   content: "";
   display: inline-block;
   width: 140px;
@@ -17,7 +17,7 @@
   background: url(../image/management/ceo_jeong.png) no-repeat;
   margin-right: 10px;
 }
-.mp-mean:after {
+.mp-mean::after {
   content: "";
   position: absolute;
   top: calc(100% - 306px);
@@ -51,7 +51,7 @@
 .esprit b, .policy b {
   font-size: 22px;
 }
-.esprit:after, .policy:after {
+.esprit::after, .policy::after {
   content: "";
   position: absolute;
   right: 0;
@@ -59,12 +59,12 @@
   transform: translateY(-50%);
   z-index: -1;
 }
-.esprit:after {
+.esprit::after {
   width: 501px;
   height: 366px;
   background: url(../image/management/ceo_1st.png) no-repeat;
 }
-.policy:after {
+.policy::after {
   width: 441px;
   height: 310px;
   background: url(../image/management/ceo_2st_txt.png) no-repeat center / contain;
@@ -139,7 +139,7 @@
   text-align: center;
   position: relative;
 }
-.system-table:after {
+.system-table::after {
   content: "실행부서";
   position: absolute;
   top: 100%;
@@ -231,7 +231,7 @@
   position: relative;
   padding-top: 500px;
 }
-.o-chart:after {
+.o-chart::after {
   content: "";
   position: absolute;
   top: 450px;
@@ -246,11 +246,11 @@
   width: 12%;
   position: relative;
 }
-.o-chart li.top:before, .o-chart li.middle:before {
+.o-chart li.top::before, .o-chart li.middle::before {
   border: 0;
   background: #c6c6c6;
 }
-.o-chart li:before {
+.o-chart li::before {
   content: "";
   position: absolute;
   bottom: 100%;
@@ -260,13 +260,13 @@
   height: 50px;
   border-right: 1px solid #c6c6c6;
 }
-.o-chart li.top:before {
+.o-chart li.top::before {
   height: 312px;
   top: 138px;
   bottom: initial;
   
 }
-.o-chart li.middle:before {
+.o-chart li.middle::before {
   width: 275px;
   height: 1px;
   top: 69px;
@@ -350,7 +350,7 @@
   word-break: keep-all;
   position: relative;
 }
-.policy-paper:after{
+.policy-paper::after{
   content: "";
   position: absolute;
   left: 50%;
@@ -381,7 +381,7 @@
 .list-line {
   position: relative;
 }
-.list-line:after {
+.list-line::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -501,7 +501,7 @@
   display: flex;
   justify-content: space-between;
 }
-.system-chart:before {
+.system-chart::before {
   content: "";
   position: absolute;
   top: 400px;
@@ -511,13 +511,13 @@
   height: 50px;
   border-top: 1px solid #c6c6c6;
 }
-.system-chart .top:before {
+.system-chart .top::before {
   height: 270px;
   top: 131px;
   bottom: initial;
   left: calc(50% - 1px);
 }
-.system-chart .middle:before {
+.system-chart .middle::before {
   width: 280px;
   height: 1px;
   top: 65px;
@@ -560,7 +560,7 @@
   width: 18%;
   position: relative;
 }
-.system-chart>li:before {
+.system-chart>li::before {
   content: "";
   position: absolute;
   bottom: 100%;
@@ -592,7 +592,7 @@
   width: 300px;
   margin-left: -35px;
 }
-.childern-chart:before {
+.childern-chart::before {
   content: "";
   position: absolute;
   top: calc(100% - 70px);
@@ -602,7 +602,7 @@
   height: 50px;
   border-top: 1px solid #c6c6c6;
 }
-.childern-chart:after {
+.childern-chart::after {
   content: "";
   position: absolute;
   top: -10px;
@@ -617,7 +617,7 @@
   width: 130px;
   top: 0px;
 }
-.childern-chart .middle:before {
+.childern-chart .middle::before {
   width: 50px;
   left: -20%;
   top: 44px;
@@ -629,7 +629,7 @@
   width: 30%;
   position: relative;
 }
-.childern-chart li:before {
+.childern-chart li::before {
   content: "";
   position: absolute;
   bottom: 100%;
@@ -824,7 +824,7 @@
 .navigation li.on {
   color: #232323;
 }
-.navigation li.on:after {
+.navigation li.on::after {
   content: "";
   position: absolute;
   bottom: -12px;
@@ -873,10 +873,13 @@
   margin-bottom: 2.6%;
   position: relative;
 }
+.sec-tab li a {
+  display: block;
+}
 .sec-tab li p {
   line-height: 45px;
 }
-.sec-tab.ad li:before {
+.sec-tab.ad li a::before {
   content: "";
   position: absolute;
   top: 0;
@@ -887,7 +890,7 @@
   opacity: 0;
   transition: all 0.2s ease;
 }
-.sec-tab.ad li:after {
+.sec-tab.ad li a::after {
   content: "영상보러가기";
   position: absolute;
   top: 60%;
@@ -901,10 +904,10 @@
 .sec-tab li:nth-child(4n),.poster-list li:nth-child(4n) {
   margin-right: 0;
 }
-.sec-tab li:hover:before {
+.sec-tab li:hover a::before {
   opacity: 1;
 }
-.sec-tab li:hover:after {
+.sec-tab li:hover a::after {
   opacity: 1;
   top: 50%;
 }

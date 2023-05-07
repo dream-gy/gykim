@@ -140,7 +140,7 @@
   position: relative;
   display: inline;
 }
-#company-vision h4:after, .values h4:after {
+#company-vision h4::after, .values h4::after {
   content: "";
   display: inline;
   position: absolute;
@@ -152,7 +152,7 @@
   background: rgba(223, 240, 248, 0.6);
   transition: all 0.3s ease;
 }
-#company-vision .box:hover h4:after, .vision-box2:hover h4:after{
+#company-vision .box:hover h4::after, .vision-box2:hover h4::after{
   width: 100%;
 }
 #company-vision b {
@@ -174,23 +174,23 @@
   background:#fcfcfc;
   box-shadow: 0 5px 10px rgba(154,160,185,.2), 0 15px 40px rgba(166,173,201,.4);
 }
-.values li:after {
+.values li::after {
   content: "";
   position: absolute;
   top: 40px;
   width: 50px;
   height: 50px;
 }
-.values li:nth-child(1):after {
+.values li:nth-child(1)::after {
   background: url(../image/values-1.png) no-repeat;  
 }
-.values li:nth-child(2):after {
+.values li:nth-child(2)::after {
   background: url(../image/values-2.png) no-repeat;  
 }
-.values li:nth-child(3):after {
+.values li:nth-child(3)::after {
   background: url(../image/values-3.png) no-repeat;  
 }
-.values li:nth-child(4):after {
+.values li:nth-child(4)::after {
   background: url(../image/values-4.png) no-repeat;  
 }
 .values li:last-child {
@@ -210,7 +210,7 @@
 #company-business {
   position: relative;
 }
-#company-business:after {
+#company-business::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -284,7 +284,7 @@
 .history {
   position: relative;
 }
-.history:before {
+.history::before {
   content: "";
   position: absolute;
   top: 10px;
@@ -294,7 +294,7 @@
   height: 20px;
   border-right: 4px dotted #dff0f8;
 }
-.history:after {
+.history::after {
   content: "";
   position: absolute;
   top: 40px;
@@ -317,7 +317,7 @@
   filter: blur(0px);
   opacity: 1;
 }
-.history-item.active ul li:nth-child(1):after {
+.history-item.active ul li:nth-child(1)::after {
   background-color: #02acce;
   box-shadow: initial;
 }
@@ -352,11 +352,11 @@
   margin-right: 55px;
   margin-left: initial;
 }
-.history-item:nth-child(2n) li:before {
+.history-item:nth-child(2n) li::before {
   left: initial;
   right: -25px;
 }
-.history-item:nth-child(2n) li:nth-child(1):after {
+.history-item:nth-child(2n) li:nth-child(1)::after {
   left: initial;
   right: -51px;
 }
@@ -376,7 +376,7 @@
   line-height: 1;
   margin-bottom: 20px;
 }
-.history-item ul li:nth-child(1):after {
+.history-item ul li:nth-child(1)::after {
   content: "";    
   position: absolute;
   top: 50%;
@@ -391,7 +391,7 @@
   transition: all 0.3s ease;
 }
 
-.history-item ul li:before {
+.history-item ul li::before {
   content: "";    
   display: block;
   position: absolute;
@@ -404,7 +404,7 @@
   background-color: #02acce;
   margin-right: 10px;
 }
-.history-item ul li:nth-child(1):before {
+.history-item ul li:nth-child(1)::before {
   display: none;
 }
 
@@ -450,7 +450,7 @@
   position: relative;
   transition: all 0.3s ease;
 }
-.ci-btn:after {
+.ci-btn::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -562,7 +562,7 @@
 .color-small {
   margin-top: auto;
 }
-.color-small:before {
+.color-small::before {
   content: "";
   display: inline-block;
   vertical-align: bottom;
@@ -580,13 +580,13 @@
 .color-small .color-info b {
   margin-bottom: 20px;
 }
-.color li:nth-child(2):before  {
+.color li:nth-child(2)::before  {
   background-color: #231f20;
 }
-.color li:nth-child(3):before  {
+.color li:nth-child(3)::before  {
   background-color: #b5a681;
 }
-.color li:nth-child(4):before  {
+.color li:nth-child(4)::before  {
   background-color: #a7a9ac;
 }
 /* company-location */
@@ -611,7 +611,7 @@
 .tab-list li.on {
   color:#232323;
 }
-.tab-list li:after {
+.tab-list li::after {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -620,7 +620,7 @@
   background: #ccc;
   margin-left: 40px;
 }
-.tab-list li:last-child:after {
+.tab-list li:last-child::after {
   display: none;
 }
 .map-content {
@@ -667,7 +667,7 @@
   display: block;
   height: 160px;
 }
-.line1:before, .line2:before {
+.line1:before, .line2::before {
   display: inline-block;
   vertical-align: middle;
   width: 60px;
@@ -678,11 +678,11 @@
   color:#f8f8f8;
   margin-right: 10px;
 }
-.line1:before {
+.line1::before {
   content: "1호선";
   background-color: #bdb092;
 }
-.line2:before {
+.line2::before {
   content: "2호선";
   background-color: #009d3e;
 }

@@ -26,7 +26,7 @@
 .vision b {
   font-size: 20px;
 }
-.vision:first-child:after {
+.vision:first-child::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -57,19 +57,19 @@
   display: block;
   margin: 0 auto;
 }
-.dlab:before, .dlab:after {
+.dlab::before, .dlab::after {
   content: "";
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
-.dlab:before {
+.dlab::before {
   top: calc(100% - 5px);
   width: 1px;
   height: 50px;
   border-left: 1px solid #c6c6c6;
 }
-.dlab:after {
+.dlab::after {
   top: calc(100% + 45px);
   width: 500px;
   height: 30px;

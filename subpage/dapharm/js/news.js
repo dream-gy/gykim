@@ -26,13 +26,11 @@ function catList(data){
     setPage(currData,1) //setPage초기화
 
     $(".cat-list li").click(function(){
-        tabPanel.eq(currIdx).find(schInput).val(""); //검색창 초기화 
-        tabPanel.eq(currIdx).find(schSelTarget).find('option:first').prop("selected", true);//검색옵션 초기화 
-        setData(data)
-        setTable(currData,1) //setTable초기화
-        setPage(currData,1) //setPage초기화
+      setRest(data)
     })//cat-list>li.click
-
+    $(".sub-menu li").click(function(){
+      setRest(data)
+    })//cat-list>li.click
     //keyup시 찾는 키워드에 맞는 데이터 넘기기 
     schInput.keyup(function(){
         if(event.keyCode == 13) {
@@ -40,13 +38,21 @@ function catList(data){
         }//엔터
     })//schInput.keyup
 }//catList
-
+function setRest(data){
+  tabPanel.eq(currIdx).find(schInput).val(""); //검색창 초기화 
+  tabPanel.eq(currIdx).find(schSelTarget).find('option:first').prop("selected", true);//검색옵션 초기화 
+  setData(data)
+  setTable(currData,1) //setTable초기화
+  setPage(currData,1) //setPage초기화
+}
 function setData(data){
   //초기화 - cat-list>li에("on")이 있으면
+
+  //console.log(noticeId+("fff"))
   var thisIdx =  $(".cat-list li.on").index();
   var thisName = $(".cat-list li.on").text();
   var DateName = $(".cat-list li.on").find("a").attr("href").split('#').pop();
-
+  console.log(thisName+("fff"))
   currIdx = thisIdx; //현재 탭에 hasClass("on")의 index번호 
 
   if(thisName == "새소식"||thisName =="사회공헌 소식"||thisName =="동아공고"){

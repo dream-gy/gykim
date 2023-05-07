@@ -427,26 +427,20 @@ var tabMenu = $(".tab-nav-t li");
 var currentUrl = location.href;
 var crumbleTxt;
 var crumbleLink;
+//페이지 이동하면 인덱스 사라지니까
 subMenu.each(function () {
   var targetStr = $(this).find("a").attr("href");
   if (currentUrl.indexOf(targetStr) > -1) {
     //-1보다 크다 = targetStr가 있다면
     var targetIdx = $(this).index();
-    var thisName = $(this).text();
     activeTab(targetIdx);
   }
-  if (
-    (currentUrl.indexOf("#") == -1 && currentUrl.indexOf("news.html")) ||
-    (currentUrl.indexOf("#") == -1 && currentUrl.indexOf("recruit.html")) ||
-    (currentUrl.indexOf("#") == -1 && currentUrl.indexOf("audit.html"))
-  ) {
-    //-1과 같다 = #이없을 때 && news.html/recruit.html/audit.html있을때 (둘 다 참일때)
-    activeTab(0);
-  }
 });
+
 subMenu.click(function (e) {
-  activeTab($(this).index());
-});
+   activeTab($(this).index());
+   $(".all-menu").fadeOut("slow").removeClass("on");
+ });
 tabMenu.click(function (e) {
   activeTab($(this).index());
   crumble();
@@ -456,18 +450,12 @@ tabMenu.each(function () {
 });
 
 function activeTab(idx) {
-  {
+    console.log(idx)
     tabMenu.siblings().removeClass("on");
     tabMenu.eq(idx).addClass("on");
     tabMenu.parent().parent().parent().siblings(".tab-panel").removeClass("on");
-    tabMenu
-      .parent()
-      .parent()
-      .parent()
-      .siblings(".tab-panel")
-      .eq(idx)
-      .addClass("on");
-  }
+    tabMenu .parent().parent().parent().siblings(".tab-panel").eq(idx).addClass("on");
+ 
 }
 function crumble() {
   crumbleTxt = $(".tab-nav-t li.on").find("a").text();

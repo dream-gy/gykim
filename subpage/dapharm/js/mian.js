@@ -1,4 +1,6 @@
 
+alert("해당 사이트는 개인 포트폴리오 목적으로 제작되었으며, 1920px에 최적화되어 있습니다.")
+
 
 //video 비율 유지하기
 $(window).resize(function(){
@@ -24,8 +26,6 @@ function videoResize(){
   })
   }
 }//videoResize
-
-
 
 
 //새상품 슬라이드

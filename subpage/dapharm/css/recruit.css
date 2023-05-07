@@ -11,7 +11,7 @@
   position: relative;
   margin: 40px 0;
 }
-.employ-process:after {
+.employ-process::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -55,7 +55,7 @@
   width: 20%;
   position: relative;
 }
-.process-list .icon:after {
+.process-list .icon::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -68,28 +68,28 @@
   opacity: 0.7;
   transition: all 0.2s ease;
 }
-.process-list li:nth-child(1) .icon:after {
+.process-list li:nth-child(1) .icon::after {
   background: url(../image/write2.png) #eee center no-repeat;
   background-position: 48px;
 }
-.process-list li:nth-child(2) .icon:after {
+.process-list li:nth-child(2) .icon::after {
   background: url(../image/recruitment.png) #eee center no-repeat;
   background-position: 32px;
 }
-.process-list li:nth-child(3) .icon:after {
+.process-list li:nth-child(3) .icon::after {
   background: url(../image/candidate-3.png) #eee center no-repeat;
 }
-.process-list li:nth-child(4) .icon:after {
+.process-list li:nth-child(4) .icon::after {
   background: url(../image/worker.png) #eee center no-repeat;
 }
-.process-list li:nth-child(5) .icon:after {
+.process-list li:nth-child(5) .icon::after {
   background: url(../image/journalist.png) #eee center no-repeat;
 }
-.process-list li:nth-child(6) .icon:after {
+.process-list li:nth-child(6) .icon::after {
   background: url(../image/hired.png) #eee center no-repeat;
   background-position: 43px;
 }
-.process-list li:hover .icon:after {
+.process-list li:hover .icon::after {
   opacity: 1;
   background-color: #d7e8f0;
 }
@@ -120,7 +120,7 @@
 .job-tab li.on {
   color: #232323;
 }
-.job-tab li:after {
+.job-tab li::after {
   content: "";
   width: 0%;
   height: 2px;
@@ -130,7 +130,7 @@
   left: 0;
   transition: all 0.3s ease;
 }
-.job-tab li.on:after {
+.job-tab li.on::after {
   width: 100%;
 }
 .job-tab .num {
@@ -327,7 +327,7 @@ li.open .d-day {
   padding: 40px 0;
   position: relative;
 }
-.human-development:after {
+.human-development::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -353,7 +353,7 @@ li.open .d-day {
   padding: 20px;
   position: relative;
 }
-.h-d-list li:nth-child(1):after, .h-d-list li:nth-child(2):after, .h-d-list li:nth-child(3):after {
+.h-d-list li:nth-child(1)::after, .h-d-list li:nth-child(2)::after, .h-d-list li:nth-child(3)::after {
   content: "";
   position: absolute;
   top: 68%;
@@ -362,14 +362,14 @@ li.open .d-day {
   height: 157px;
   background: url(../image/reccruit01.png) no-repeat;
 }
-.h-d-list li:nth-child(2):after {
+.h-d-list li:nth-child(2)::after {
   bottom: 0;
   left: -104px;
   width: 104px;
   height: 146px;
   background: url(../image/reccruit02.png) no-repeat;
 }
-.h-d-list li:nth-child(3):after {
+.h-d-list li:nth-child(3)::after {
   top: 64%;
   right: 0;
   width: 195px;

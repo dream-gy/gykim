@@ -83,7 +83,7 @@
   text-decoration: underline;
   color:#019ac3;
 }
-.story-list li:hover .img:after {
+.story-list li:hover .img::after {
   background: rgb(255, 255, 255, 0.2);
 }
 .story-list .cate {
@@ -103,7 +103,7 @@
   overflow: hidden;
   position: relative;
 }
-.story-list .img:after {
+.story-list .img::after {
   content: "";
   display: block;
   width: 100%;
@@ -247,7 +247,7 @@
 .view-paging .date {
   width: 10%;
 }
-.view-paging .date:before {
+.view-paging .date::before {
   display: none;
 }
 

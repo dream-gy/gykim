@@ -92,6 +92,7 @@ button {
   overflow: visible;
   cursor: pointer;
   text-align: left;
+  color: #232323;
 }
 
 button:focus,
@@ -207,7 +208,7 @@ article:last-child {
   display: block;
   position: relative;
 }
-.lnb li a:after {
+.lnb li a::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -223,7 +224,7 @@ article:last-child {
   color:#232323;
   font-weight: 500;
 }
-.lnb li.on a:after {
+.lnb li.on a::after {
  width: 100%;
  
 }
@@ -354,7 +355,7 @@ header .family-site a:hover {
 header .family-site a.active {
   opacity: 1;
 }
-header .family-site a.active:after {
+header .family-site a.active::after {
   content: "";
   position: absolute;
   top: -5px;
@@ -382,7 +383,7 @@ header .lang-set .lang {
 header .lang-set.on .lang {
   display: block;
 }
-header .lang-set.on .btn-lang:after {
+header .lang-set.on .btn-lang::after {
   transform: rotate(180deg);
 }
 
@@ -390,7 +391,7 @@ header .btn-lang {
   color: #f8f8f8;
   font-size: 14px;
 }
-header .btn-lang:after {
+header .btn-lang::after {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -413,7 +414,7 @@ header .hd {
   position: relative;
   height: 72px;
 }
-header .hd:after {
+header .hd::after {
   content: "";
   display: block;
   position: absolute;
@@ -470,7 +471,7 @@ header .menu > li > a {
   line-height: 72px;
   padding: 0 25px;
 }
-header .menu > li > a:after {
+header .menu > li > a::after {
   content: "";
   position: absolute;
   width: 0;
@@ -480,7 +481,7 @@ header .menu > li > a:after {
   background: #019ac3;
   transition: all 0.3s;
 }
-header .menu > li:hover a:after {
+header .menu > li:hover a::after {
   width: 100%;
   left: 0;
 }
@@ -551,8 +552,8 @@ header.affix .top-hd {
   border-bottom: 1px solid #eeeeee;
   transition: all 0.2s ease;
 }
-header.over .family-site a.active:after,
-header.affix .family-site a.active:after {
+header.over .family-site a.active::after,
+header.affix .family-site a.active::after {
   background-color: #2b9fca;
 }
 header.over .top-hd a,
@@ -567,12 +568,12 @@ header.affix .lang a.active {
 header.affix .lang a {
   color: #c6c6c6;
 }
-header.over .btn-lang:after,
-header.affix .btn-lang:after {
+header.over .btn-lang::after,
+header.affix .btn-lang::after {
   border-color: #232323 transparent transparent transparent;
 }
-header.over .hd:after,
-header.affix .hd:after {
+header.over .hd::after,
+header.affix .hd::after {
   height: 77px;
   border-bottom: 1px solid #eeeeee;
 }
@@ -611,7 +612,7 @@ header.over .depth-bg {
   right: 0;
   bottom: 0;
 }
-.all-menu:after {
+.all-menu::after {
   content: "";
   border-radius: 20px;
   width: calc(100% - 100px);
@@ -624,12 +625,12 @@ header.over .depth-bg {
   transform: translate(-50%, -50%);
   transition: all 0.9s ease;
 }
-.all-menu.on:after {
+.all-menu.on::after {
   width: 100%;
   height: 100%;
   border-radius: 0;
 }
-.all-menu:before {
+.all-menu::before {
   content: "";
   position: absolute;
   /* z-index: -1; */
@@ -643,7 +644,7 @@ header.over .depth-bg {
   opacity: 0.03;
   transition: all 0.9s ease;
 }
-.all-menu.on:before {
+.all-menu.on::before {
   top: 50%;
 }
 .all-menu .container {
@@ -661,7 +662,7 @@ header.over .depth-bg {
   display: flex;
   align-items: center;
 }
-.all-control ul li:first-child:after {
+.all-control ul li:first-child::after {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -754,7 +755,7 @@ header.over .depth-bg {
   display: block;
   text-align: center;
 }
-.all-mall-btn:after {
+.all-mall-btn::after {
   content: "";
   display: inline-block;
   vertical-align: top;
@@ -820,7 +821,7 @@ footer .container {
 .site button.on {
   border-radius: 0 0 5px 5px;
 }
-.site button:after {
+.site button::after {
   content: "";
   position: absolute;
   right: 16px;
@@ -832,7 +833,7 @@ footer .container {
   border-color: #f8f8f8 transparent transparent transparent;
   transition: all 0.1s ease;
 }
-.site button.on:after {
+.site button.on::after {
   top: 40%;
   transform: translateY(-50%);
   transform: rotate(180deg);
@@ -930,7 +931,7 @@ footer .container {
   padding: 0 0 20px 200px;
   position: relative;
 }
-.tit-area:before {
+.tit-area::before {
   content: "";
   display: block;
   position: absolute;
@@ -989,7 +990,7 @@ footer .container {
   flex: 0.5;
   position: static;
 }
-.srch-option > ul > li:after {
+.srch-option > ul > li::after {
   content: "";
   display: block;
   position: absolute;
@@ -999,10 +1000,10 @@ footer .container {
   height: 100%;
   background: #e6e6e6;
 }
-.srch-option > ul > li:nth-child(4):after {
+.srch-option > ul > li:nth-child(4)::after {
   display: none;
 }
-.srch-option > ul > li button.focus:after {
+.srch-option > ul > li button.focus::after {
   content: "";
   position: absolute;
   width: 92%;
@@ -1023,7 +1024,7 @@ footer .container {
   font-size: 14px;
   line-height: 30px;
 }
-.opt-btn:after {
+.opt-btn::after {
   content: "";
   display: block;
   position: absolute;
@@ -1039,7 +1040,7 @@ footer .container {
 .opt-btn:focus {
   font-weight: 700;
 }
-.srch-option > ul > li:nth-child(4) button:after {
+.srch-option > ul > li:nth-child(4) button::after {
   display: none;
 }
 .srch-option > ul > li input {
@@ -1153,7 +1154,7 @@ select:active {
   padding-right: 20px;
   position: relative;
 }
-.location-link li:after {
+.location-link li::after {
   content: ">";
   position: absolute;
   top: 50%;
@@ -1163,7 +1164,7 @@ select:active {
 .location-link li:last-child {
   padding-right: 0;
 }
-.location-link li:last-child:after {
+.location-link li:last-child::after {
   display: none;
 }
 
@@ -1214,7 +1215,7 @@ select:active {
   color: #c6c6c6;
   position: relative;
 }
-.date:before {
+.date::before {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -1236,7 +1237,7 @@ select:active {
   box-shadow: 0 5px 10px rgba(154,160,185,.2), 0 15px 40px rgba(166,173,201,.4);
   position: relative;
 }
-.others-wrap:after {
+.others-wrap::after {
   content: "";
   position: absolute;
   display: inline-block;
@@ -1414,7 +1415,7 @@ select:active {
   position: relative;
   margin-left: 20px;
 }
-.dash-list>li:before {
+.dash-list>li::before {
   content: "-";
   position: absolute;
   left: -20px;
@@ -1433,8 +1434,8 @@ font-size: 18px;
   position: relative;
   cursor: pointer;
 }
-.accodian-box:before,
-.faq-accodian p:before {
+.accodian-box::before,
+.faq-accodian p::before {
   content: "Q";
   color: #00a0c9;
   font-weight: 700;
@@ -1467,7 +1468,7 @@ font-size: 18px;
 .accodian-box img {
   margin-top: 20px;
 }
-.accodian-box:before {
+.accodian-box::before {
   content: "A";
   color: #cecece;
   left: 65px;
@@ -1668,7 +1669,7 @@ col.table-col-quater {
   padding-left: 55px;
   line-height: 50px;
 }
-.total-board p:before {
+.total-board p::before {
   content:"";
   position: absolute;
   left: 0;

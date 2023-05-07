@@ -40,7 +40,7 @@
     margin-bottom: 20px;
     position: relative;
 }
-.procedure .icon:after {
+.procedure .icon::after {
     content: ">";
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
@@ -51,7 +51,7 @@
     transform: translateY(-50%);
     right: -30%;
 }
-.procedure li:last-child .icon:after {
+.procedure li:last-child .icon::after {
     display: none;
 }
 .inquiry-box .box {
@@ -74,7 +74,7 @@
 .inquiry-box p:nth-child(2) {
     margin: 10px 0;
 }
-.inquiry-box .box:after {
+.inquiry-box .box::after {
     content: "";
     position: absolute;
     bottom: 20px;
@@ -83,19 +83,19 @@
     height: 90px;
     z-index: -1;
 }
-.inquiry-phone:after {
+.inquiry-phone::after {
     background: url("../image/customer-service-gray.png") no-repeat;
     background-size: 100%;
 }
-.inquiry-online:after {
+.inquiry-online::after {
     background: url("../image/contract-gray.png") no-repeat;
     background-size: 100%;
 }
-.inquiry-post:after {
+.inquiry-post::after {
     background: url("../image/letter-gray.png") no-repeat;
     background-size: 100%;
 }
-.inquiry-report:after {
+.inquiry-report::after {
     background: url("../image/megaphone-gray.png") no-repeat;
     background-size: 100%;
 }
@@ -114,7 +114,7 @@
     height: 30px;
     line-height: 30px;
 }
-.inquiry-phone .info:before {
+.inquiry-phone .info::before {
     content: "";
     display: inline-block;
     vertical-align: middle;
@@ -151,7 +151,7 @@
     position: relative;
 
 }
-.normal-link:after {
+.normal-link::after {
     content: "";
     position: absolute;
     right: 20px;
@@ -164,7 +164,7 @@
     opacity: 0.7;
     transition: all 0.3s ease;
 }
-.normal-link:hover:after {
+.normal-link:hover::after {
     right: 15px;
 }
 
@@ -335,7 +335,7 @@
 .tipping-list a {
     display: block;
 }
-.tipping-list li:after {
+.tipping-list li::after {
     content: "";
     position: absolute;
     bottom: 20px;
@@ -343,19 +343,19 @@
     width: 84px;
     height: 84px;
 }
-.tipping-list li:last-child:after {
+.tipping-list li:last-child::after {
     width: 100px;
 }
-.tipping-list li:nth-child(1):after {
+.tipping-list li:nth-child(1)::after {
     background: url("../image/tipping-list01.png") no-repeat;
 }
-.tipping-list li:nth-child(2):after {
+.tipping-list li:nth-child(2)::after {
     background: url("../image/tipping-list02.png") no-repeat;
 }
-.tipping-list li:nth-child(3):after {
+.tipping-list li:nth-child(3)::after {
     background: url("../image/tipping-list03.png") no-repeat;
 }
-.tipping-list li:nth-child(4):after {
+.tipping-list li:nth-child(4)::after {
     background: url("../image/tipping-list04.png") no-repeat;
 }
 .tipping-list .normal-link {
@@ -380,10 +380,10 @@
 .step-list li:last-child {
     margin-right: 0;
 }
-.step-list li:last-child:after {
+.step-list li:last-child::after {
     display: none;
 }
-.step-list li:after {
+.step-list li::after {
     content: "";
     position: absolute;
     top: 50%;

@@ -109,7 +109,7 @@ caption {
 .detail-link:hover {
     opacity: 1;
 }
-.detail-link:after {
+.detail-link::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -228,7 +228,7 @@ caption {
   color: #f8f8f8;
   font-weight: 700;
 }
-.tab-content input:checked + label:after {
+.tab-content input:checked + label::after {
   content: "";
   display: block;
   position: absolute;
