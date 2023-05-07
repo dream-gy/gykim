@@ -218,27 +218,27 @@ article:last-child .container {
 }
 
 .slider-controls-box {
+    display: inline-block;
     position: absolute;
     bottom: 20px;
     left: 50%;
     transform: translate(-50%,0);
     background-color: rgba(0, 0, 0, 0.3);
-    padding: 10px 15px;
+    padding: 10px;
     border-radius: 35px 35px;
     z-index: 70;
-    font-size: 0;
 }
 
-.page-count, .ctrl-btn {
-    display: inline-block;
-    vertical-align: middle;
+.page-count,.ctrl-btn {
+   float: left;
 }
+
 .page-count span {
     margin: 0 2px;
     font-family: 'Roboto';
     letter-spacing: normal;
     font-weight: 500;
-    vertical-align: middle;
+    line-height: 30px;
 }
 .page-count .current {
     color:#fafafa;;
@@ -274,6 +274,9 @@ article:last-child .container {
 }
 .slider-controls-box.black .bx-stop {
     background-position: -60px -20px;
+}
+.ctrl-btn {
+  
 }
 .ctrl-btn button {
     vertical-align: middle;
@@ -735,6 +738,10 @@ main .txt-wrap .txt {
 .main3 .txt-point, .main3 .tit-txt {
     color :#f8f8f8;
 }
+main .slider-controls-box {
+  width: 170px;
+}
+
 /* about */
 .about .txt {
     width: 400px;
@@ -2274,7 +2281,7 @@ height: 200px;
     .container {
 		  min-width: 320px;
 	  }
-    .page-count {
+    .page-count span {
       font-size: 14px;
     }
     .main-slider .txt-box {
