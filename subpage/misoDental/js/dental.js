@@ -1,5 +1,5 @@
 $(function(){
-
+  alert("본 페이지는 상업 목적이 아닌 개인 포트폴리오용으로 만들어진 사이트입니다. 이미지와 자료 출처는 이엘치과병원, 스탠다드치과, 이편한세상치과에서 가져왔습니다. ");
 
   const swiper_visual = new Swiper('.visual',{
     loop: true,
@@ -21,14 +21,10 @@ $(function(){
  
   const swiper_dentalThumb = new Swiper('.tour .gallery-thumb-swiper',{
     loop: true,
-    slidesPerView: 4.3,
+    slidesPerView: 4.3, // 4.3
     spaceBetween: 10,
     slideToClickedSlide: true, // 해당 슬라이드 클릭시 슬라이드 위치로 이동
     breakpoints: {
-      768: {
-        slidesPerView:8.3,
-        loopedSlides: 8.3
-      },
       480: {
         slidesPerView: 4.3,
         loopedSlides: 4.3
@@ -110,9 +106,11 @@ $(function(){
       $(".popup").removeClass("active");
       bodyOverflowY()
     })
-    $(".popup .close").on("click", function(){
+    $(".popup .close").on("click", function(e){
       $(".popup").removeClass("active")
       bodyOverflowY()
+      e.preventDefault();
+      
     })
   
   // 쿠키 가져오기

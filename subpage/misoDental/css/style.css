@@ -23,7 +23,7 @@ section .container > div {
   font-weight: 400;
   color: #929292;
 }
-.more:after {
+.more::after {
   content: "";
   display: inline-block;
   vertical-align: bottom;
@@ -48,7 +48,7 @@ section .container > div {
   font-size: 0.6rem;
   padding-left: 1.6rem;
 }
-.kakaolink:before {
+.kakaolink::before {
   content: "";
   width: 1.1rem;
   position: absolute;
@@ -66,7 +66,7 @@ section .container > div {
   height: 1.8rem;
   right: 1.2rem;
 }
-.close:before, .close:after {
+.close::before, .close::after {
   content: "";
   width: 1rem;
   position: absolute;
@@ -76,11 +76,11 @@ section .container > div {
   height: 3px;
   background: #353432;
 }
-.close:before {
+.close::before {
   top: 15px;
   transform: rotate(45deg);
 }
-.close:after {
+.close::after {
   top: 15px;
   transform: rotate(-45deg);
 }
@@ -89,7 +89,7 @@ input[type=checkbox] + label {
   position: relative;
   padding-left: 1.5rem;
 }
-input[type=checkbox] + label:before {
+input[type=checkbox] + label::before {
   content: "";
   display: block;
   width: 1.1rem;
@@ -105,7 +105,7 @@ input[type=checkbox] + label:before {
   transition: all 0.2s;
 }
 
-input[type=checkbox]:checked + label:before {
+input[type=checkbox]:checked + label::before {
   background: url(../image/check.png) no-repeat center/auto 0.4rem #2C88F4;
 }
 
@@ -142,7 +142,7 @@ header .menu-btn a {
   opacity: 1;
   transition: all 0.3s;
 }
-header .menu-btn a:after, header .menu-btn a:before {
+header .menu-btn a::after, header .menu-btn a::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -151,16 +151,16 @@ header .menu-btn a:after, header .menu-btn a:before {
   background: #353432;
   transition: all 0.3s;
 }
-header .menu-btn a:before {
+header .menu-btn a::before {
   top: -7px;
 }
-header .menu-btn a:after {
+header .menu-btn a::after {
   top: 7px;
 }
-header .menu-btn:hover a:before, header .menu-btn.on a:before {
+header .menu-btn:hover a::before, header .menu-btn.on a::before {
   width: 70%;
 }
-header .menu-btn:hover a:after, header .menu-btn.on a:after {
+header .menu-btn:hover a::after, header .menu-btn.on a::after {
   width: 80%;
 }
 
@@ -202,7 +202,7 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
   font-size: 1rem;
   font-weight: bold;
 }
-.mobile-menu .mhd .intro-box .greetings:before {
+.mobile-menu .mhd .intro-box .greetings::before {
   content: "";
   width: 1.5rem;
   position: absolute;
@@ -211,11 +211,11 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
   z-index: 2;
   height: 0.9rem;
 }
-.mobile-menu .mhd .intro-box .greetings.off:before {
+.mobile-menu .mhd .intro-box .greetings.off::before {
   height: 0.9rem;
   background: url(../image/login-icon.png) no-repeat left/auto 100%;
 }
-.mobile-menu .mhd .intro-box .greetings.on:before {
+.mobile-menu .mhd .intro-box .greetings.on::before {
   height: 0.9rem;
   background: url(../image/logout-icon.png) no-repeat left/auto 100%;
 }
@@ -238,7 +238,7 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
   border: 0;
   color: #fff;
 }
-.mobile-menu .mhd .intro-box .login:after {
+.mobile-menu .mhd .intro-box .login::after {
   content: "";
   width: 1.2rem;
   position: absolute;
@@ -253,7 +253,7 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
 .mobile-menu .mhd .intro-box .login:hover {
   background: rgba(0, 0, 0, 0.03);
 }
-.mobile-menu .mhd .intro-box .login:after {
+.mobile-menu .mhd .intro-box .login::after {
   display: none;
 }
 .mobile-menu .mhd .intro-box .login:hover {
@@ -280,7 +280,7 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
   text-align: center;
   margin-right: 0.5rem;
 }
-.mobile-menu .mhd .chk-box a:after {
+.mobile-menu .mhd .chk-box a::after {
   content: "";
   width: 1.2rem;
   position: absolute;
@@ -295,20 +295,20 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
 .mobile-menu .mhd .chk-box a:hover {
   background: rgba(0, 0, 0, 0.03);
 }
-.mobile-menu .mhd .chk-box a:after {
+.mobile-menu .mhd .chk-box a::after {
   display: none;
 }
-.mobile-menu .mhd .chk-box a:before {
+.mobile-menu .mhd .chk-box a::before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   width: 1.2rem;
   height: 1.2rem;
 }
-.mobile-menu .mhd .chk-box a.chk-appt:before {
+.mobile-menu .mhd .chk-box a.chk-appt::before {
   background: url(../image/chk-icon01.png) no-repeat center/auto 100%;
 }
-.mobile-menu .mhd .chk-box a.chk-history:before {
+.mobile-menu .mhd .chk-box a.chk-history::before {
   background: url(../image/chk-icon02.png) no-repeat center/auto 100%;
 }
 .mobile-menu .mcnt .banner {
@@ -331,10 +331,10 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
 .mobile-menu .mcnt .banner img {
   width: 100%;
 }
-.mobile-menu .mcnt .menu > li:nth-child(6) a:after {
+.mobile-menu .mcnt .menu > li:nth-child(6) a::after {
   display: none;
 }
-.mobile-menu .mcnt .menu > li > a:after {
+.mobile-menu .mcnt .menu > li > a::after {
   content: "";
   width: 1.2rem;
   position: absolute;
@@ -362,7 +362,7 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
 .mobile-menu .mcnt .menu > li a:hover {
   background: rgba(0, 0, 0, 0.03);
 }
-.mobile-menu .mcnt .menu > li.active a:after {
+.mobile-menu .mcnt .menu > li.active a::after {
   transform: rotate(180deg) translateY(50%);
 }
 .mobile-menu .mcnt .depth {
@@ -381,11 +381,11 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
 .mobile-menu .close {
   top: 15px;
 }
-.mobile-menu .close:before, .mobile-menu .close:after {
+.mobile-menu .close::before, .mobile-menu .close::after {
   opacity: 0;
   transition: all 0.3s;
 }
-.mobile-menu.active .close:before, .mobile-menu.active .close:after {
+.mobile-menu.active .close::before, .mobile-menu.active .close::after {
   opacity: 1;
 }
 
@@ -493,7 +493,7 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
   transition: all 0.3s;
   margin-top: 1.6rem;
 }
-.medical-staff .staff .detail:after {
+.medical-staff .staff .detail::after {
   content: "";
   width: 1.2rem;
   position: absolute;
@@ -520,7 +520,7 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
   font-size: 0.8rem;
   font-weight: bold;
 }
-.special li:before {
+.special li::before {
   content: "";
   width: 2.5rem;
   position: absolute;
@@ -531,23 +531,23 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
   height: 2.5rem;
 }
 
-.special li:nth-child(1):before {
+.special li:nth-child(1)::before {
   background: url(../image/special-icon01.png) no-repeat center/1.45rem auto;
 }
 
-.special li:nth-child(2):before {
+.special li:nth-child(2)::before {
   background: url(../image/special-icon02.png) no-repeat center/1.45rem auto;
 }
 
-.special li:nth-child(3):before {
+.special li:nth-child(3)::before {
   background: url(../image/special-icon03.png) no-repeat center/1.45rem auto;
 }
 
-.special li:nth-child(4):before {
+.special li:nth-child(4)::before {
   background: url(../image/special-icon04.png) no-repeat center/1.45rem auto;
 }
 
-.special li:nth-child(5):before {
+.special li:nth-child(5)::before {
   background: url(../image/special-icon05.png) no-repeat center/1.45rem auto;
 }
 
@@ -563,7 +563,7 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
 .case li .before {
   position: relative;
 }
-.case li .before:after {
+.case li .before::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -654,7 +654,7 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
-.promotion .box-wrap .box:before {
+.promotion .box-wrap .box::before {
   content: "";
   width: initial;
   position: absolute;
@@ -666,27 +666,27 @@ header .menu-btn:hover a:after, header .menu-btn.on a:after {
   border-radius: 0 0 0.5rem 0;
   color: #fff;
 }
-.promotion .box-wrap .box.youtube:before {
+.promotion .box-wrap .box.youtube::before {
   content: "유튜브";
   background: rgba(255, 102, 102, 0.7);
 }
-.promotion .box-wrap .box.tv:before {
+.promotion .box-wrap .box.tv::before {
   content: "TV출현";
   background: rgba(102, 255, 145, 0.7);
 }
-.promotion .box-wrap .box.radio:before {
+.promotion .box-wrap .box.radio::before {
   content: "라디오출현";
   background: rgba(188, 102, 255, 0.7);
 }
-.promotion .box-wrap .box.press:before {
+.promotion .box-wrap .box.press::before {
   content: "언론보도";
   background: rgba(102, 198, 225, 0.7);
 }
-.promotion .box-wrap .box.notice:before {
+.promotion .box-wrap .box.notice::before {
   content: "공지사항";
   background: rgba(102, 108, 225, 0.7);
 }
-.promotion .box-wrap .box.story:before {
+.promotion .box-wrap .box.story::before {
   content: "공지사항";
   background: rgba(252, 149, 55, 0.7);
 }
@@ -851,7 +851,7 @@ footer .ft-info {
   color: #929292;
   text-align: center;
 }
-.quick ul li a:before {
+.quick ul li a::before {
   content: "";
   display: block;
   width: 1.6rem;
@@ -860,43 +860,43 @@ footer .ft-info {
   transition: all 0.3s;
 }
 
-.quick li:nth-child(1) a:before {
+.quick li:nth-child(1) a::before {
   background: url(../image/nav_icon01.png) no-repeat center/1.6rem auto;
 }
 
-.quick li:nth-child(1) a:hover:before, .quick li:nth-child(1) a:focus:before {
+.quick li:nth-child(1) a:hover::before, .quick li:nth-child(1) a:focus::before {
   background: url(../image/nav_hover_icon01.png) no-repeat center/1.6rem auto;
 }
 
-.quick li:nth-child(2) a:before {
+.quick li:nth-child(2) a::before {
   background: url(../image/nav_icon02.png) no-repeat center/1.6rem auto;
 }
 
-.quick li:nth-child(2) a:hover:before, .quick li:nth-child(2) a:focus:before {
+.quick li:nth-child(2) a:hover::before, .quick li:nth-child(2) a:focus::before {
   background: url(../image/nav_hover_icon02.png) no-repeat center/1.6rem auto;
 }
 
-.quick li:nth-child(3) a:before {
+.quick li:nth-child(3) a::before {
   background: url(../image/nav_icon03.png) no-repeat center/1.6rem auto;
 }
 
-.quick li:nth-child(3) a:hover:before, .quick li:nth-child(3) a:focus:before {
+.quick li:nth-child(3) a:hover::before, .quick li:nth-child(3) a:focus::before {
   background: url(../image/nav_hover_icon03.png) no-repeat center/1.6rem auto;
 }
 
-.quick li:nth-child(4) a:before {
+.quick li:nth-child(4) a::before {
   background: url(../image/nav_icon04.png) no-repeat center/1.6rem auto;
 }
 
-.quick li:nth-child(4) a:hover:before, .quick li:nth-child(4) a:focus:before {
+.quick li:nth-child(4) a:hover::before, .quick li:nth-child(4) a:focus::before {
   background: url(../image/nav_hover_icon04.png) no-repeat center/1.6rem auto;
 }
 
-.quick li:nth-child(5) a:before {
+.quick li:nth-child(5) a::before {
   background: url(../image/nav_icon05.png) no-repeat center/1.6rem auto;
 }
 
-.quick li:nth-child(5) a:hover:before, .quick li:nth-child(5) a:focus:before {
+.quick li:nth-child(5) a:hover::before, .quick li:nth-child(5) a:focus::before {
   background: url(../image/nav_hover_icon05.png) no-repeat center/1.6rem auto;
 }
 
@@ -967,7 +967,7 @@ footer .ft-info {
   top: 0;
   transition: all 0.3s;
 }
-.popup .event-wrap .ctrl-box .close:before, .popup .event-wrap .ctrl-box .close:after {
+.popup .event-wrap .ctrl-box .close::before, .popup .event-wrap .ctrl-box .close::after {
   display: none;
   background: none;
 }

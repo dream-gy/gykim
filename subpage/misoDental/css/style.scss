@@ -69,7 +69,7 @@ $footerFontSize : 0.6rem;
   font-weight: 400;
   color: $linkColor;
   transition: all 0.3s;
-  &:after {
+  &::after {
     content:"";
     @include position (1.2rem,initial,50%,2);
     right: 0.6rem;
@@ -107,7 +107,7 @@ section {
   font-size: 0.6rem;
   font-weight: 400;
   color: $lightGray;
-  &:after {
+  &::after {
     content:"";
     display: inline-block;
     vertical-align: bottom;
@@ -127,7 +127,7 @@ section {
   display: block;
   font-size: 0.6rem;
   padding-left: 1.6rem;
-  &:before {
+  &::before {
     content:"";
     @include position(1.1rem, 0, 0, 2);
     height: 1.1rem;
@@ -140,17 +140,17 @@ section {
   width: 1.8rem;
   height: 1.8rem;
   right: 1.2rem;
-  &:before,&:after {
+  &::before,&::after {
     content:"";
     @include position(1rem, 6px,initial, 2);
     height: 3px;
     background: $titleColor;
   }
-  &:before {
+  &::before {
     top: 15px;
     transform: rotate(45deg);
   }
-  &:after {
+  &::after {
     top: 15px;
       transform: rotate(-45deg);
   }
@@ -159,7 +159,7 @@ section {
 input[type="checkbox"] + label {
   position: relative;
   padding-left: 1.5rem;
-  &:before {
+  &::before {
     content: "";
     display: block;
     @include position(1.1rem, 0, 50%, 2);
@@ -171,7 +171,7 @@ input[type="checkbox"] + label {
   }
   
 }
-input[type="checkbox"]:checked + label:before {
+input[type="checkbox"]:checked + label::before {
   background:url(../image/check.png) no-repeat center / auto 0.4rem $pointColor;
 }
 
@@ -204,7 +204,7 @@ header {
         background: $titleColor;
         opacity: 1;
         transition: all 0.3s;
-        &:after,&:before {
+        &::after,&::before {
           content:"";
           position: absolute;
           width: 100%;
@@ -213,18 +213,18 @@ header {
           background: $titleColor;
           transition: all 0.3s;
         }
-        &:before {
+        &::before {
           top:-7px;
         }
-        &:after {
+        &::after {
           top: 7px;
         }
       }
       &:hover a, &.on a{
-        &:before {
+        &::before {
           width: 70%;
         }
-        &:after {
+        &::after {
           width: 80%;
         }
       }
@@ -264,16 +264,16 @@ header {
         position: relative;
         font-size: 1rem;
         font-weight: bold;
-        &:before {
+        &::before {
           content:"";
           @include position(1.5rem, 0, -0.9rem, 2);
           height: 0.9rem;
         }
-        &.off:before {
+        &.off::before {
           height: 0.9rem;
           background:url(../image/login-icon.png) no-repeat left/ auto 100%;
         }
-        &.on:before {
+        &.on::before {
           height: 0.9rem;
           background:url(../image/logout-icon.png) no-repeat left/ auto 100%;
         }
@@ -286,7 +286,7 @@ header {
         background: $pointColor;
         border: 0;
         color: #fff;
-        &:after {
+        &::after {
           display: none;
         }
         &:hover {
@@ -304,20 +304,20 @@ header {
         min-width: 8.1rem;
         text-align: center;
         margin-right: 0.5rem;
-        &:after {
+        &::after {
           display: none;
         }
-        &:before {
+        &::before {
           content:"";
           display: inline-block;
           vertical-align: middle;
           width: 1.2rem;
           height: 1.2rem;
         }
-        &.chk-appt:before {
+        &.chk-appt::before {
           background: url(../image/chk-icon01.png) no-repeat center/ auto 100%;
         }
-        &.chk-history:before {
+        &.chk-history::before {
           background: url(../image/chk-icon02.png) no-repeat center/ auto 100%;
         }
       }
@@ -346,11 +346,11 @@ header {
     }
     .menu {
       >li { 
-        &:nth-child(6) a:after {
+        &:nth-child(6) a::after {
           display: none;
         }
         > a {
-          &:after {
+          &::after {
             content:"";
             @include position(1.2rem,initial, 50%, 2);
             height: 1.2rem;
@@ -374,7 +374,7 @@ header {
             background: rgba(0,0,0,0.03);
           }
         }
-        &.active a:after {
+        &.active a::after {
           transform: rotate(180deg) translateY(50%);
         }
       }
@@ -398,13 +398,13 @@ header {
   }
   .close {
     top: 15px;
-    &:before, &:after {
+    &::before, &::after {
       opacity: 0;
       transition: all 0.3s;
     }
   }
   &.active .close {
-    &:before, &:after {
+    &::before, &::after {
       opacity: 1;
     }
    
@@ -527,7 +527,7 @@ header {
     border-bottom: 1px solid $lineColor;
     font-size: 0.8rem;
     font-weight: bold;
-    &:before{
+    &::before{
       content:"";
       @include position(2.5rem,0,50%,2);
       height: 2.5rem;
@@ -535,7 +535,7 @@ header {
   }
 }
 @for $i from 1 to 6 {  //내가 원하는 숫자보다 +1
-  .special li:nth-child(#{$i}):before  {
+  .special li:nth-child(#{$i})::before  {
     background: url(../image/special-icon0#{$i}.png) no-repeat center/ 1.45rem auto;
   }
 }
@@ -549,7 +549,7 @@ header {
     }
     .before {
       position: relative;
-      &:after {
+      &::after {
         content:"";
         @include position(100%,0, 0,2);
         height: 100%;
@@ -637,7 +637,7 @@ header {
       }
     }
     .box {
-      &:before {
+      &::before {
         content:"";
         @include position(initial,0,0, 2);
         padding: 0.2rem 0.3rem;
@@ -645,27 +645,27 @@ header {
         border-radius: 0 0 0.5rem 0;
         color: #fff;
       }
-      &.youtube:before {
+      &.youtube::before {
         content:"유튜브";
         background: rgba(255,102,102, 0.7);
       }
-      &.tv:before {
+      &.tv::before {
         content:"TV출현";
         background: rgba(102,255,145, 0.7);
       }
-      &.radio:before {
+      &.radio::before {
         content:"라디오출현";
         background: rgba(188,102,255, 0.7);
       }
-      &.press:before {
+      &.press::before {
         content:"언론보도";
         background: rgba(102,198,225, 0.7);
       }
-      &.notice:before {
+      &.notice::before {
         content:"공지사항";
         background: rgba(102,108,225, 0.7);
       }
-      &.story:before {
+      &.story::before {
         content:"공지사항";
         background: rgba(252,149,55, 0.7);
       }
@@ -839,7 +839,7 @@ footer {
         font-size: 0.5rem;
         color: $lightGray;
         text-align: center;
-        &:before {
+        &::before {
           content:"";
           display: block;
           width: 1.6rem;
@@ -853,10 +853,10 @@ footer {
   }
 }
 @for $i from 1 to 6 {  //내가 원하는 숫자보다 +1
-  .quick li:nth-child(#{$i}) a:before  {
+  .quick li:nth-child(#{$i}) a::before  {
     background: url(../image/nav_icon0#{$i}.png) no-repeat center/ 1.6rem auto;
   }
-  .quick li:nth-child(#{$i}) a:hover:before, .quick li:nth-child(#{$i}) a:focus:before {
+  .quick li:nth-child(#{$i}) a:hover::before, .quick li:nth-child(#{$i}) a:focus::before {
     background: url(../image/nav_hover_icon0#{$i}.png) no-repeat center/ 1.6rem auto;
   }
 }
@@ -921,7 +921,7 @@ footer {
         right:0;
         top: 0;
         transition: all 0.3s;
-        &:before, &:after {
+        &::before, &::after {
           display: none;
           background: none;
         }
