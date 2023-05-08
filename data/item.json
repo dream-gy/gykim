@@ -33,8 +33,8 @@
           }
         },
         "image": {
-           "url01": "./image/sub/dapharm/detail02-01.png",
-           "url02": "./image/sub/dapharm/detail02-02.png"
+           "url01": "./image/sub/dapharm/detail03-01.png",
+           "url02": "./image/sub/dapharm/detail03-02.png"
         }
       },
       "cont03": {
@@ -51,8 +51,8 @@
           }
         },
         "image": {
-           "url01": "./image/sub/dapharm/detail03-01.png",
-           "url02": "./image/sub/dapharm/detail03-02.png"
+           "url01": "./image/sub/dapharm/detail04-01.png",
+           "url02": "./image/sub/dapharm/detail04-02.png"
         }
       },
       "cont04": {
@@ -69,16 +69,16 @@
           }
         },
         "image": {
-           "url01": "./image/sub/dapharm/detail04-01.png",
-           "url02": "./image/sub/dapharm/detail04-02.png"
+           "url01": "./image/sub/dapharm/detail05-01.png",
+           "url02": "./image/sub/dapharm/detail05-02.png"
         }
       },
       "cont05": {
         "subtitle": "숫자 카운트 애니메이션",
         "subcont": "스크롤 내렸을 때 특정영역에 도달하면 숫자카운팅이 되는 애니메이션입니다. 웹사이트에 들어가면 자주보이는 애니메이션으로 한번 구현해보고싶었습니다.",
         "image": {
-           "url01": "./image/sub/dapharm/detail05-01.png",
-           "url02": "./image/sub/dapharm/detail05-02.png"
+           "url01": "./image/sub/dapharm/detail02-01.png",
+           "url02": "./image/sub/dapharm/detail02-02.png"
         }
       },
       "cont06": {
