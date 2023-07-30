@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>풀캘린더 콘트 스페이스 </title>
+    <meta name="keywords" content="공간임대, 공유회의실, 전시공간대여, 복합문화공간, 공유오피스">
+    <meta name="description" content="CONT.SPACE는 하나의 단어로 규정할 수 없는 복합문화공간으로 Lounge, Gallery, Share Office 등 다양한 니즈를 충족시킬 수 있으며 이용자에게 최적화된 공간을 제공합니다. CONT는 예약제로 운영되는 장소임대(회의실,사무실)공간입니다.">
+    <!-- jquery  -->
+   <!-- <script src="./js/jquery3.6.0.min.js"></script> -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- <script src="./js/moment.min.js"></script> -->
+    <script src="./js/fullcalendar-test.js"></script>
+    <!-- <script src="./js/fullcalendar.min.js"></script> -->
+     <!-- <script src="./js/test.js"></script> -->
+     <script src="./js/test -full.js"></script>
+    <!-- <script src="./js/reserve.js"></script> -->
+    <script src="./js/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/fullcalendar-test.css">
+    <link rel="stylesheet" href="./css/full_test.css">
+    <script>
+        
+    </script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="container">
+                <h1 class="logo"><a href="index.html"><span class="hidden">콘트스페이스</span></a></h1>
+            </div>
+            <div id="demo"></div>
+        </header>
+        <section class="reserve">
+            <div class="container">
+                <form action=""></form>
+                    <div class="board">
+                        <nav class="room">
+                            <ul>
+                                <li><p class="flip" data-value="Yeonhwa">연화</p></li>
+                                <li><p class="flip" data-value="Mita">미타</p></li>
+                                <li><p class="flip" data-value="Madeul">마들</p></li>
+                                <li><p class="flip" data-value="Meto">메토</p></li>
+                                <li><p class="flip" data-value="Yeowool">여울</p></li>
+                                <li class="active"><p class="flip" data-value="Hall　Wora">월아</p></li>
+                            </ul>
+                            <div class="bar"></div>
+                        </nav>
+                        <div class="box_wrap">
+                            <div class="box box1">
+                                <div class="image_gallery room_gallery swiper">
+                                    <ul class="swiper-wrapper">
+                                        <li class="swiper-slide"><img src="./image/room/Madeul/DSC05747.jpg" alt=""></li>
+                                    </ul>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                   <div class="custom-fraction"><span class="current"></span>/<span class="all"></span></div>
+                                </div>
+                                <div class="room_info">
+                                    <h2>Hall Wora (월아 홀)</h2>
+                                    <ul class="r_info">
+                                        <li class="intro">
+                                            <p>Hall Wora(월아 홀)는 회의, 전시, 연회 등 다양한 용도로 사용이 가능한 복합 문화 공간입니다.<br/><br/>예약 시 최초 1회에 한정하여 책상 배치를 제공합니다</p>
+                                        </li>
+                                        <li class="personnel">
+                                            <p>인원</p>
+                                            <p class="standard">기준인원 : <span class="num">24</span>명</p>
+                                            <p class="maximum">최대인원 : <span class="num">30</span>명</p>
+                                        </li>
+                                        <li class="price">
+                                            <p><b class="num">150,000</b>원 <span class="">/시간</span></p> 
+                                        </li>
+                                    </ul>
+                                    <ul class="service">
+                                        <li><div class="icon"></div><p>화장실</p></li>
+                                        <li><div class="icon"></div><p>Wifi</p></li>
+                                        <li><div class="icon"></div><p>냉난방</p></li>
+                                        <li><div class="icon"></div><p>전기</p></li>
+                                        <li class="long"><div class="icon"></div><p>의자<br> &#47; 테이블</p></li>
+                                        <li><div class="icon"></div><p>카페</p></li>
+                                        <li><div class="icon"></div><p>인쇄기</p></li>
+                                        <li><div class="icon"></div><p>금연</p></li>
+                                        <li><div class="icon"></div><p>단상</p></li>
+                                        <li><div class="icon"></div><p>화이트보드</p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box box2">
+                                <div class="schedule">
+                                    <div class="info">
+                                        <h3>일정선택</h3>
+                                        <p class="select">2023년 07월 24일 수요일</p>
+                                    </div>
+                                    <div class="schedule_cal">
+                                        <div id="calendar"></div>
+                                        <div class="cal_schedule_info schedule_info">
+                                            <span>예약불가</span>
+                                            <span>예약가능</span>
+                                            <span>예약선택</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <div class="info">
+                                        <h3>시간선택 <span class="guide hidden">안내</span></h3>
+                                        <div class="time_popup">
+                                            최소 4시간 ~ 최대 9시간 이용가능
+                                        </div>
+                                        <p class="select">오전 10:00 ~ 오후 13:00 (4시간)</p>
+                                    </div>
+                                    <ul class="during">
+                                        <li>오전 반일</li>
+                                        <li>오후 반일</li>
+                                        <li>종일</li>
+                                    </ul>
+                                    <div class="time_schedule">
+                                        <div class="timeline_wrap">
+                                            <ul class="timeline">
+                                                <li class="active">
+                                                    <p>09:00</p>
+                                                    <span>150,000</span>
+                                                </li>
+                                                <li class="active">
+                                                    <p>10:00</p>
+                                                    <span>150,000</span>
+                                                </li>
+                                                <li class="active">
+                                                    <p>11:00</p>
+                                                    <span>150,000</span>
+                                                </li>
+                                                <li class="active">
+                                                    <p>12:00</p>
+                                                    <span>150,000</span>
+                                                </li>
+                                                <li>
+                                                    <p>13:00</p>
+                                                    <span>150,000</span>
+                                                </li>
+                                                <li>
+                                                    <p>14:00</p>
+                                                    <span>150,000</span>
+                                                </li>
+                                                <li>
+                                                    <p>15:00</p>
+                                                    <span>150,000</span>
+                                                </li>
+                                                <li>
+                                                    <p>16:00</p>
+                                                    <span>150,000</span>
+                                                </li>
+                                                <li>
+                                                    <p>17:00</p>
+                                                    <span>150,000</span>
+                                                </li>
+                                                <li>
+                                                    <p>18:00</p>
+                                                    <span>150,000</span>
+                                                </li>
+                                            </ul>
+                                            <div class="btn_controls">
+                                                <button type="button" class="left"><span class="hidden">왼쪽 버튼</span></button>
+                                                <button type="button" class="right"><span class="hidden">오른쪽 버튼</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="time_end">
+                                        <div class="time_schedule_info schedule_info">
+                                            <span>예약불가</span>
+                                            <span>예약선택</span>
+                                        </div>
+                                        <div class="time_price">
+                                            <span class="num">600,000</span>원
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box box3">
+                                <div class="option">
+                                    <div class="option1">
+                                        <div class="info">
+                                            <h3>옵션선택</h3>
+                                            <p class="select">교실형</p>
+                                        </div>
+                                        <h4>기본 테이블 배치</h4>
+                                        <div class="table_placement select_list">
+                                            <input type="radio" name="table" id="table1">
+                                            <label for="table1">
+                                                <i class="icon"></i>
+                                                <p>교실형</p>
+                                            </label>
+                                            <input type="radio" name="table" id="table2">
+                                            <label for="table2">
+                                                <i class="icon"></i>
+                                                <p>극장형</p>
+                                            </label>
+                                            <input type="radio" name="table" id="table3">
+                                            <label for="table3">
+                                                <i class="icon"></i>
+                                                <p>U자형</p>
+                                            </label>
+                                            <input type="radio" name="table" id="table4">
+                                            <label for="table4">
+                                                <i class="icon"></i>
+                                                <p>사용자 지정</p>
+                                            </label>
+                                        </div>
+                                        <div class="table_popup">
+                                            <h4>사용자 지정 좌석 배치도 선택</h4>
+                                            <ul>
+                                                <li>
+                                                    <label for="fileFiled" class="upload_btn">사진 업로드</label>
+                                                    <input type="file" name="file" id="fileFiled" title="첨부파일">
+                                                    <span class="file_info">(10MB 이하만 가능)</span>
+                                                </li>
+                                                <li>
+                                                    <button type="button" class="directly_btn">직접배치</button>
+                                                </li>
+                                            </ul>
+                                            <button type="button" class="close"><span class="hidden">닫기</span></button>
+                                        </div>
+                                        <div class="directly_table">
+                                            <h5>사용자 지정 좌석 배치도</h5>
+                                            <div class="table_board">
+                                                <div class="layout"></div>
+                                                <div class="control">
+                                                    <div class="select_table">
+                                                        <h6 class="hidden">기본테이블배치</h6>
+                                                        <ul class="select_list">
+                                                            <li class="active">
+                                                                <div class="icon"></div><p>교실형</p>
+                                                            </li>
+                                                            <li>
+                                                                <div class="icon"></div><p>극장형</p>
+                                                            </li>
+                                                            <li>
+                                                                <div class="icon"></div><p>U자형</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="select_item">
+                                                        <h6 class="hidden">아이템고르기</h6>
+                                                        <ul class="table_item">
+                                                            <li><span class="hidden">의자&테이블</span></li>
+                                                            <li><span class="hidden">의자</span></li>
+                                                        </ul>
+                                                        <button type="button" class="rotation"><p>회전</p></button>
+                                                    </div>
+                                                    <button type="button" class="save">저장</button>
+                                                </div>
+                                            </div>
+                                             <button type="button" class="close"><span class="hidden">닫기</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="option2">
+                                        <div class="info">
+                                            <h4>추가요청사항</h4>
+                                        </div>
+                                        <div class="additional_request select_list">
+                                            <input type="checkbox" name="add" id="add1">
+                                            <label for="add1">
+                                                <p>빔프로젝트(반일)</p>
+                                                <span class="price">100,000원</span>
+                                            </label>
+                                            <input type="checkbox" name="add" id="add2">
+                                            <label for="add2">
+                                                <p>빔프로젝트(종일)</p>
+                                                <span class="price">200,000원</span>
+                                            </label>
+                                            <input type="checkbox" name="add" id="add3">
+                                            <label for="add3">
+                                                <p>노트북(반일)</p>
+                                                <span class="price">30,000원</span>
+                                            </label>
+                                            <input type="checkbox" name="add" id="add4">
+                                            <label for="add4">
+                                                <p>노트북(종일)</p>
+                                                <span class="price">50,000원</span>
+                                            </label>
+                                            <input type="checkbox" name="add" id="add5">
+                                            <label for="add5">
+                                                <p>마이크(탁상용)</p>
+                                                <span class="price">30,000원</span>
+                                            </label>
+                                            <input type="checkbox" name="add" id="add6">
+                                            <label for="add6">
+                                                <p>마이크(무선)</p>
+                                                <span class="price">50,000원</span>
+                                            </label>
+                                            <input type="checkbox" name="add" id="add7">
+                                            <label for="add7">
+                                                <p>단상</p>
+                                                <span class="price">10,000원</span>
+                                            </label>
+                                            <input type="checkbox" name="add" id="add8">
+                                            <label for="add8">
+                                                <p>화이트보드<span>(보드마카,지우개포함)</span></p>
+                                                <span class="price">10,000원</span>
+                                            </label>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit">예약하기</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="background"></div>
+            </div>
+        </section>
+    </div>
+    
+    <script>
+        $( document ).ready( function() {
+            function numberPad(n, width) {//0 채우기
+                n = n + "";
+                return n.length >= width ? n : new Array(width - n.length + 1).join("0") + n;
+            }
+            
+
+         
+        
+        $.ajax({
+            url:"./data/room.json",
+            dataType:"json",
+            success:function(data) {
+                console.log(data)
+            }
+        })
+       
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+[
+  {
+    "room": "Yeonhwa",
+    "title": "Yeonhwa(연화)",
+    "intro": "Yeonhwa(연화)는 회의, 전시, 연회 등 다양한 용도로 사용이 가능한 복합 문화 공간입니다.",
+    "personnel": {
+      "standard": "8",
+      "maximum": "12"
+    },
+    "price": "80,000",
+    "images": {
+      "thumb1": "./image/room/Yeonhwa/202112285728.jpg",
+      "thumb2": "./image/room/Yeonhwa/KakaoTalk_20220210_154926594_16.jpg",
+      "thumb3": "./image/room/Yeonhwa/KakaoTalk_20220210_154926594_17.jpg",
+      "thumb4": "./image/room/Yeonhwa/KakaoTalk_20220210_154926594_18.jpg",
+      "thumb5": "./image/room/Yeonhwa/KakaoTalk_20220210_154926594_19.jpg",
+      "thumb6": "./image/room/Yeonhwa/KakaoTalk_20220210_154926594_20.jpg",
+      "thumb7": "./image/room/Yeonhwa/KakaoTalk_20220210_154926594_21.jpg",
+      "thumb8": "./image/room/Yeonhwa/image.jpg",
+      "thumb9": "./image/room/Yeonhwa/image2.jpg",
+      "thumb10": "./image/room/Yeonhwa/image3.jpg"
+    }
+  },
+  {
+    "room": "Mita",
+    "title": "Mita(미타)",
+    "intro": "Mita(미타)는 소규모의 회의, 연회 등 다양한 용도로 사용이 가능한 복합 문화 공간입니다.",
+    "personnel": {
+      "standard": "4",
+      "maximum": "6"
+    },
+    "price": "50,000",
+    "images": {
+      "thumb1": "./image/room/Mita/KakaoTalk_20220210_154926594_27.jpg",
+      "thumb2": "./image/room/Mita/image.jpg",
+      "thumb3": "./image/room/Mita/image2.jpg",
+      "thumb4": "./image/room/Mita/image3.jpg"
+    }
+  },
+  {
+    "room": "Madeul",
+    "title": "Madeul(마들)",
+    "intro": "Madeul(마들)은 회의, 전시, 연회 등 다양한 용도로 사용이 가능한 복합 문화 공간입니다.",
+    "personnel": {
+      "standard": "20",
+      "maximum": "22"
+    },
+    "price": "100,000",
+    "images": {
+      "thumb1": "./image/room/Yeonhwa/DSC05747.jpg",
+      "thumb2": "./image/room/Yeonhwa/KakaoTalk_20220210_154926594_14.jpg",
+      "thumb3": "./image/room/Yeonhwa/KakaoTalk_20220210_154926594_15.jpg",
+      "thumb4": "./image/room/Yeonhwa/image.jpg",
+      "thumb5": "./image/room/Yeonhwa/image2.jpg",
+      "thumb6": "./image/room/Yeonhwa/image3.jpg",
+      "thumb7": "./image/room/Yeonhwa/image4.jpg"
+    }
+  },
+  {
+    "room": "Meto",
+    "title": "Meto(메토)",
+    "intro": "Meto(메토)는 회의, 전시, 연회 등 다양한 용도로 사용이 가능한 복합 문화 공간입니다.",
+    "personnel": {
+      "standard": "9",
+      "maximum": "17"
+    },
+    "price": "70,000",
+    "images": {
+      "thumb1": "./image/room/Yeonhwa/DSC05741.jpg",
+      "thumb2": "./image/room/Yeonhwa/image.jpg",
+      "thumb3": "./image/room/Yeonhwa/image2.jpg",
+      "thumb4": "./image/room/Yeonhwa/image3.jpg",
+      "thumb5": "./image/room/Yeonhwa/image4.jpg",
+      "thumb6": "./image/room/Yeonhwa/image5.jpg",
+      "thumb7": "./image/room/Yeonhwa/image6.jpg"
+    }
+  },
+  {
+    "room": "Yeowool",
+    "title": "Yeowool(여울)",
+    "intro": "Yeowool(여울)은 회의, 전시, 연회 등 다양한 용도로 사용이 가능한 복합 문화 공간입니다.",
+    "personnel": {
+      "standard": "12",
+      "maximum": "14"
+    },
+    "price": "70,000",
+    "images": {
+      "thumb1": "./image/room/Yeonhwa/DSC05751.jpg",
+      "thumb2": "./image/room/Yeonhwa/KakaoTalk_20220210_154926594_02.jpg",
+      "thumb3": "./image/room/Yeonhwa/image.jpg",
+      "thumb4": "./image/room/Yeonhwa/20220125_142811.jpg",
+      "thumb5": "./image/room/Yeonhwa/image2.jpg",
+      "thumb6": "./image/room/Yeonhwa/image3.jpg"
+    }
+  },
+  {
+    "room": "Hall Wora",
+    "title": "Hall Wora(월아 홀)",
+    "intro": "Hall Wora(월아 홀)는 회의, 전시, 연회 등 다양한 용도로 사용이 가능한 복합 문화 공간입니다.<br/><br/>예약 시 최초 1회에 한정하여 책상 배치를 제공합니다",
+    "personnel": {
+      "standard": "24",
+      "maximum": "30"
+    },
+    "price": "150,000",
+    "images": {
+      "thumb1": "./image/room/Yeonhwa/202112285646.jpg",
+      "thumb2": "./image/room/Yeonhwa/202112285632.jpg",
+      "thumb3": "./image/room/Yeonhwa/202112285635.jpg",
+      "thumb4": "./image/room/Yeonhwa/202112285647.jpg",
+      "thumb5": "./image/room/Yeonhwa/202112285633.jpg",
+      "thumb6": "./image/room/Yeonhwa/KakaoTalk_20220210_160328804_07.jpg",
+      "thumb7": "./image/room/Yeonhwa/KakaoTalk_20220210_160328804_12.jpg",
+      "thumb8": "./image/room/Yeonhwa/KakaoTalk_20220210_160328804_15.jpg",
+      "thumb9": "./image/room/Yeonhwa/KakaoTalk_20220210_160328804_04.jpg",
+      "thumb10": "./image/room/Yeonhwa/KakaoTalk_20220210_160328804_05.jpg",
+      "thumb11": "./image/room/Yeonhwa/KakaoTalk_20220210_160328804_01.jpg"
+    }
+  }
+]

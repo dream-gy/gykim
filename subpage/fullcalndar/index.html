@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fullcalendar - mobile</title>
+  <script src="./js/jquery.min.js"></script>
+  <!-- <script src="./js/moment.min.js"></script> -->
+  <script src="./js/fullcalendar-test.js"></script>
+  <!-- <script src="./js/fullcalendar.min.js"></script> -->
+   <!-- <script src="./js/test.js"></script> -->
+   <script src="./js/test -full.js"></script>
+  <!-- <script src="./js/reserve.js"></script> -->
+  <script src="./js/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="./css/fullcalendar-test.css">
+  <link rel="stylesheet" href="./css/full_test.css">
+</head>
+<body>
+  <div class="wrap">
+    <div id="calendar"></div>
+    <div id="button-group"><button class="play-button rock" type="button"></button><button class="play-button paper" type="button"></button><button class="play-button sissor" type="button"></button></div>
+  </div>
+  <script>
+    const buttonList = document.getElementById("button-group").childNodes;
+    
+    function handlePlayerImage(e){
+      e.preventDefault();
+      const buttonGroup = this.parentNode;
+      const active = buttonGroup.querySelector(".is-active");
+      console.log(buttonGroup)
+
+      if(active){
+        active.classList.remove("is-active");
+      }
+      e.currentTarget.classList.add("is-active");
+    }
+    buttonList.forEach((button)=> {
+      button.addEventListener("click", handlePlayerImage)
+    })
+
+  </script>
+</body>
+</html>

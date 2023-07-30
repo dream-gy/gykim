@@ -1,0 +1,308 @@
+[
+  {
+    "id": 1,
+    "ContentId": "유후",
+    "start": "2023-07-01",
+    "dayAvail": "unavail",
+    "time": {
+      "timeTd9": "avail",
+      "timeTd10": "avail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "unavail",
+      "timeTd15": "unavail",
+      "timeTd16": "avail",
+      "timeTd17": "unavail"
+    }
+  },
+  {
+    "id": 2,
+    "ContentId": "엔다아",
+    "start": "2023-07-02",
+    "dayAvail": "unavail",
+    "time": {
+      "timeTd9": "avail",
+      "timeTd10": "unavail",
+      "timeTd11": "avail",
+      "timeTd12": "avail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "unavail"
+    }
+  },
+  {
+    "id": 3,
+    "ContentId": "히히",
+    "start": "2023-07-03",
+    "dayAvail": "avail",
+    "time": {
+      "timeTd9": "unavail",
+      "timeTd10": "unavail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "avail"
+    }
+  },
+  {
+    "id": 4,
+    "ContentId": "히히",
+    "start": "2023-07-04",
+    "dayAvail": "avail",
+    "time": {
+      "timeTd9": "unavail",
+      "timeTd10": "unavail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "avail"
+    }
+  },
+  {
+    "id": 5,
+    "ContentId": "히히",
+    "start": "2023-07-05",
+    "dayAvail": "avail",
+    "time": {
+      "timeTd9": "unavail",
+      "timeTd10": "unavail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "avail"
+    }
+  },
+  {
+    "id": 6,
+    "ContentId": "히히",
+    "start": "2023-07-06",
+    "dayAvail": "avail",
+    "time": {
+      "timeTd9": "unavail",
+      "timeTd10": "unavail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "avail"
+    }
+  },
+  {
+    "id": 7,
+    "ContentId": "히히",
+    "start": "2023-07-07",
+    "dayAvail": "avail",
+    "time": {
+      "timeTd9": "unavail",
+      "timeTd10": "unavail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "avail"
+    }
+  },
+  {
+    "id": 8,
+    "ContentId": "히히",
+    "start": "2023-07-08",
+    "dayAvail": "unavail",
+    "time": {
+      "timeTd9": "unavail",
+      "timeTd10": "unavail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "avail"
+    }
+  },
+  {
+    "id": 9,
+    "ContentId": "히히",
+    "start": "2023-07-24",
+    "dayAvail": "unavail",
+    "time": {
+      "timeTd9": "unavail",
+      "timeTd10": "unavail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "avail"
+    }
+  },
+  {
+    "id": 10,
+    "ContentId": "히히",
+    "start": "2023-07-25",
+    "dayAvail": "avail",
+    "time": {
+      "timeTd9": "unavail",
+      "timeTd10": "unavail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "avail"
+    }
+  },
+  {
+    "id": 11,
+    "ContentId": "히히",
+    "start": "2023-07-26",
+    "dayAvail": "avail",
+    "time": {
+      "timeTd9": "unavail",
+      "timeTd10": "unavail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "avail"
+    }
+  },
+  {
+    "id": 12,
+    "ContentId": "히히",
+    "start": "2023-07-31",
+    "dayAvail": "avail",
+    "time": {
+      "timeTd9": "unavail",
+      "timeTd10": "unavail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "avail"
+    }
+  },
+  {
+    "id": 13,
+    "ContentId": "히히",
+    "start": "2023-08-01",
+    "dayAvail": "avail",
+    "time": {
+      "timeTd9": "unavail",
+      "timeTd10": "unavail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "avail"
+    }
+  },
+  {
+    "id": 14,
+    "ContentId": "히히",
+    "start": "2023-08-02",
+    "dayAvail": "avail",
+    "time": {
+      "timeTd9": "unavail",
+      "timeTd10": "unavail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "avail"
+    }
+  },
+  {
+    "id": 15,
+    "ContentId": "히히",
+    "start": "2023-08-03",
+    "dayAvail": "unavail",
+    "time": {
+      "timeTd9": "unavail",
+      "timeTd10": "unavail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "avail"
+    }
+  },
+  {
+    "id": 16,
+    "ContentId": "히히",
+    "start": "2023-08-04",
+    "dayAvail": "avail",
+    "time": {
+      "timeTd9": "unavail",
+      "timeTd10": "unavail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "avail"
+    }
+  },
+  {
+    "id": 16,
+    "ContentId": "히히",
+    "start": "2023-08-05",
+    "dayAvail": "unavail",
+    "time": {
+      "timeTd9": "unavail",
+      "timeTd10": "unavail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "avail"
+    }
+  },
+  {
+    "id": 17,
+    "ContentId": "히히",
+    "start": "2023-08-06",
+    "dayAvail": "unavail",
+    "time": {
+      "timeTd9": "unavail",
+      "timeTd10": "unavail",
+      "timeTd11": "unavail",
+      "timeTd12": "unavail",
+      "timeTd13": "avail",
+      "timeTd14": "avail",
+      "timeTd15": "avail",
+      "timeTd16": "avail",
+      "timeTd17": "avail"
+    }
+  }
+]

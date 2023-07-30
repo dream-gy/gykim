@@ -1,0 +1,589 @@
+@charset "UTF-8";
+@import "_variable.scss"; //변수
+@import "_mixin.scss"; //믹스인
+@import url(./reset.css); //리셋
+@import "_font.scss"; //폰트
+@import "_hdnft.scss"; //해더&푸터
+@import "_common.scss"; //공통
+
+html,body {
+    background-color: $grayE9;
+}
+
+
+.reserve {
+    height: calc(100vh - 80px); //전체 높이 - 해더
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .board {
+        width: 100%;
+        height: 760px;
+        background-color: $white;
+        border-radius: 15px;
+        box-shadow: 0px 1px 7px -24px rgba(101, 101, 101, 0.25);
+        display: flex;
+        position: relative;
+       
+        nav.room {
+            width: 70px;
+            height: 100%;
+            position: relative;
+            background-color: $black;
+            border-radius: 15px 0px 0px 15px;
+            ul {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+               
+                li {
+                    height: 16.6666%;
+                    color: $white;
+                    font-weight: 300;
+                    text-align: center;
+                    line-height: 126px;
+                    cursor: pointer;
+                    z-index: 5;
+                    overflow: hidden;
+                    position: relative;
+                    p {
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%,-50%) rotate(-90deg);
+                        transition: all 0.3s;
+                        transform-style: preserve-3d;
+                        &.flip {
+                            
+                        }
+                        &.clone {
+                           
+                            
+                        }
+                    }
+                    p[data-value~="Hall　Wora"] ~ .clone {
+                        width: 130px;
+                    }
+                    &.active {
+                        color: $black;
+                       // background-color: $white;
+                        font-weight: 700;
+                        transition: background-color 0.3s 2000000ms;  
+                    }
+                    .clone {
+                        font-size: 14px;
+                        transform: translate(110%,-50%) rotate(-90deg);
+                    }
+                    &:hover .flip {
+                        transform: translate(-200%,-50%) rotate(-90deg);
+
+                    }
+                    &:hover .clone {
+                        transform: translate(-50%,-50%) rotate(-90deg);
+                    }
+                }//li
+            }//ul
+            .bar {
+                position: absolute;
+                top:0;
+                width: 100%;
+                height: calc(16.666% + 1px);
+                background-color: $white;
+                transition: all ease 0.3s;   
+            }
+        }//nav.room
+        .box_wrap{
+            display: flex;
+            width: calc(100% - 70px);
+            font-size: 16px;
+            font-weight: 400;
+            .box {
+                width: 33.333%;
+                padding: 30px;
+                border-right: 3px solid $grayE9;
+                &:last-child {
+                    border-right: 0;
+                }
+                .info {
+                    display: flex;
+                    justify-content: space-between;
+                    h3 {
+                        color: $black;
+                        font-size: 20px;
+                    }
+                    p {
+                        font-size: 14px;
+                        line-height: 2;
+                        color: $black59;
+                    }
+                }
+                h4 {
+                    color: $black;
+                    font-size: 16px;
+                    font-weight: 500;
+                    padding: 20px  0;
+                }
+                .room_gallery {
+                    position: relative;
+                    ul {
+                        li {
+                            height: 196px;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .custom-fraction {
+                        padding: 6px 12px;
+                        border-radius: 27px;
+                        position: absolute;
+                        left: 50%;
+                        bottom: 13px;
+                        transform: translateX(-50%);
+                        z-index: 12;
+                        background-color: rgba(20, 20, 20, 0.3);
+                        font-size: 12px;
+                        color:#fff;
+                        font-weight: 700;
+                        span {
+                            letter-spacing: 1.2px !important;
+                            margin: 0 1px;
+                            &.all {
+                                opacity: 0.8;
+                            }
+                        }
+                    }
+                }
+                .room_info {
+                    color : $black59;
+                    h2 {
+                        font-size: 32px;
+                        font-weight: 700;
+                        padding: 20px 0px;
+                        color: $black;
+                    }
+                    .r_info {
+                       
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        grid-auto-rows: auto;
+                        
+                        .intro {
+                            grid-column-end: span 2;
+                            p {
+                                line-height: 1.3;
+                            }
+                        }
+                        .personnel {
+                            padding: 20px 0 0 0;
+                        }
+                        .price {
+                            position: relative;
+                            p {
+                                position: absolute;
+                                bottom: 0px;
+                                right:0;
+                                color: $black;
+                                
+                            }
+                            span {
+                                    color: $grayD9;
+                                    font-size: 10px;
+                                }
+                        }
+                    }
+                    .service {
+                        display: flex;
+                        flex-wrap: wrap;
+                        padding-top: 10px;
+                        li {
+                            display: flex;
+                            width: 33.333%;
+                            margin: 10px 0px;
+                            .icon {
+                                width: 40px;
+                                height: 40px;
+                                //background-color: $grayD9;
+                                margin-right: 10px;
+                            }
+                            p {
+                                font-size: 14px;
+                                color: $grayA3;
+                                word-break: break-all;
+                                line-height: 40px;
+                            }
+                            &.long p {
+                                line-height: 1;
+                            }
+                        }
+                    }//service
+                    @for $i from 1 to 11 {  //내가 원하는 숫자보다 +1
+                        .service li:nth-child(#{$i}) .icon  {
+                            background: url(../image/service-icon#{$i}.png) no-repeat center/ 40px auto;
+                        }
+                    }
+                }//room_info
+                .schedule_cal {
+
+                }//schedule_cal
+                .time {
+                    margin-top: 30px;
+                    .info {
+                        position: relative;
+                        padding-bottom: 10px;
+                        border-bottom: 1px solid $grayE9;
+                        h3 {
+                            position: relative;
+                            .guide {
+                                width: 20px;
+                                height: 20px;
+                                display: inline-block;
+                                cursor: pointer;
+                                clip: auto;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                margin-left: 5px;
+                                &::before {
+                                    content:"";
+                                    display: block;
+                                    width: 20px;
+                                    height: 20px;
+                                    background: url(../image/guide.png) no-repeat center / 19px;
+                                }
+                            }
+                        }
+                        .time_popup  {
+                            display: none;
+                            position: absolute;
+                            top: 35px;
+                            z-index: 8;
+                            background-color: $white;
+                            border: 1px solid $grayE9;
+                            padding: 10px 20px;
+                            border-radius: 5px;
+                            font-size: 12px;
+                            color: $grayB7;
+                            box-shadow: 3px 2px 5px rgba(181, 181, 181, 0.25);
+                            &.active {
+                                display: block;
+                            }
+                            &::before {
+                                content: "";
+                                display: block;
+                                position: absolute;
+                                left:10px;
+                                bottom: 90%;
+                                width: 20px;
+                                height: 12px;
+                                background: url(../image/triangle.png) no-repeat center / 19px auto;
+                            }
+                            
+                        }
+                    }//info
+                    .during {
+                        display: flex;
+                        justify-content: end;
+                        li {
+                            font-size: 12px;
+                            color: $black;
+                            font-weight: 500;
+                            padding: 10px 10px 10px 15px;
+                            position: relative;
+                            cursor: pointer;
+                             &::before {
+                                content: "";
+                                display: block;
+                                position: absolute;
+                                left: 0;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                width: 14px;
+                                height: 14px;
+                                border-radius: 100%;
+                                background: url(../image/chk.png) no-repeat center / 8px auto;
+                             }
+                            &.active {
+                                color: $blue2C;
+                               &::before {
+                                content: "";
+                                background: url(../image/chk-active.png) no-repeat center / 8px auto;
+                             }
+                            }
+                        }
+                    }//during
+                    .time_schedule {
+                        position: relative;
+                        .timeline_wrap {
+                            overflow: hidden;
+                            .timeline {
+                                display: flex;
+                                align-items: flex-end;
+                                width: calc(100% - 30px);
+                                height: 60px;
+                                padding-left: 25px;
+                                overflow: hidden;
+                                li {
+                                    display: block;
+                                    padding: 13px 10px;
+                                    background-color: $white;
+                                    position: relative;
+                                    font-size: 10px;
+                                    border: 1px solid $grayD9;
+                                    color: $grayD9;
+                                    margin-right: 1px;
+                                    &.active {
+                                        background-color: $blue2C;
+                                        color: $white;
+                                    }
+                                    p {
+                                        position: absolute;
+                                        bottom: calc(100% + 3px);
+                                        font-size: 12px;
+                                        color: $grayD9;
+                                        right:80%;
+                                    }
+                                }
+                            }//
+                            .btn_controls {
+                                display: flex;
+                                button {
+                                    position: absolute;
+                                    top: 17px;
+                                    width: 30px;
+                                    height: 43px;
+                                    background-color: $white;
+                                    border: 1px solid $grayD9;
+                                    font-family: 'fcicons' !important;
+                                    font-weight: 800;
+                                    color: $grayB7;
+                                    font-size: 18px;
+                                    &.left {
+                                        left:0;
+                                        border-radius: 50px 0px 0px 50px;
+                                        &::before {
+                                            content:"\e900";
+                                            display: block;
+                                        }
+                                    }
+                                    &.right {
+                                        right:0;
+                                        border-radius: 0px 50px 50px 0px;
+                                        &::before {
+                                            content: "\e901";
+                                            display: block;
+                                        }
+                                    }
+                                }
+                            }//btn_controlstimeline
+                        }//timeline_wrap
+                    }//time_schedule
+                    .time_end {
+                        text-align: right;
+                        
+                        .time_price {
+                            font-weight: 900;
+                            font-size: 20px;
+                            color: $black;
+                            padding: 10px 0;
+                            border-top: 1px solid $grayB7;
+                        }
+                    }//time_end
+                    
+                }//time
+                .option {
+                    .table_popup {
+                        display: none;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                        border: 1px solid $grayD7;
+                        border-radius: 15px;
+                        box-shadow: 3px 2px 5px rgba(181, 181, 181, 0.25);
+                        //padding: 30px;
+                        z-index: 20;
+                        background-color: #fff;
+                        h4 {
+                            display: block;
+                            padding: 10px 15px;
+                            color: $blue11;
+                            font-size: 14px;
+                            //border-bottom: 1px solid $grayD7;
+                        }
+                        ul {
+                            display: flex;
+                            margin: 60px 30px 60px 30px;
+                            background-color: rgb(233, 233, 233, 0.15);
+                            border: 2px dotted $grayD7;
+                            border-radius: 15px;
+                            overflow: hidden;
+                            li {
+                                text-align: center;
+                                input[name="file"] {
+                                    display: none;
+                                }
+                                position: relative;
+                                label, .directly_btn {
+                                    display: inline-block;
+                                    box-sizing: border-box;
+                                    padding: 20px 60px 120px 60px;
+                                    background-color: inherit;
+                                    font-size: 16px;
+                                    height: initial;
+                                    border-radius: 0;
+                                    line-height: 1.5;
+                                    cursor: pointer;
+                                    color: $blue11;
+                                    font-weight: 700;
+                                }
+                                label {
+                                   border-right: 2px dotted $grayD7;
+                                   background: url(../image/image.png) no-repeat center 55px/ 75px auto;
+                                }
+                                .directly_btn {
+                                    background: url(../image/mouse.png) no-repeat center 55px/ 75px auto;
+                                }
+                                .file_info {
+                                    position: absolute;
+                                    left:50%;
+                                    bottom: 20px;
+                                    transform: translateX(-50%);
+                                    font-size: 10px;
+                                    color: $grayB7;
+                                }
+                            }
+                        }
+                        
+                    }
+                }//option
+            }//box
+        }//box_wrap
+    }//board
+}
+
+
+.directly_table {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    z-index: 20;
+    border: 1px solid $grayD7;
+    //border-radius: 15px;
+    box-shadow: 3px 2px 5px rgba(181, 181, 181, 0.25);
+    width: 1015px;
+    //height: 720px;
+    h5 {
+        padding: 15px 20px;
+        &::before {
+            content: "";
+            display: inline-block;
+            width: 32px;
+            height: 15px;
+            background: url(../image/logo.png) no-repeat left/ 32px auto;
+            margin-right: 12px;
+        }
+        
+        border-bottom: 1px solid $grayD7;
+    }
+    .select_list {
+        position: absolute;
+        right: 0;
+        display: flex;
+        li {
+            //padding: 15px;
+            border: 1px solid $grayD7;
+            box-shadow: 3px 2px 5px rgba(181, 181, 181, 0.25);
+            border-radius: 5px;
+            margin-right: 15px;
+            background-color: #fff;
+            overflow: hidden;
+            cursor: pointer;
+            &.active {
+                border-color: $blue2C;
+                p {
+                    background-color: $blue2C;
+                    color:#fff;
+                    font-weight: 700;
+                }
+            }
+            .icon {
+                width: 50px;
+                height: 50px;
+                background: url(../image/table1.png) no-repeat center/ 50px auto;
+                margin: 10px 15px;
+            }
+            p {
+                background-color: $grayE9;
+                color: $black59;
+                text-align: center;
+                padding: 5px 15px;
+                font-size: 14px;
+            }
+        }
+    }//select_list
+    .select_item {
+            position: absolute;
+            right: 10px;
+            top:60%;
+            transform: translateY(-50%);
+        .table_item {
+            li {
+                cursor: pointer;
+                &:nth-child(1) {
+                    width: 55px;
+                    height: 55px;
+                    background: url(../image/basic_item.png) no-repeat center/ 55px auto;
+                    margin-bottom: 40px;
+                }
+                &:nth-child(2){
+                    width: 12px;
+                    height: 26px;
+                    background: url(../image/chair_item.png) no-repeat center/ 12px auto;
+                    margin-bottom: 100px;
+                }
+            }
+            
+        }
+        .rotation {
+           background-color: transparent;
+            width: initial;
+            height: initial;
+            color: $grayB7;
+           
+            p {
+               color: $grayB7;
+                &::before {
+                    content:"";
+                    display: block;
+                    width: 40px;
+                    height: 40px;
+                    background: #fff url(../image/rotation_icon.png) no-repeat center/ 55% auto;
+                    border: 1px solid $grayD7;
+                    border-radius: 100%;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+    
+    .layout {
+        width: 600px;
+        height: 577px;
+        background: url(../image/floor_plan.png) no-repeat center/600px auto;
+        margin: 50px;
+    }
+    .save {
+        right: 30px;
+        position: absolute;
+        bottom: 30px;
+        width: 200px;
+        border-radius: 25px;
+    }
+    
+}

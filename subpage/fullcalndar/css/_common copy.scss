@@ -1,0 +1,127 @@
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+
+.image_gallery {
+    width: 100%;
+    ul {
+        li {
+            background-color: $grayD7;
+        }
+    }
+}
+
+// .select_list {
+//     display: flex;
+//     box-sizing: content-box;
+//     li {
+//         border-radius: 5px;
+//         border: 1px dotted $grayD7;
+//         padding: 16px;
+//         p {
+//             font-size: 12px;
+//         }
+//         &.active {
+//             background: $blue2C;
+//             color: $white;
+//             border: 1px solid $blue2C;
+//         }
+//         &:hover {
+//             border: 1px solid $blue2C;
+//         }
+//     }
+//      &.table {
+//         justify-content: space-between;
+//          .icon {
+//             width: 42px;
+//             height: 42px;
+//             border-radius: 5px;
+//         }
+//          p {
+//             text-align: center;
+//             margin-top: 12px;
+//          }
+//          .directly {
+//             position: relative;
+//             p {
+//                 position: absolute;
+//                 left: 50%;
+//                 transform: translateX(-50%);
+//             }
+//          }
+//          @for $i from 1 to 5 {  //내가 원하는 숫자보다 +1
+//             li:nth-child(#{$i}) .icon  {
+//                 background:$white url(../image/table#{$i}.png) no-repeat center/ 32px auto;
+//             }
+//         }
+//     }//select_list>table
+    
+//     &.add {
+//        flex-wrap: wrap;
+//        li {
+//             width: calc(50% - 10px);
+//             margin-right: 20px;
+//             margin-bottom: 20px;
+//             p {
+//                 font-size: 14px;
+//                 font-weight: 500;
+//                 position: relative;
+//                 &::before {
+//                     content: "";
+//                     display: block;
+//                     position: absolute;
+//                     right: 0;
+//                     width: 14px;
+//                     height: 14px;
+//                     border-radius: 100%;
+//                     background:$grayD7 url(../image/chk.png) no-repeat center / 8px auto;
+//                 }
+//                 span {
+//                     display: block;
+//                     font-size: 10px;
+//                     margin-top: -3px;
+//                 }
+//             }
+//             span {
+//                 font-size: 12px;
+//                 color: $grayB7;
+//             }
+//             &.active {
+//                 p {
+//                     &::before {
+//                         background-color: $white;
+//                         background:$white url(../image/chk-active.png) no-repeat center / 8px auto;
+//                     }
+//                 }
+//                 span {
+//                     color: $white;
+//                 }
+//             }
+//        }
+//        li:nth-child(2n) {
+//             margin-right: 0;
+//        }
+//        li:last-child {
+//          .price {
+//             display: block;
+//          }
+//        }
+//     }//select_list>add
+    
+   
+// }//select_list
+
+
+.btn, input[type="submit"], button {
+    display: block;
+    background-color: $black;
+    color: $white;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;;
+}
+
+
+
